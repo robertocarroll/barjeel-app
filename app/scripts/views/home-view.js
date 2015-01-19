@@ -7,16 +7,18 @@ Barjeel.Views = Barjeel.Views || {};
 
     Barjeel.Views.HomeView = Barjeel.Views.AnimViewView.extend({
 
+    		template: JST['app/scripts/templates/home-view.hbs'],
+
         className: 'home',
 
         initialize: function (options) {
-          this.animateIn = 'fadeIn';
+          this.animateIn = 'null';
 					this.animateOut = 'iosFadeLeft';
 					// cache the template -- especially if your homeview may contain a collection or
 					// act like a CollectionView; This prevents us from having to re-create the view
 					// instance and re-fetch the collection if the apps primary purpose is focused around
 					// the list view.
-					this.template = _.template($('script[name=home]').html());
+					
 					return this; 
         },
 
