@@ -1,90 +1,253 @@
 
 @import '../bower_components/ratchet/sass/ratchet.scss';
 
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+
+@import "compass";
+* {
+  box-sizing: border-box;
 }
 
-/* Space out content a bit */
 body {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  margin: 0;
+  padding: 0;
+  font: 150% "helvetica neue", sans-serif;
+  color: #333;
+  
+  /* add fixed to pos of body and set width & height */
+  position: fixed;
+  height: 100%;
+  width: 100%;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-    padding-left: 15px;
-    padding-right: 15px;
+h1 {
+  font-weight: normal;
 }
 
-/* Custom page header */
-.header {
-    border-bottom: 1px solid #e5e5e5;
+a {
+  color: #F2994B;
 }
 
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
+header[role=navigation] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0;
+  height: 44px;
+  width: 100%;
+  background: #ccc;
+  z-index: 2;
+  opacity: 0.9;
 }
 
-/* Custom page footer */
-.footer {
-    padding-top: 19px;
-    color: #777;
-    border-top: 1px solid #e5e5e5;
+header h2 {
+  font-size: 1em;
+  text-align: center;
+  line-height: 5px;
+  font-weight: 100;
 }
 
-.container-narrow > hr {
-    margin: 30px 0;
+.page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  /*transition: transform 250ms ease-out;*/
+  /*transform: translate3d(100%, 0, 0);*/
+  
+  /* ---------
+   * removing overflow issues with additional elements appended to the body meant changing
+   * the body to be pos:fixed & setting width & height of body to 100%, ergo w & h here too
+   */
+  width: 100%;
+  height: 100%;  /* hack temp.. should be 100% w/ margin or padding to offset footer */
+  
+  /* scrolling */
+  overflow-y: scroll; /* has to be scroll */
+  -webkit-overflow-scrolling: touch;
 }
 
-/* Main marketing message and sign up button */
-.jumbotron {
-    text-align: center;
-    border-bottom: 1px solid #e5e5e5;
+.page a {
+  color: white;
 }
 
-.jumbotron .btn {
-    font-size: 21px;
-    padding: 14px 24px;
+.page.is-visible {
+  transform: translate3d(0, 0, 0);
 }
 
-/* Supporting marketing content */
-.marketing {
-    margin: 40px 0;
+.home {
+  color: white;
+  background: #F2CF66;
 }
 
-.marketing p + h4 {
-    margin-top: 28px;
+.detail {
+  color: white;
+  background: #F2994B;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 730px;
-    }
 
-    /* Remove the padding we set earlier */
-    .header,
-    .marketing,
-    .footer {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    /* Space out the masthead */
-    .header {
-        margin-bottom: 30px;
-    }
-    /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
-        border-bottom: 0;
-    }
+/* ios 7 style animations  
+ * @goal is to be able to specify 2 properties on an AnimView (animationIn, animationOut)
+ *   with the transition callback using the current views property to directly reference
+ *   the css classname for animation
+ * Andrew Hart @andruwhart / Lead Developer for MSCNS www.mscns.com
+*/
+
+/* animations - borrowed from animate.css and tweaked to match ios 7 */
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes iosFadeLeft {
+  0%  { 
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;   
+  }
+
+  100% { 
+    -webkit-transform: translateX(-100px); 
+            transform: translateX(-100px);
+    opacity: 0.9; 
+  }
+}
+
+@keyframes iosFadeLeft {
+  0%  { 
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;   
+  }
+  
+  100% { 
+    -webkit-transform: translateX(-100px); 
+            transform: translateX(-100px);
+    opacity: 0.8; 
+  }
+}
+
+.iosFadeLeft {
+  -webkit-animation-name: iosFadeLeft;
+          animation-name: iosFadeLeft;
+  -webkit-animation-timing-function: cubic-bezier(.1, .7, .1, 1);
+          animation-timing-function: cubic-bezier(.1, .7, .1, 1);
+  -webkit-animation-duration: 400ms;
+          animation-duration: 400ms;
+}
+
+
+@-webkit-keyframes iosSlideInRight {
+  0% {
+    opacity: 0.7;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes iosSlideInRight {
+  0% {
+    opacity: 0.7;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.iosSlideInRight {
+    -webkit-animation-name: iosSlideInRight;
+          animation-name: iosSlideInRight;
+    -webkit-animation-timing-function: cubic-bezier(.1, .7, .1, 1);
+          animation-timing-function: cubic-bezier(.1, .7, .1, 1);
+    -webkit-animation-duration: 400ms;
+          animation-duration: 400ms;
+}
+
+-webkit-keyframes slideOutRight {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+}
+
+@keyframes slideOutRight {
+  0% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+}
+
+.slideOutRight {
+  -webkit-animation-name: slideOutRight;
+          animation-name: slideOutRight;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
