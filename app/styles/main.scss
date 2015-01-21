@@ -78,13 +78,17 @@ header h2 {
   transform: translate3d(0, 0, 0);
 }
 
+.content {
+	background: #F2CF66;
+}
+
 .home {
   color: white;
   background: #F2CF66;
 }
 
 .play{
-  color: white;
+  color: black;
   background: #F2994B;
 }
 
@@ -99,165 +103,3 @@ header h2 {
 }
 
 
-/* ios 7 style animations  
- * @goal is to be able to specify 2 properties on an AnimView (animationIn, animationOut)
- *   with the transition callback using the current views property to directly reference
- *   the css classname for animation
- * Andrew Hart @andruwhart / Lead Developer for MSCNS www.mscns.com
-*/
-
-/* animations - borrowed from animate.css and tweaked to match ios 7 */
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-.animated.infinite {
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-}
-
-.animated.hinge {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-}
-
-@-webkit-keyframes iosFadeLeft {
-  0%  { 
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    opacity: 1;   
-  }
-
-  100% { 
-    -webkit-transform: translateX(-100px); 
-            transform: translateX(-100px);
-    opacity: 0.9; 
-  }
-}
-
-@keyframes iosFadeLeft {
-  0%  { 
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    opacity: 1;   
-  }
-  
-  100% { 
-    -webkit-transform: translateX(-100px); 
-            transform: translateX(-100px);
-    opacity: 0.8; 
-  }
-}
-
-.iosFadeLeft {
-  -webkit-animation-name: iosFadeLeft;
-          animation-name: iosFadeLeft;
-  -webkit-animation-timing-function: cubic-bezier(.1, .7, .1, 1);
-          animation-timing-function: cubic-bezier(.1, .7, .1, 1);
-  -webkit-animation-duration: 400ms;
-          animation-duration: 400ms;
-}
-
-
-@-webkit-keyframes iosSlideInRight {
-  0% {
-    opacity: 0.7;
-    -webkit-transform: translateX(2000px);
-    -ms-transform: translateX(2000px);
-    transform: translateX(2000px);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-
-@keyframes iosSlideInRight {
-  0% {
-    opacity: 0.7;
-    -webkit-transform: translateX(2000px);
-    -ms-transform: translateX(2000px);
-    transform: translateX(2000px);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-
-.iosSlideInRight {
-    -webkit-animation-name: iosSlideInRight;
-          animation-name: iosSlideInRight;
-    -webkit-animation-timing-function: cubic-bezier(.1, .7, .1, 1);
-          animation-timing-function: cubic-bezier(.1, .7, .1, 1);
-    -webkit-animation-duration: 400ms;
-          animation-duration: 400ms;
-}
-
--webkit-keyframes slideOutRight {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-
-  100% {
-    opacity: 0;
-    -webkit-transform: translateX(2000px);
-    transform: translateX(2000px);
-  }
-}
-
-@keyframes slideOutRight {
-  0% {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-  }
-
-  100% {
-    opacity: 0;
-    -webkit-transform: translateX(2000px);
-    -ms-transform: translateX(2000px);
-    transform: translateX(2000px);
-  }
-}
-
-.slideOutRight {
-  -webkit-animation-name: slideOutRight;
-          animation-name: slideOutRight;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}

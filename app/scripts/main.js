@@ -6,21 +6,16 @@ window.Barjeel = {
     Views: {},
     Routers: {},
     init: function () {
-      // get an instance of the root App view
-			this.getInstance();
+      stackNavigator = new BackStack.StackNavigator({
+			    el: 'body'
+			});
+
+			stackNavigator.pushView(Barjeel.Views.HomeView);
 			// start backbone hash change listener
-			Backbone.history.start(); 
-    },
-    // use a getter method to get the instance instead accessing this.instance
-		// directly. Also, this prevents multiple instantiation of the application
-		getInstance: function() {
-			// creates a new instance of the root Barjeel
-			// or returns the instance if it already exists
-			if (!this.instance) {
-				this.instance = new Barjeel.Views.RootView();
-			}
-				return this.instance;
-			}
+			// Backbone.history.start(); 
+
+			console.debug(stackNavigator.viewsStack.length);
+    }
 };
   
 $(document).ready(function () {
