@@ -8,7 +8,8 @@
     "modernizr": "~2.7.1",
     "handlebars": "~1.3.0",
     "ratchet": "2.0.2",
-    "backbone.localStorage": "~1.1.15"
+    "backbone.localStorage": "~1.1.16",
+    "backbone.clickdebounce": "*"
   },
   "devDependencies": {}
 }

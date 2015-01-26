@@ -23,10 +23,10 @@ Barjeel.Views = Barjeel.Views || {};
         },
 
         discoverBack: function(event) {
-        	console.debug('discover back clicked');
-        	var fade = new BackStack.FadeEffect();
+        	console.debug('discover back clicked');    	
         // Pushing second view to the stack
-        	stackNavigator.popView(fade);
+        	stackNavigator.popView();
+        	console.debug(stackNavigator.viewsStack.length);
     		}
 
     });

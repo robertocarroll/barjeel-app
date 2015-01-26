@@ -1,0 +1,40 @@
+[
+	{
+	"id": "1",
+	"title": "History of Dissent 1",
+	"description": "Description 1",
+	"curator": "Anne Temkin 1",
+	"about": "Director of the Serpentine Gallery in London",
+	"artworks": [
+	{
+		"title":"Purple Pears",
+		"image":"something.jpg",
+		"caption":"Acrylic on canvas"
+	},
+	{
+		"title":"Red Pears",
+		"image":"something.jpg",
+		"caption":"Watercolour"
+	}
+	]
+},
+{
+	"id": "2",	
+	"title": "History of Revolution 2",
+	"description": "Brief statement on",
+	"curator": "Temkin Anne",
+	"about": "Director of the Tate Gallery in London",
+	"artworks": [
+	{
+		"title":"Purple Pears",
+		"image":"something.jpg",
+		"caption":"Acrylic on canvas"
+	},
+	{
+		"title":"Red Pears",
+		"image":"something.jpg",
+		"caption":"Watercolour"
+	}
+	]
+}
+]

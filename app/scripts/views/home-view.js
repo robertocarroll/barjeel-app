@@ -5,12 +5,12 @@ Barjeel.Views = Barjeel.Views || {};
 (function () {
     'use strict';
 
-    Barjeel.Views.HomeView = Backbone.View.extend({
+    Barjeel.Views.HomeView =  Backbone.ClickDebounce(Backbone.View.extend({
 
     		destructionPolicy: 'never',
 
     		events: {
-        	'click #play': 'playGo',
+        	'touchend #play': 'playGo',
         	'click #connect': 'connectGo',
         	'click #discover': 'discoverGo'
    			 },
@@ -19,7 +19,7 @@ Barjeel.Views = Barjeel.Views || {};
 
         className: 'home',
 
-         render: function() {
+        render: function() {
           console.debug('home-view.js - Starting animation');
 					// fill this view's element with html from the template
 					this.$el.html(this.template());
@@ -42,6 +42,6 @@ Barjeel.Views = Barjeel.Views || {};
         	stackNavigator.pushView(Barjeel.Views.DiscoverView);
     		}
 
-    });
+    }));
 
 })();

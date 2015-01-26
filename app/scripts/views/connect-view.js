@@ -7,6 +7,15 @@ Barjeel.Views = Barjeel.Views || {};
 
     Barjeel.Views.ConnectView = Backbone.View.extend({
 
+    	initialize: function() {	
+    			var connectCollection = new Barjeel.Collections.ConnectCollection;
+        	connectCollection.fetch({
+	        	success: function () {			
+	        			console.log('initialise collection - ' + connectCollection.length);
+	        		}      
+			      });
+    	},
+
     	events: {
         	'click #connectBack': 'connectBack'
    			 },
@@ -15,18 +24,15 @@ Barjeel.Views = Barjeel.Views || {};
 
         className: 'connect',
 
-        render: function() {
-          console.debug('connect-view - render triggered');
-					// fill this view's element with html from the template
-					this.$el.html(this.template());
-					return this;
-        },
-
+        render: function(){
+        	
+    		},
+		    
         connectBack: function(event) {
         	console.debug('connect back clicked');
-        	var fade = new BackStack.FadeEffect();
         // Pushing second view to the stack
-        	stackNavigator.popView(fade);
+        	stackNavigator.popView();
+        	console.debug(stackNavigator.viewsStack.length);
     		}
 
     });
