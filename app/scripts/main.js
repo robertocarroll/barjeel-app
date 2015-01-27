@@ -6,15 +6,21 @@ window.Barjeel = {
     Views: {},
     Routers: {},
     init: function () {
-      stackNavigator = new BackStack.StackNavigator({
-			    el: 'body'
+    	Barjeels = new Backbone.Marionette.Application();
+
+    	// Define a region for the display view
+    	Barjeels.addRegions({
+			  mainRegion: "body"
 			});
 
-			stackNavigator.pushView(Barjeel.Views.HomeView);
-			// start backbone hash change listener
-			// Backbone.history.start(); 
+			Barjeels.on('start', function () {
+				// Create a new view and show it
+				var staticView = new Barjeel.Views.StaticView(); 
+				Barjeels.mainRegion.show(staticView);
+			});
+			
+			Barjeels.start();
 
-			console.debug(stackNavigator.viewsStack.length);
     }
 };
   

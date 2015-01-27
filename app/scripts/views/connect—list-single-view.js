@@ -5,19 +5,16 @@ Barjeel.Views = Barjeel.Views || {};
 (function () {
     'use strict';
 
-    Barjeel.Views.ConnectListSingleView = Backbone.View.extend({
-
+    Barjeel.Views.ConnectListSingleView = Marionette.ItemView.extend({
         template: JST['app/scripts/templates/connect—list-single-view.hbs'],
-
-        tagName: 'li',
-
-        className: 'connect',
-
-        render: function () {
-            this.$el.html(this.template(this.model.toJSON()));
-            return this;
-        }
-
+        tagName : 'li',
+        events: {
+				  'click a': 'logInfoUrl'
+				},
+				 
+				logInfoUrl: function(){
+				  console.log(this.model.get('description'));
+				}
     });
 
 })();

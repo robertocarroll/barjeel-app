@@ -1,23 +1,22 @@
 
 @import '../bower_components/ratchet/sass/ratchet.scss';
 
-
 @import "compass";
 * {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font: 150% "helvetica neue", sans-serif;
-  color: #333;
-  
-  /* add fixed to pos of body and set width & height */
-  position: fixed;
-  height: 100%;
-  width: 100%;
+@font-face {
+  font-family: Ratchicons;
+  font-weight: normal;
+  font-style: normal;
+  src: url('../bower_components/ratchet/fonts/ratchicons.eot');
+  src: url('../bower_components/ratchet/fonts/ratchicons.eot?#iefix') format('embedded-opentype'),
+       url('../bower_components/ratchet/fonts/ratchicons.woff') format('woff'),
+       url('../bower_components/ratchet/fonts/ratchicons.ttf') format('truetype'),
+       url('../bower_components/ratchet/fonts/ratchicons.svg#svgFontName') format('svg');
 }
+
 
 h1 {
   font-weight: normal;
@@ -25,81 +24,6 @@ h1 {
 
 a {
   color: #F2994B;
-}
-
-header[role=navigation] {
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 0;
-  height: 44px;
-  width: 100%;
-  background: #ccc;
-  z-index: 2;
-  opacity: 0.9;
-}
-
-header h2 {
-  font-size: 1em;
-  text-align: center;
-  line-height: 5px;
-  font-weight: 100;
-}
-
-.page {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1em;
-  margin-bottom: 1em;
-  text-align: center;
-  /*transition: transform 250ms ease-out;*/
-  /*transform: translate3d(100%, 0, 0);*/
-  
-  /* ---------
-   * removing overflow issues with additional elements appended to the body meant changing
-   * the body to be pos:fixed & setting width & height of body to 100%, ergo w & h here too
-   */
-  width: 100%;
-  height: 100%;  /* hack temp.. should be 100% w/ margin or padding to offset footer */
-  
-  /* scrolling */
-  overflow-y: scroll; /* has to be scroll */
-  -webkit-overflow-scrolling: touch;
-}
-
-.page a {
-  color: white;
-}
-
-.page.is-visible {
-  transform: translate3d(0, 0, 0);
-}
-
-.content {
-	background: #F2CF66;
-}
-
-.home {
-  color: white;
-  background: #F2CF66;
-}
-
-.play{
-  color: black;
-  background: #F2994B;
-}
-
-.connect {
-  color: white;
-  background: blue;
-}
-
-.discover {
-  color: white;
-  background: black;
 }
 
 
