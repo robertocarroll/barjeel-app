@@ -18,16 +18,18 @@ Barjeel.Views = Barjeel.Views || {};
 
   			loadConnect:function(e) {
 
-  				var connectCollection = new Barjeel.Collections.ConnectCollection();
-		        connectCollection.fetch({
-						    success : function(connectCollection, response, options) {
-							        var newConnectView = new Barjeel.Views.ConnectView({
-							        	collection: connectCollection, 
-							        	childView: Barjeel.Views.ConnectListSingleView
-							        }); 
-  									Barjeels.mainRegion.show(newConnectView);
-						    }
-						});	
+				var connectCollection = new Barjeel.Collections.ConnectCollection();
+	        connectCollection.fetch({
+					    success : function(connectCollection, response, options) {
+					    	console.log ('loading Connect collection');
+				        var newConnectView = new Barjeel.Views.ConnectView({				        	
+				        	collection: connectCollection,
+				        	childView: Barjeel.Views.ConnectListSingleView
+				        }); 
+				      
+							Barjeels.mainRegion.show(newConnectView);
+					    }
+					});	
 
   				
   				
