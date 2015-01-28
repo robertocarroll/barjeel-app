@@ -6,9 +6,15 @@ Barjeel.Views = Barjeel.Views || {};
     'use strict';
 
     Barjeel.Views.ConnectListSingleView = Marionette.ItemView.extend({
+
+    		initialize : function () {
+            console.log('connect - itemviewrender');
+        },
+
         template: JST['app/scripts/templates/connect—list-single-view.hbs'],
         tagName : 'div',
         className: 'blogList',
+
         events: {
 				  'click a': 'logInfoUrl'
 				},

@@ -19,17 +19,13 @@ Barjeel.Views = Barjeel.Views || {};
   			loadConnect:function(e) {
 
 				var connectCollection = new Barjeel.Collections.ConnectCollection();
-	        connectCollection.fetch({
-					    success : function(connectCollection, response, options) {
-					    	console.log ('loading Connect collection');
-				        var newConnectView = new Barjeel.Views.ConnectView({				        	
+				var newConnectView = new Barjeel.Views.ConnectView({				        	
 				        	collection: connectCollection,
 				        	childView: Barjeel.Views.ConnectListSingleView
-				        }); 
-				      
-							Barjeels.allRegion.show(newConnectView);
-					    }
-					});	
+				        });       
+				Barjeels.allRegion.show(newConnectView);
+
+	     
 
   				
   				

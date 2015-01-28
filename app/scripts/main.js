@@ -17,6 +17,7 @@ window.Barjeel = {
 			});
 
 			Barjeels.on('start', function () {
+				Backbone.history.start();
 				// Create a new view and show it
 				var staticView = new Barjeel.Views.StaticView(); 
 				Barjeels.allRegion.show(staticView);
