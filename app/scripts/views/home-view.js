@@ -27,7 +27,7 @@ Barjeel.Views = Barjeel.Views || {};
 				        	childView: Barjeel.Views.ConnectListSingleView
 				        }); 
 				      
-							Barjeels.mainRegion.show(newConnectView);
+							Barjeels.allRegion.show(newConnectView);
 					    }
 					});	
 

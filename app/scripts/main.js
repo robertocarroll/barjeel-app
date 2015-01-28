@@ -10,13 +10,16 @@ window.Barjeel = {
 
     	// Define a region for the display view
     	Barjeels.addRegions({
-			  mainRegion: "body"
+			  allRegion: "body",
+			  header: '#header',
+			  main: '#main',
+			  footer: '#footer'
 			});
 
 			Barjeels.on('start', function () {
 				// Create a new view and show it
 				var staticView = new Barjeel.Views.StaticView(); 
-				Barjeels.mainRegion.show(staticView);
+				Barjeels.allRegion.show(staticView);
 			});
 			
 			Barjeels.start();

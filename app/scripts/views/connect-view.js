@@ -8,7 +8,9 @@ Barjeel.Views = Barjeel.Views || {};
     Barjeel.Views.ConnectView = Backbone.Marionette.CompositeView.extend({
     		template: JST['app/scripts/templates/connect-view.hbs'], 	
     		childView: Barjeel.Views.ConnectListSingleView,
-    		childViewContainer: "ul"
+    		childViewContainer: "#list",
+    		tagName : 'div',
+        className: 'wrapper',
 					 	
     });
 
