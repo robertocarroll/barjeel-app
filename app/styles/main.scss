@@ -1,12 +1,15 @@
-
 @import '../bower_components/ratchet/sass/ratchet.scss';
+
+
+//Palette
+$barjeel-blue: #66BBDD;
+$barjeel-red: #FF3300;
+$barjeel-grey: #999999;
 
 @import "compass";
 * {
   box-sizing: border-box;
 }
-
-@import "connect";
 
 @font-face {
   font-family: Ratchicons;
@@ -19,6 +22,10 @@
        url('../bower_components/ratchet/fonts/ratchicons.svg#svgFontName') format('svg');
 }
 
+@import "connect";
+@import "home";
+
+
 
 h1 {
   font-weight: normal;
@@ -27,5 +34,4 @@ h1 {
 a {
   color: #F2994B;
 }
-
 
