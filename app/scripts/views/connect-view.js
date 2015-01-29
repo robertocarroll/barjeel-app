@@ -19,7 +19,14 @@ Barjeel.Views = Barjeel.Views || {};
     		tagName : 'div',
         className: 'wrapper',
 
+        events: {
+				  'click #connectBack': 'backHome'
+				},
 
+        backHome: function(){
+					var homeView = new Barjeel.Views.HomeView(); 
+					Barjeels.allRegion.show(homeView);
+				}
 					 	
     });
 

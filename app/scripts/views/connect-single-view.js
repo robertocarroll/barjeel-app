@@ -5,28 +5,25 @@ Barjeel.Views = Barjeel.Views || {};
 (function () {
     'use strict';
 
-    // Add static view for home
-			Barjeel.Views.HomeView = Marionette.ItemView.extend({
+    Barjeel.Views.ConnectSingleView = Marionette.ItemView.extend({
 
-				events: {
-				   "click #connect": "loadConnect"
+    		tagName : 'div',
+        className: 'blogPost',
+        template: JST['app/scripts/templates/connect-single-view.hbs'],
+
+        events: {
+				  'click #connectBack': 'backConnectPost'
 				},
 
-				className: "content",
-  			
-  			template: JST['app/scripts/templates/home-view.hbs'],
-
-  			loadConnect:function(e) {
-
+				backConnectPost: function(){
 				var connectCollection = new Barjeel.Collections.ConnectCollection();
 				var newConnectView = new Barjeel.Views.ConnectView({				        	
 				        	collection: connectCollection,
 				        	childView: Barjeel.Views.ConnectListSingleView
 				        });       
 				Barjeels.allRegion.show(newConnectView);
+				}
 
-  			}
-
-			});
+    });
 
 })();

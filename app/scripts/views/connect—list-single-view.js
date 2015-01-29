@@ -16,12 +16,16 @@ Barjeel.Views = Barjeel.Views || {};
         className: 'blogList',
 
         events: {
-				  'click a': 'logInfoUrl'
+				  'click a': 'loadConnectPost',
+				  'click #connectBack': 'backHome'
 				},
 				 
-				logInfoUrl: function(){
-				  console.log(this.model.get('description'));
+				loadConnectPost: function(){
+					var connectModel = this.model;
+					var connectSingleView = new Barjeel.Views.ConnectSingleView({model: connectModel});
+				  Barjeels.allRegion.show(connectSingleView);
 				}
+				
     });
 
 })();

@@ -10,17 +10,14 @@ window.Barjeel = {
 
     	// Define a region for the display view
     	Barjeels.addRegions({
-			  allRegion: "body",
-			  header: '#header',
-			  main: '#main',
-			  footer: '#footer'
+			  allRegion: "body"
 			});
 
 			Barjeels.on('start', function () {
 				Backbone.history.start();
 				// Create a new view and show it
-				var staticView = new Barjeel.Views.StaticView(); 
-				Barjeels.allRegion.show(staticView);
+				var homeView = new Barjeel.Views.HomeView(); 
+				Barjeels.allRegion.show(homeView);
 			});
 			
 			Barjeels.start();

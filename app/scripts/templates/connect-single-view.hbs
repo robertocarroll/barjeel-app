@@ -1,0 +1,38 @@
+<header class="bar bar-nav" id="header">
+	 <a href="#" class="icon icon-left-nav pull-left" id="connectBack"></a>
+  <h1 class="title">Connect</h1>
+</header>
+ <div class="content" id="main">
+ <img src="{{curator-image}}">
+ <p>{{title}} {{description}}</p>
+
+<div class="slider" id="mySlider">
+  <div class="slide-group">
+  {{#each artworks}}
+    <div class="slide">
+      <img src="{{image}}">
+      <span class="slide-text">
+        <span class="icon icon-left-nav"></span>
+        <h1>{{title}}</h1>
+        <p>{{caption}}</p>
+      </span>
+    </div>
+   {{/each}} 
+   </div>
+</div>
+
+<nav class="bar bar-tab" id="footer">
+  <a class="tab-item" href="#/play">
+    <span class="icon icon-home"></span>
+    <span class="tab-label">Play</span>
+  </a>
+  <a class="tab-item active" href="#/connect">
+    <span class="icon icon-person"></span>
+    <span class="tab-label">Connect</span>
+  </a>
+  <a class="tab-item" href="#/discover">
+    <span class="icon icon-star-filled"></span>
+    <span class="tab-label">Discover</span>
+  </a>
+</nav>
+</div>
