@@ -18,12 +18,17 @@ Barjeel.Views = Barjeel.Views || {};
 
   			loadConnect:function(e) {
 
-				var connectCollection = new Barjeel.Collections.ConnectCollection();
+  			var connectModel = new Barjeel.Models.LandingModel({title: 'connect', description: 'long description'});	
+  			var newLandingConnectView = new Barjeel.Views.LandingView({model: connectModel});	
+
+  			Barjeels.allRegion.show(newLandingConnectView);
+
+		/*		var connectCollection = new Barjeel.Collections.ConnectCollection();
 				var newConnectView = new Barjeel.Views.ConnectView({				        	
 				        	collection: connectCollection,
 				        	childView: Barjeel.Views.ConnectListSingleView
 				        });       
-				Barjeels.allRegion.show(newConnectView);
+				Barjeels.allRegion.show(newConnectView);*/
 
   			}
 
