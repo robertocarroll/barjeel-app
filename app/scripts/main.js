@@ -18,6 +18,7 @@ window.Barjeel = {
 				// Create a new view and show it
 				var homeView = new Barjeel.Views.HomeView(); 
 				Barjeels.allRegion.show(homeView);
+				
 			});
 			
 			Barjeels.start();
