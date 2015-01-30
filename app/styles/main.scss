@@ -1,42 +1,19 @@
 @import '../bower_components/ratchet/sass/ratchet.scss';
 
-
-html {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-}	
-
-//Palette
-$barjeel-blue: #66BBDD;
-$barjeel-red: #FF3300;
-$barjeel-grey: #999999;
-
-//Typography
-$barjeel-heading-size-1: 2.65rem !default;
-$barjeel-heading-size-2: 1.6rem !default;
-$barjeel-heading-size-3: 1.3rem !default;
-$barjeel-heading-size-4: 1rem !default;
-
-h1, .alpha {
-	font-size: $barjeel-heading-size-1;
+@font-face {
+  font-family: gotham-bold;
+  font-weight: bold;
+  font-style: normal;
+  src: url('fonts/gotham-bold.ttf') format('truetype');
+ 	src: url('fonts/gotham-bold.otf') format('opentype');
 }
 
-h2, .beta {
-	font-size: $barjeel-heading-size-2;
-}
-
-h3, .gamma {
-	font-size: $barjeel-heading-size-3;
-}
-
-h4, .delta {
-	font-size: $barjeel-heading-size-4;
-}
-
-@import "compass";
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: gotham-book;
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/gotham-book.ttf') format('truetype');
+ 	src: url('fonts/gotham-book.otf') format('opentype');
 }
 
 @font-face {
@@ -50,8 +27,57 @@ h4, .delta {
        url('../bower_components/ratchet/fonts/ratchicons.svg#svgFontName') format('svg');
 }
 
-@import "connect";
-@import "home";
+html {	
+	font-size: 16px;
+	line-height: 1.5;
+	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+	-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+	-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}	
+
+body {
+	font-family: gotham-book, georgia, serif;
+}
+
+//Palette
+$barjeel-blue: #66BBDD;
+$barjeel-red: #FF3300;
+$barjeel-grey: #999999;
+
+//Typography
+$barjeel-heading-size-1: 2.65rem !default;
+$barjeel-heading-size-2: 1.6rem !default;
+$barjeel-heading-size-3: 1.3rem !default;
+$barjeel-heading-size-4: 1rem !default;
+
+$barjeel-line-height-1: 3.49rem !default;
+$barjeel-line-height-2: 1.49rem !default;
+$barjeel-line-height-3: 1.8rem !default;
+$barjeel-line-height-4: 1.2127rem !default;
+
+h1, .alpha {
+	font-size: $barjeel-heading-size-1;
+	font-family: gotham-bold, arial, sans-serif;
+	line-height: $barjeel-line-height-1; 
+}
+
+h2, .beta {
+	font-size: $barjeel-heading-size-2;
+	font-family: gotham-bold, arial, sans-serif;
+	line-height: $barjeel-line-height-2; 
+}
+
+h3, .gamma {
+	font-size: $barjeel-heading-size-3;
+	font-family: gotham-bold, arial, sans-serif;
+	line-height: $barjeel-line-height-3; 
+}
+
+h4, .delta {
+	font-size: $barjeel-heading-size-4;
+	font-family: gotham-bold, arial, sans-serif;
+	line-height: $barjeel-line-height-4; 
+}
 
 .bold {
 	font-weight: 700;
@@ -60,3 +86,11 @@ h4, .delta {
 .full-height {
 	height: 100%;
 }
+
+@import "compass";
+* {
+  box-sizing: border-box;
+}
+
+@import "connect";
+@import "home";
