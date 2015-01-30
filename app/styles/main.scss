@@ -1,10 +1,38 @@
 @import '../bower_components/ratchet/sass/ratchet.scss';
 
 
+html {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}	
+
 //Palette
 $barjeel-blue: #66BBDD;
 $barjeel-red: #FF3300;
 $barjeel-grey: #999999;
+
+//Typography
+$barjeel-heading-size-1: 2.65rem !default;
+$barjeel-heading-size-2: 1.6rem !default;
+$barjeel-heading-size-3: 1.3rem !default;
+$barjeel-heading-size-4: 1rem !default;
+
+h1, .alpha {
+	font-size: $barjeel-heading-size-1;
+}
+
+h2, .beta {
+	font-size: $barjeel-heading-size-2;
+}
+
+h3, .gamma {
+	font-size: $barjeel-heading-size-3;
+}
+
+h4, .delta {
+	font-size: $barjeel-heading-size-4;
+}
 
 @import "compass";
 * {
@@ -25,14 +53,8 @@ $barjeel-grey: #999999;
 @import "connect";
 @import "home";
 
-
-
-h1 {
-  font-weight: bold;
-}
-
-a {
-  color: #F2994B;
+.bold {
+	font-weight: 700;
 }
 
 .full-height {
