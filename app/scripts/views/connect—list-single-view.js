@@ -13,7 +13,7 @@ Barjeel.Views = Barjeel.Views || {};
 
         template: JST['app/scripts/templates/connect—list-single-view.hbs'],
         tagName : 'div',
-        className: 'blogList',
+        className: 'connect-list',
 
         events: {
 				  'click a': 'loadConnectPost',

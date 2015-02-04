@@ -6,6 +6,7 @@ window.Barjeel = {
     Views: {},
     Routers: {},
     init: function () {
+
     	Barjeels = new Backbone.Marionette.Application();
 
     	// Define a region for the display view

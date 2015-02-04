@@ -8,11 +8,30 @@ Barjeel.Views = Barjeel.Views || {};
     Barjeel.Views.ConnectSingleView = Marionette.ItemView.extend({
 
     		tagName : 'div',
-        className: 'blogPost',
+        className: 'blog-post',
         template: JST['app/scripts/templates/connect-single-view.hbs'],
 
         events: {
 				  'click #connectBack': 'backConnectPost'
+				},
+
+				onDomRefresh: function(){ 
+					console.log ("dom refreshed");
+					var elem = document.getElementById('mySwipe');
+
+					window.mySwipe = Swipe(elem, {
+					  // startSlide: 4,
+					  // auto: 3000,
+					   continuous: false,
+					  // disableScroll: true,
+					  // stopPropagation: true,
+					   callback: function(index, element) {
+					   	var pos = mySwipe.getPos() + 1;
+					   	var totalSlides = mySwipe.getNumSlides();
+					   	console.log ('current ' + pos + ' / total ' + totalSlides);
+					   },
+					  // transitionEnd: function(index, element) {}
+					});
 				},
 
 				backConnectPost: function(){
@@ -22,7 +41,11 @@ Barjeel.Views = Barjeel.Views || {};
 				        	childView: Barjeel.Views.ConnectListSingleView
 				        });       
 				Barjeels.allRegion.show(newConnectView);
-				}
+				},
+
+				onDestroy: function(){
+			    
+			  }
 
     });
 

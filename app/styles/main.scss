@@ -27,17 +27,6 @@
        url('../bower_components/ratchet/fonts/ratchicons.svg#svgFontName') format('svg');
 }
 
-html {	
-	font-size: 16px;
-	line-height: 1.5;
-	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
-	-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
-	-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-}	
-
-body {
-	font-family: gotham-book, georgia, serif;
-}
 
 //Palette
 $barjeel-blue: #66BBDD;
@@ -55,32 +44,75 @@ $barjeel-line-height-2: 1.49rem !default;
 $barjeel-line-height-3: 1.8rem !default;
 $barjeel-line-height-4: 1.2127rem !default;
 
+$base-spacing-unit: 1rem;
+$base-spacing-unit-small: (0.5rem);
+$base-spacing-unit-smallest: (0.25rem);
+
+
+html {	
+	font-size: 17px;
+	line-height: 1.5;
+	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+	-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+	-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+
+	@media (min-width: 768px) {
+	  font-size: 24px;
+	}
+}	
+
+body {
+	font-family: gotham-book, georgia, serif;
+	color: $barjeel-grey;
+}
+
+h1, h2, h3, h4 {
+	font-family: gotham-bold, arial, sans-serif;
+}
+
 h1, .alpha {
 	font-size: $barjeel-heading-size-1;
-	font-family: gotham-bold, arial, sans-serif;
 	line-height: $barjeel-line-height-1; 
 }
 
 h2, .beta {
 	font-size: $barjeel-heading-size-2;
-	font-family: gotham-bold, arial, sans-serif;
 	line-height: $barjeel-line-height-2; 
 }
 
 h3, .gamma {
 	font-size: $barjeel-heading-size-3;
-	font-family: gotham-bold, arial, sans-serif;
 	line-height: $barjeel-line-height-3; 
 }
 
 h4, .delta {
 	font-size: $barjeel-heading-size-4;
-	font-family: gotham-bold, arial, sans-serif;
 	line-height: $barjeel-line-height-4; 
+}
+
+p {
+	font-family: gotham-book, arial, sans-serif;
+	font-weight: normal;
+	font-size: $barjeel-heading-size-4;
+	line-height: $barjeel-line-height-4;
+	color: $barjeel-grey; 
+}
+
+.padded-sides {
+	padding-left: $base-spacing-unit*3;
+	padding-right: $base-spacing-unit*3;
+}
+
+.bar {
+	border-bottom: none;
 }
 
 .bold {
 	font-weight: 700;
+}
+
+.white {
+	color: white;
 }
 
 .full-height {
@@ -94,3 +126,4 @@ h4, .delta {
 
 @import "connect";
 @import "home";
+@import "landing";

@@ -1,0 +1,23 @@
+
+
+.block-centre-landing {
+	position:relative;
+  display: block;
+  top:50%;
+  left:50%;
+  -webkit-transform: translate(-50%, -50%);
+	width: 65%;
+}
+ 
+.landing-title {
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.landing-description {
+	font-size: $barjeel-heading-size-3;
+	line-height: $barjeel-line-height-3; 
+	color: white;
+	text-align: center;
+}

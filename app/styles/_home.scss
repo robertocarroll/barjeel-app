@@ -21,7 +21,7 @@
 }
 
 .block-centre {
-    width:50%;
+   // width:50%;
     height:50%;
     position:relative;
     display: block;
@@ -30,7 +30,7 @@
     -webkit-transform: translate(-50%, -50%);
 }
 
-.block-centre span {
+.block-centre h2 {
 		display: block;
     width:50%;
     text-align:center;  

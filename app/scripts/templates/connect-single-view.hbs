@@ -1,38 +1,38 @@
-<header class="bar bar-nav" id="header">
-	 <a href="#" class="icon icon-left-nav pull-left" id="connectBack"></a>
-  <h1 class="title">Connect</h1>
+<header class="bar bar-nav connectHeader" id="header">
+	 <a href="#" class="icon icon-left-nav pull-left white" id="connectBack"></a>
+  <h1 class="title white">Connect</h1>
 </header>
  <div class="content" id="main">
- <img src="{{curator-image}}">
- <p>{{title}} {{description}}</p>
 
-<div class="slider" id="mySlider">
-  <div class="slide-group">
+<div class="swipe" id="mySwipe">
+ <div class="swipe-wrap">
+	
+	<div class="slide">
+		<img src="{{curator-image}}">
+		<h1 class="curator-heading">{{curator}}</h1>
+		<p class="padded-sides">{{about}}</p>
+	</div>
+
+	<div class="slide">
+	<div class="circle-container">
+		<img class="curator-small-round" src="{{curator-image}}">
+	</div>	
+		<h2 class="curator-heading">{{curator}}</h1>
+		<h1 class="connect-heading padded-sides">{{title}}</h1>
+		<p class="padded-sides">{{description}}</p>
+	</div>
+
+ 
   {{#each artworks}}
     <div class="slide">
-      <img src="{{image}}">
+      <img class="slider-image" src="{{image}}">
       <span class="slide-text">
-        <span class="icon icon-left-nav"></span>
-        <h1>{{title}}</h1>
-        <p>{{caption}}</p>
+        <h1 class="image-heading">{{title}}</h1>
+        <p class="padded-sides">{{caption}}</p>
       </span>
     </div>
    {{/each}} 
    </div>
 </div>
 
-<nav class="bar bar-tab" id="footer">
-  <a class="tab-item" href="#/play">
-    <span class="icon icon-home"></span>
-    <span class="tab-label">Play</span>
-  </a>
-  <a class="tab-item active" href="#/connect">
-    <span class="icon icon-person"></span>
-    <span class="tab-label">Connect</span>
-  </a>
-  <a class="tab-item" href="#/discover">
-    <span class="icon icon-star-filled"></span>
-    <span class="tab-label">Discover</span>
-  </a>
-</nav>
 </div>

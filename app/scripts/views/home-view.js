@@ -17,7 +17,7 @@ Barjeel.Views = Barjeel.Views || {};
   			template: JST['app/scripts/templates/home-view.hbs'],
 
   			loadConnect:function(e) {
-	  			var connectModel = new Barjeel.Models.LandingModel({title: 'connect', description: 'long description'});	
+	  			var connectModel = new Barjeel.Models.LandingModel({title: 'connect', description: 'Test your knowledge and explore a network of connections hidden within Barjeel’s vast art collection'});	
 	  			var newLandingConnectView = new Barjeel.Views.LandingView({model: connectModel});	
 	  			Barjeels.allRegion.show(newLandingConnectView);
   			}
