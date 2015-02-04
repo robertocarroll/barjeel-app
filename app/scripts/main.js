@@ -1,5 +1,7 @@
 /*global Barjeel, $*/
 
+var Barjeels;
+
 window.Barjeel = {
     Models: {},
     Collections: {},

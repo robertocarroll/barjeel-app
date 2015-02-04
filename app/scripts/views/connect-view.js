@@ -20,7 +20,7 @@ Barjeel.Views = Barjeel.Views || {};
         className: 'wrapper',
 
         events: {
-				  'click #connectBack': 'backHome'
+				  'touchend #connectBack': 'backHome'
 				},
 
         backHome: function(){
