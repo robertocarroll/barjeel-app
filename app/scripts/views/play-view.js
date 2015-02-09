@@ -11,8 +11,6 @@ Barjeel.Views = Barjeel.Views || {};
     				console.log ('initialise - fetching collection from PlayView');
             this.listenTo(this.collection, "reset", this.render);
             this.collection.fetch();
-            this.currentView = null;
-            this.count = 0;
         },
 
         template: JST['app/scripts/templates/play-view.hbs'],
@@ -20,10 +18,6 @@ Barjeel.Views = Barjeel.Views || {};
     		childViewContainer: "#question",
     		tagName : 'div',
         className: 'play',
-
-        onRender: function(){
-
-			  },
 
 			  events: {
 				  'touchend #playBack': 'backHome'

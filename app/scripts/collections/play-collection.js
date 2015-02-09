@@ -8,18 +8,8 @@ Barjeel.Collections = Barjeel.Collections || {};
     Barjeel.Collections.PlayCollection = Backbone.Collection.extend({
 
         model: Barjeel.Models.PlayModel,
-        url: "scripts/data/questions.json",
-        lastIndex: -1,
-        getRandom: function() {
-            var idx = this.lastIndex;
-            while (idx === this.lastIndex) {
-                idx = _.random(this.models.length - 1);
-            }
-            this.lastIndex = idx;
-            return this.models[idx];
-        }
+        url: "scripts/data/questions.json"
+        
     });
-
-    return Barjeel.Collections.PlayCollection;
 
 })();

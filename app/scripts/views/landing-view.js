@@ -33,7 +33,7 @@ Barjeel.Views = Barjeel.Views || {};
                 swipeLeft:function(event, direction, distance, duration, fingerCount) {
 				          var playCollection = new Barjeel.Collections.PlayCollection();
 									var newPlayView = new Barjeel.Views.PlayView({				        	
-									        	collection: playCollection.getRandom(),
+									        	collection: playCollection,
 									        	childView: Barjeel.Views.PlaySingleView
 									        });       
 									Barjeels.allRegion.show(newPlayView);	
