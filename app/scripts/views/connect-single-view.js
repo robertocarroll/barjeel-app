@@ -12,7 +12,7 @@ Barjeel.Views = Barjeel.Views || {};
         template: JST['app/scripts/templates/connect-single-view.hbs'],
 
         events: {
-				  'click #connectBack': 'backConnectPost'
+				  'touchend #connectBack': 'backConnectPost'
 				},
 
 				onDomRefresh: function(){ 
@@ -40,7 +40,7 @@ Barjeel.Views = Barjeel.Views || {};
 				        	collection: connectCollection,
 				        	childView: Barjeel.Views.ConnectListSingleView
 				        });       
-				Barjeels.allRegion.show(newConnectView);
+				BarjeelApp.allRegion.show(newConnectView);
 				},
 
 				onDestroy: function(){

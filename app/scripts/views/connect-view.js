@@ -25,7 +25,7 @@ Barjeel.Views = Barjeel.Views || {};
 
         backHome: function(){
 					var homeView = new Barjeel.Views.HomeView(); 
-					Barjeels.allRegion.show(homeView);
+					BarjeelApp.allRegion.show(homeView);
 				}
 					 	
     });

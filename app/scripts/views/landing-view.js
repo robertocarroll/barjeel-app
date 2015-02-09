@@ -20,11 +20,12 @@ Barjeel.Views = Barjeel.Views || {};
 									        	collection: connectCollection,
 									        	childView: Barjeel.Views.ConnectListSingleView
 									        });       
-									Barjeels.allRegion.show(newConnectView);	
+									BarjeelApp.allRegion.show(newConnectView);	
 				        },
 
 				        swipeRight:function(event, direction, distance, duration, fingerCount) {
-				       	 console.log ("return home");
+				       	 	var homeView = new Barjeel.Views.HomeView(); 
+									BarjeelApp.allRegion.show(homeView);
 				        }
             });	
 
@@ -36,11 +37,12 @@ Barjeel.Views = Barjeel.Views || {};
 									        	collection: playCollection,
 									        	childView: Barjeel.Views.PlaySingleView
 									        });       
-									Barjeels.allRegion.show(newPlayView);	
+									BarjeelApp.allRegion.show(newPlayView);	
 				        },
 
 				        swipeRight:function(event, direction, distance, duration, fingerCount) {
-				       	 console.log ("return home");
+				       	 var homeView = new Barjeel.Views.HomeView(); 
+									BarjeelApp.allRegion.show(homeView);
 				        }
             });
 				}

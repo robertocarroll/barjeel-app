@@ -1,6 +1,23 @@
-/*global Barjeel, $*/
+BarjeelApp = new Backbone.Marionette.Application();
 
-var Barjeels;
+BarjeelApp.addRegions({
+  allRegion: "body"
+});
+
+
+BarjeelApp.addInitializer(function(options){
+
+		var homeView = new Barjeel.Views.HomeView(); 
+		BarjeelApp.allRegion.show(homeView);
+	
+});
+
+$(document).ready(function(){
+	console.log ("app started");
+  BarjeelApp.start();
+});
+
+
 
 window.Barjeel = {
     Models: {},
@@ -9,27 +26,8 @@ window.Barjeel = {
     Routers: {},
     init: function () {
 
-    	Barjeels = new Backbone.Marionette.Application();
-
-    	// Define a region for the display view
-    	Barjeels.addRegions({
-			  allRegion: "body"
-			});
-
-			Barjeels.on('start', function () {
-				Backbone.history.start();
-				// Create a new view and show it
-				var homeView = new Barjeel.Views.HomeView(); 
-				Barjeels.allRegion.show(homeView);
-				
-			});
-			
-			Barjeels.start();
 
     }
 };
   
-$(document).ready(function () {
-    'use strict';
-    Barjeel.init();
-});
+

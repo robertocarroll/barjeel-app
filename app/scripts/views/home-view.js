@@ -25,9 +25,7 @@ Barjeel.Views = Barjeel.Views || {};
   			},
 
   			loadConnect:function(e) {
-	  			var connectModel = new Barjeel.Models.LandingModel({title: 'connect', description: 'Meet art lovers and leading experts as they present some of Barjeel’s greatest hits in curated mini-exhibits'});	
-	  			var newLandingConnectView = new Barjeel.Views.LandingView({model: connectModel});	
-	  			Barjeels.allRegion.show(newLandingConnectView);
+	  			BarjeelApp.ConnectModule.startConnect();
   			},
 
   			loadDiscover:function(e) {

@@ -16,14 +16,13 @@ Barjeel.Views = Barjeel.Views || {};
         className: 'connect-list',
 
         events: {
-				  'click a': 'loadConnectPost',
-				  'click #connectBack': 'backHome'
+				  'touchend a': 'loadConnectPost'
 				},
 				 
 				loadConnectPost: function(){
 					var connectModel = this.model;
 					var connectSingleView = new Barjeel.Views.ConnectSingleView({model: connectModel});
-				  Barjeels.allRegion.show(connectSingleView);
+				  BarjeelApp.allRegion.show(connectSingleView);
 				}
 				
     });
