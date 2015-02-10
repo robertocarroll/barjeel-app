@@ -1,7 +1,7 @@
-node_modules
-dist
-test/temp
-.sass-cache
-app/bower_components
-.tmp
-test/bower_components/
+barjeel-marionette-dev/node_modules
+barjeel-marionette-dev/dist
+barjeel-marionette-dev/test/temp
+barjeel-marionette-dev/.sass-cache
+barjeel-marionette-dev/app/bower_components
+barjeel-marionette-dev/.tmp
+barjeel-marionette-dev/test/bower_components/
