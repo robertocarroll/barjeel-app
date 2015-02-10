@@ -2,6 +2,10 @@
   "name": "barjeel",
   "version": "0.0.0",
   "dependencies": {},
+  "repository": {
+	  "type": "git",
+	  "url": "git://github.com/robertocarroll/barjeel-app.git"
+	},
   "devDependencies": {
     "apache-server-configs": "^2.8.0",
     "grunt": "^0.4.5",
