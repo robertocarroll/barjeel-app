@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3339DD20-8E0A-485D-9F5F-EBCD316B9D5C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Hello World</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>42EA73CE67A9A9909CE9E0C065F3391D8FDD177B</key>
+		<string>https://github.com/robertocarroll/barjeel-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>barjeelapp/platforms/ios/Hello World.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>42EA73CE67A9A9909CE9E0C065F3391D8FDD177B</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/robertocarroll/barjeel-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>42EA73CE67A9A9909CE9E0C065F3391D8FDD177B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>42EA73CE67A9A9909CE9E0C065F3391D8FDD177B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>barjeel-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>
