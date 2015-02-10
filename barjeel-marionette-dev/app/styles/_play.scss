@@ -3,3 +3,26 @@
 	color: white;
 	text-transform: uppercase;
 }
+
+.playWrapper {
+	padding-top: $base-spacing-unit*3;
+	width: 66%;
+	margin: auto;
+	text-align: center;
+}
+
+.question {
+	padding-bottom: $base-spacing-unit;
+}
+
+.questionOptions {
+	text-align: left;
+}
+
+.questionOption {
+	padding-bottom: $base-spacing-unit-small;
+}
+
+.active {
+	background: red;
+}

@@ -24,6 +24,7 @@ Barjeel.Views = Barjeel.Views || {};
 				},
 
         backHome: function(){
+        	console.log ("Back Home tap fired");
 					var homeView = new Barjeel.Views.HomeView(); 
 					BarjeelApp.allRegion.show(homeView);
 				}

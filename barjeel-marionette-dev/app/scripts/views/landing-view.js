@@ -32,12 +32,7 @@ Barjeel.Views = Barjeel.Views || {};
   				this.$(".play").swipe({
                 //Generic swipe handler for all directions
                 swipeLeft:function(event, direction, distance, duration, fingerCount) {
-				          var playCollection = new Barjeel.Collections.PlayCollection();
-									var newPlayView = new Barjeel.Views.PlayView({				        	
-									        	collection: playCollection,
-									        	childView: Barjeel.Views.PlaySingleView
-									        });       
-									BarjeelApp.allRegion.show(newPlayView);	
+                	BarjeelApp.PlayModule.startQuiz	();	          
 				        },
 
 				        swipeRight:function(event, direction, distance, duration, fingerCount) {

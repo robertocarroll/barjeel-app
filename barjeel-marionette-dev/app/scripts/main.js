@@ -18,16 +18,11 @@ $(document).ready(function(){
 });
 
 
-
 window.Barjeel = {
     Models: {},
     Collections: {},
     Views: {},
-    Routers: {},
-    init: function () {
-
-
-    }
+    Routers: {}
 };
   
 

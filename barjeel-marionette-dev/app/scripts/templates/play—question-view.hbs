@@ -1,0 +1,11 @@
+<h2 class="question">{{question}}</h2>	
+
+<div class="questionOptions">
+{{#each choices}}
+
+<div class="questionOption" id="question-{{@index}}" data-answer="{{@index}}">
+	{{this}}
+</div>	
+
+{{/each}} 
+</div>
