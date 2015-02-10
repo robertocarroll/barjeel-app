@@ -1,0 +1,47 @@
+.block {
+	width:100%; 
+	height:33%
+}
+
+.block-extra {
+	width:100%; 
+	height:34%
+}
+
+.play {
+	background-color: $barjeel-red;
+}
+
+.connect {
+	background-color: $barjeel-grey;
+}
+
+.discover {
+	background-color: $barjeel-blue;
+}
+
+.block-centre {
+   // width:50%;
+    height:50%;
+    position:relative;
+    display: block;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.block-centre h2 {
+		display: block;
+    width:50%;
+    text-align:center;  
+    color:#fff;
+    position:relative;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.home-icons {
+	text-transform: uppercase;
+	@extend .gamma;
+}

@@ -1,0 +1,38 @@
+<header class="bar bar-nav connectHeader" id="header">
+	 <a href="#" class="icon icon-left-nav pull-left white" id="connectBack"></a>
+  <h1 class="title white">Connect</h1>
+</header>
+ <div class="content" id="main">
+
+<div class="swipe" id="mySwipe">
+ <div class="swipe-wrap">
+	
+	<div class="slide">
+		<img src="{{curator-image}}">
+		<h1 class="curator-heading">{{curator}}</h1>
+		<p class="padded-sides">{{about}}</p>
+	</div>
+
+	<div class="slide">
+	<div class="circle-container">
+		<img class="curator-small-round" src="{{curator-image}}">
+	</div>	
+		<h2 class="curator-heading">{{curator}}</h1>
+		<h1 class="connect-heading padded-sides">{{title}}</h1>
+		<p class="padded-sides">{{description}}</p>
+	</div>
+
+ 
+  {{#each artworks}}
+    <div class="slide">
+      <img class="slider-image" src="{{image}}">
+      <span class="slide-text">
+        <h1 class="image-heading">{{title}}</h1>
+        <p class="padded-sides">{{caption}}</p>
+      </span>
+    </div>
+   {{/each}} 
+   </div>
+</div>
+
+</div>

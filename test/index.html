@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mocha Spec Runner</title>
+    <link rel="stylesheet" href="bower_components/mocha/mocha.css">
+</head>
+<body>
+    <div id="mocha"></div>
+    <script src="bower_components/mocha/mocha.js"></script>
+    <script>mocha.setup('bdd')</script>
+    <script src="bower_components/chai/chai.js"></script>
+    <script>
+        var assert = chai.assert;
+        var expect = chai.expect;
+        var should = chai.should();
+    </script>
+
+    <!-- include source files here... -->
+
+    <script src="views/AnimView-view.js"></script>
+    <script src="routers/Barjeel.js"></script>
+    <script src="views/root-view.js"></script>
+    <script src="views/home-view.js"></script>
+    <script src="views/detail-view.js"></script>
+    <script src="views/to-delete.js"></script>
+    <script src="views/play-view.js"></script>
+    <script src="views/connect-view.js"></script>
+    <script src="views/discover-view.js"></script>
+    <script src="models/connect-model.js"></script>
+    <script src="collections/connect-collection.js"></script>
+    <script src="views/connect—list-single-view.js"></script>
+    <script src="views/connect-single-view.js"></script>
+    <script src="models/landing-model.js"></script>
+    <script src="views/landing-view.js"></script>
+    <script src="collections/play-collection.js"></script>
+    <script src="models/play-model.js"></script>
+    <script src="views/play—single-view.js"></script>
+    <!-- include spec files here... -->
+    <script src="spec/test.js"></script>
+
+    <script>mocha.run()</script>
+</body>
+</html>

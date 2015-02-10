@@ -1,0 +1,8 @@
+<div class="question-title">{{id}}</div>
+	<legend>{{question}}</legend>
+		{{#each options}}
+ 		<label>
+ 			<input type="radio" name="q" value={{@index}}>
+ 			{{this}}
+ 		</label>
+ 		{{/each}}
