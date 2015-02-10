@@ -6,7 +6,7 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 				
 				PlayModule.newCollection.fetch({
 				    success : function(MyCollectionAllQuestions, response, options) {        
-							console.log ("fetch success");						
+							console.log ("fetch questions success");						
 			    	}
 				});
     });

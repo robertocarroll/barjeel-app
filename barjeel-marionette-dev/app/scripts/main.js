@@ -9,11 +9,11 @@ BarjeelApp.addInitializer(function(options){
 
 		var homeView = new Barjeel.Views.HomeView(); 
 		BarjeelApp.allRegion.show(homeView);
+		console.log ("app started");
 	
 });
 
 $(document).ready(function(){
-	console.log ("app started");
   BarjeelApp.start();
 });
 

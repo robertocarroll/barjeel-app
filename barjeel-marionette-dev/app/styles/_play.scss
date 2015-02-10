@@ -17,12 +17,53 @@
 
 .questionOptions {
 	text-align: left;
+	width: 82%;
+	margin: auto;
 }
 
 .questionOption {
 	padding-bottom: $base-spacing-unit-small;
 }
 
-.active {
-	background: red;
+.questionOption:before {
+  content: '';
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  vertical-align: 0.12em;
+  border-radius: 1em;
+  box-shadow: 0 0 0 0.08em grey;
+  margin-right: 0.25em;
+  transition: 0.5s ease all;
+  margin-left: -1em;
+}
+
+
+.active:before {
+	background: $barjeel-grey;
+}
+
+#lives {
+	padding-top: $base-spacing-unit*2;
+}
+
+.gamelives-3 {
+	background: url(../images/three-lives.jpg) no-repeat scroll center transparent;
+	background-size: 7em Auto;
+}
+
+.gamelives-2 {
+	background: url(../images/two-lives.jpg) no-repeat scroll center transparent;
+	background-size: 7em Auto;
+}
+
+.gamelives-1 {
+	background: url(../images/one-life.jpg) no-repeat scroll center transparent;
+	background-size: 7em Auto;
+}
+
+.try-again, .next {
+	@extend .delta;
+	text-transform: uppercase;
+	color: $barjeel-red;
 }

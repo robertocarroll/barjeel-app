@@ -24,10 +24,18 @@ Barjeel.Views = Barjeel.Views || {};
 				BarjeelApp.PlayModule.gameState.set(("questionCount"), questionCount); 
 				this.remove();
 
-				var currentQuestion = BarjeelApp.PlayModule.newCollection.models[questionCount];
-				BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayQuestionView({
+				if (questionCount < BarjeelApp.PlayModule.newCollection.length) {
+					var currentQuestion = BarjeelApp.PlayModule.newCollection.models[questionCount];
+					BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayQuestionView({
 						model: currentQuestion
-					}));
+					}));	
+				}
+
+				else {
+					console.log ("no more questions");
+				}
+
+				
 			}
 
     });
