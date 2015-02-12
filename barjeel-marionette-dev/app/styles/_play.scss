@@ -63,7 +63,7 @@
 	background-size: 7em Auto;
 }
 
-.try-again, .next {
+.try-again, .next, .play-again {
 	@extend .delta;
 	text-transform: uppercase;
 	color: $barjeel-red;
