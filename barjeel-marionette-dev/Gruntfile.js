@@ -219,7 +219,10 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,txt}',
                         'images/{,*/}*.{webp,gif}',
-                        'styles/fonts/{,*/}*.*'
+                        'styles/fonts/{,*/}*.*',
+                      'data/{,*/}*.*',
+                    'data/images/connect-images{,*/}*.*',
+                  'data/images/question-images{,*/}*.*'
                     ]
                 }, {
                     src: 'node_modules/apache-server-configs/dist/.htaccess',

@@ -7,7 +7,7 @@ Barjeel.Views = Barjeel.Views || {};
 
     Barjeel.Views.PlayMainView = Backbone.Marionette.LayoutView.extend({
 
-        template: JST['app/scripts/templates/play—main-view.hbs'],
+        template: JST['app/scripts/templates/play-main-view.hbs'],
 
         regions: {
 		      questionRegion: '#question',

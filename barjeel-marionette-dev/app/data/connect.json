@@ -4,17 +4,17 @@
 	"title": "History of Dissent 1",
 	"description": "Brief statement on their selection of five works. Generally this will be two or three sentences. We can let it go onto another ‘page’ if necessary though typically this one will be sufficient. Brief statement on their selection of five works. Generally this will be two or three sentences. We can let it go onto another ‘page’ one will be sufficient.",
 	"curator": "Anne Temkin 1",
-	"curator-image": "images/square.jpg",
+	"curator-image": "square.jpg",
 	"about": "Director of the Serpentine Gallery in London",
 	"artworks": [
 	{
 		"title":"Purple Pears",
-		"image":"images/something.jpg",
+		"image":"something.jpg",
 		"caption":"Acrylic on canvas, 2013. 130 x 130 cm Sinan Hussein b. 1977, Iraq"
 	},
 	{
 		"title":"Red Pears",
-		"image":"images/something.jpg",
+		"image":"something.jpg",
 		"caption":"Acrylic on canvas, 2013. 130 x 130 cm Sinan Hussein b. 1977, Iraq"
 	}
 	]
@@ -24,17 +24,17 @@
 	"title": "History of Revolution 2",
 	"description": "Brief statement on their selection of five works. Generally this will be two or three sentences. We can let it go onto another ‘page’ if necessary though typically this one will be sufficient. Brief statement on their selection of five works. Generally this will be two or three sentences. We can let it go onto another ‘page’ one will be sufficient.",
 	"curator": "Temkin Anne",
-	"curator-image": "images/square.jpg",
+	"curator-image": "square.jpg",
 	"about": "Director of the Tate Gallery in London",
 	"artworks": [
 	{
 		"title":"Purple Pears",
-		"image":"images/something.jpg",
+		"image":"something.jpg",
 		"caption":"Acrylic on canvas, 2013. 130 x 130 cm Sinan Hussein b. 1977, Iraq"
 	},
 	{
 		"title":"Red Pears",
-		"image":"images/something.jpg",
+		"image":"something.jpg",
 		"caption":"Acrylic on canvas, 2013. 130 x 130 cm Sinan Hussein b. 1977, Iraq"
 	}
 	]
@@ -44,17 +44,17 @@
 	"title": "History of Revolution 3",
 	"description": "Brief statement on their selection of five works. Generally this will be two or three sentences. We can let it go onto another ‘page’ if necessary though typically this one will be sufficient. Brief statement on their selection of five works. Generally this will be two or three sentences. We can let it go onto another ‘page’ one will be sufficient.",
 	"curator": "Temkin Anne",
-	"curator-image": "images/square.jpg",
+	"curator-image": "square.jpg",
 	"about": "Director of the Tate Gallery in London",
 	"artworks": [
 	{
 		"title":"Purple Pears",
-		"image":"images/something.jpg",
+		"image":"something.jpg",
 		"caption":"Acrylic on canvas, 2013. 130 x 130 cm Sinan Hussein b. 1977, Iraq"
 	},
 	{
 		"title":"Red Pears",
-		"image":"images/something.jpg",
+		"image":"something.jpg",
 		"caption":"Acrylic on canvas, 2013. 130 x 130 cm Sinan Hussein b. 1977, Iraq"
 	}
 	]

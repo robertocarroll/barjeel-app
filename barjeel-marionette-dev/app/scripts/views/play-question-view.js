@@ -11,7 +11,7 @@ Barjeel.Views = Barjeel.Views || {};
     			console.log ("Question view initialised: " + JSON.stringify(BarjeelApp.PlayModule.gameState));
     		},
 
-        template: JST['app/scripts/templates/play—question-view.hbs'],
+        template: JST['app/scripts/templates/play-question-view.hbs'],
 
         events: {
         	"touchend .questionOption": "checkAnswer"

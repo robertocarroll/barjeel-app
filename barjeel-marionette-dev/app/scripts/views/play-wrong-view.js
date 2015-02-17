@@ -7,10 +7,14 @@ Barjeel.Views = Barjeel.Views || {};
 
     Barjeel.Views.PlayWrongView =  Backbone.Marionette.ItemView.extend({
 
-        template: JST['app/scripts/templates/play—wrong-view.hbs'],
+    		onRender: function() {
+        console.log ("wrong view rendered");
+    },
+
+        template: JST['app/scripts/templates/play-wrong-view.hbs'],
 
          events: {
-						"click .try-again": "tryAgain",
+						"touchend .try-again": "tryAgain",
 					},
 
 					tryAgain: function(e) {

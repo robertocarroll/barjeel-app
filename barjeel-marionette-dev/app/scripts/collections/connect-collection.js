@@ -7,7 +7,7 @@ Barjeel.Collections = Barjeel.Collections || {};
 
     Barjeel.Collections.ConnectCollection = Backbone.Collection.extend({
         model: Barjeel.Models.ConnectModel,
-        url: "scripts/data/connect.json"        
+        url: "data/connect.json"        
     });
 
 })();

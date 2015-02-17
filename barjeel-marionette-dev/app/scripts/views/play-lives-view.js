@@ -7,7 +7,7 @@ Barjeel.Views = Barjeel.Views || {};
 
     Barjeel.Views.PlayLivesView = Backbone.Marionette.ItemView.extend({
 
-        template: JST['app/scripts/templates/play—lives-view.hbs'],
+        template: JST['app/scripts/templates/play-lives-view.hbs'],
 
         modelEvents: {
         'change': 'lifeLost'

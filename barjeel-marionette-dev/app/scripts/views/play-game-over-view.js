@@ -7,10 +7,10 @@ Barjeel.Views = Barjeel.Views || {};
 
     Barjeel.Views.PlayGameOverView = Backbone.Marionette.ItemView.extend({
 
-        template: JST['app/scripts/templates/play—game-over-view.hbs'],
+        template: JST['app/scripts/templates/play-game-over-view.hbs'],
 
         events: {
-					"click .play-again": "playAgain",
+					"touchend .play-again": "playAgain",
 				},
 
 				playAgain: function(e) {

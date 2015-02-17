@@ -11,7 +11,7 @@ Barjeel.Views = Barjeel.Views || {};
     			console.log ("Right view initialised" + JSON.stringify(BarjeelApp.PlayModule.gameState));
     		},
 
-        template: JST['app/scripts/templates/play—right-view.hbs'],
+        template: JST['app/scripts/templates/play-right-view.hbs'],
 
         events: {
 					"touchend .next": "nextQuestion",
