@@ -1,0 +1,11 @@
+<h2 class="question-connection">What's the connection?</h2><img class="question-arrow" src="images/arrow.jpg" alt="arrow">	
+<h3 class="question">{{question}}</h3>
+<div class="questionOptions">
+{{#each choices}}
+
+<div class="questionOption" id="question-{{@index}}" data-answer="{{@index}}">
+	<span>{{this}}</span>
+</div>	
+
+{{/each}} 
+</div>
