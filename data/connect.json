@@ -9,33 +9,28 @@
 	"artworks": [
 	{
 		"title":"The Parting",
-		"image":"something.jpg",
+		"image":"1-1_Thuraya-Al-Baqsami-11.jpg",
 		"caption":"Thuraya Al Baqsami, Kuwait, Etching, 1991, 35 x 40 cm"
 	},
       {
 		"title":" Femme et Mur",
-		"image":"something.jpg",
+		"image":"1-2_Algeria_Mohammed-Issiakhem.jpg",
 		"caption":"Mohammed Issiakhem, Algeria, Oil on canvas, 162 x 130 cm "
 	},
       {
 		"title":"Portrait",
-		"image":"something.jpg",
+		"image":"1-3_Mohammed-Al-Mazrouie-2.jpg",
 		"caption":"Mohammed Al Mazrouie, UAE, Mixed media on wood, 2011, 37 x 26 x 1.5 cm"
 	},
       {
 		"title":"Faten",
-		"image":"something.jpg",
+		"image":"1-4_Chant-Avedissian-11.jpg",
 		"caption":"Chant Avedissian, Egypt, Gouache on cardboard, 2008, 49 x 69 cm"
 	},
       {
 		"title":"Nubian Girl",
-		"image":"something.jpg",
+		"image":"1-5_Ervand-Demirdjian-Nubian-Girl.jpg",
 		"caption":" Ervand Demerdjian, Armenia, Oil on canvas, undated, 30 x 40 cm"
-	},
-	{
-		"title":"Red Pears",
-		"image":"something.jpg",
-		"caption":"Acrylic on canvas, 2013. 130 x 130 cm Sinan Hussein b. 1977, Iraq"
 	}
 	]
 },
