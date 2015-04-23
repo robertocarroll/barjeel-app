@@ -8,7 +8,7 @@
 	<name>Barjeel Art Foundation</name>
 	<description>An app for Barjeel Art Foundation.</description>
 
-	<preference name="phonegap-version" value="3.6.3" />
+	<preference name="phonegap-version" value="3.7.0" />
 
 	<author href="http://wearethoughtfox.com" email="hello@wearethoughtfox.com">
 		Clint McLean, Una Janicijevic, Rob Carroll 
