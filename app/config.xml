@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "org.barjeelartfoundation.barjeel"
+        version   = "1.0.0">
+
+	<name>Barjeel Art Foundation</name>
+	<description>An app for Barjeel Art Foundation.</description>
+
+	<preference name="phonegap-version" value="3.6.3" />
+
+	<author href="http://wearethoughtfox.com" email="hello@wearethoughtfox.com">
+		Clint McLean, Una Janicijevic, Rob Carroll 
+	</author>
+	
+	<gap:platforms>
+   <gap:platform name="android" minVersion="2.3" />
+   <gap:platform name="ios" />
+</gap:platforms>
+
+</widget>

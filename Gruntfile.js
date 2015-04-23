@@ -217,18 +217,25 @@ module.exports = function (grunt) {
                     cwd: '<%= yeoman.app %>',
                     dest: '<%= yeoman.dist %>',
                     src: [
-                        '*.{ico,txt}',
+                        '*.{ico,txt,xml}',
                         'images/{,*/}*.{webp,gif}',
                         'styles/fonts/{,*/}*.*',
-                      'data/{,*/}*.*',
                     'data/images/connect-images{,*/}*.*',
-                  'data/images/question-images{,*/}*.*'
+                  'data/images/play-images{,*/}*.*'
                     ]
                 }, {
                     src: 'node_modules/apache-server-configs/dist/.htaccess',
                     dest: '<%= yeoman.dist %>/.htaccess'
-                }]
+                },
+                {expand: true, cwd: '<%= yeoman.app %>', src: ['data/*'], dest: '<%= yeoman.dist %>', filter: 'isFile'}
+                ]
             }
+        },
+        'gh-pages': {
+           options: {
+             base: 'dist'
+           },
+         src: ['**']
         },
         handlebars: {
             compile: {
@@ -324,7 +331,8 @@ module.exports = function (grunt) {
         'uglify',
         'copy',
         'rev',
-        'usemin'
+        'usemin',
+        'gh-pages'
     ]);
 
     grunt.registerTask('default', [
