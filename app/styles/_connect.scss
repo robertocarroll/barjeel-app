@@ -6,8 +6,9 @@
 
 .connect-list {
 	float: left;
-	width: 50%;
+	width: 49%;
 	padding-top: 1rem;
+	padding-left: 1%;
 }
 
 #list {
@@ -34,6 +35,22 @@
 	max-width: $base-spacing-unit*8;
 	padding: 0;
 	margin: auto;
+}
+
+.curator-image {
+	width: 100%;
+	max-width: 400px;
+
+	@media
+		only screen and (-webkit-min-device-pixel-ratio: 2),
+		only screen and (   min--moz-device-pixel-ratio: 2),
+		only screen and (     -o-min-device-pixel-ratio: 2/1),
+		only screen and (        min-device-pixel-ratio: 2),
+		only screen and (                min-resolution: 192dpi),
+		only screen and (                min-resolution: 2dppx) { 
+		  
+		max-width: 800px;
+	}
 }
 
 

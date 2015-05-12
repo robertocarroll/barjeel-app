@@ -9,6 +9,13 @@
 	<description>An app for Barjeel Art Foundation.</description>
 
 	<preference name="phonegap-version" value="3.7.0" />
+	<preference name="orientation" value="default" />        
+  <preference name="target-device" value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+  <preference name="fullscreen" value="true" />           <!-- all: hides the status bar at the top of the screen -->
+ 	<preference name="load-url-timeout"           value="1000" />
+
+	<!-- ios: black-translucent will appear black because the PhoneGap webview doesn't go beneath the status bar -->     
+  <preference name="ios-statusbarstyle"         value="black-opaque" />  
 
 	<author href="http://wearethoughtfox.com" email="hello@wearethoughtfox.com">
 		Clint McLean, Una Janicijevic, Rob Carroll 
