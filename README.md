@@ -19,7 +19,22 @@ barjeel-app
 http://wiki.nsbasic.com/Submitting_to_the_iOS_App_Store
 - config.xml is in the app folder and gets copied as part of the Yeoman build process 
 
-### iOS 
+### iOS
+#### Development 
+1. [iOS developer account](https://developer.apple.com/programs/ios/)
+2. A development certificate - ios_development.cer - install it to Keychain on your computer
+3. App ID - use this consistently
+4. Add UDID for each device you want to test on
+5. Provisioning profile - barjeeldevelopment.mobileprovision - bring the app together with the testing devices
+6. Phonegap Build - https://build.phonegap.com/apps
+7. "certificate" is the .p12 file
+9. Export
+10. Password 
+11. Upload the .p12 file and the barjeeldevelopment.mobileprovision
+12. Unlock using the password in step 10.
+
+#### Install ipa file for testing
+
 
 
 ## Connect images 

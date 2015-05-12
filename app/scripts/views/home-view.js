@@ -1,5 +1,3 @@
-/*global Barjeel, Backbone, JST*/
-
 Barjeel.Views = Barjeel.Views || {};
 
 (function () {
