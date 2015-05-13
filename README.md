@@ -35,7 +35,7 @@ http://wiki.nsbasic.com/Submitting_to_the_iOS_App_Store
 12. Unlock using the password in step 10.
 
 #### Install ipa file for testing
-
+Upload to Diawi.com and email the link
 
 
 ## Connect images 
@@ -51,3 +51,10 @@ http://wiki.nsbasic.com/Submitting_to_the_iOS_App_Store
 1. Each question has two images.
 2. Each images needs a square version and a @2x for retina screens.
 3. Each image needs a normal (uncropped version) and a @2x for retina screens.
+
+
+## Line endings
+- Git doesn't like .svg files sometimes and gets confused about line endings
+- use `cmd+shift+P` then `Line Endings Unify`
+- enter svg as the file extension
+- the plugin will convert it to the correct line ending
