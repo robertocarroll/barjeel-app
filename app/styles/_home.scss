@@ -12,6 +12,19 @@
 	background-color: $barjeel-red;
 }
 
+.icon {
+	display: block;
+  width: 3em;
+  height: 3em;
+  margin: auto;
+  margin-bottom: $base-spacing-unit-small;
+}
+
+.play-icon {
+  background: url(../images/play.svg) no-repeat scroll center transparent;
+  background-size: 3em 3em;
+}
+
 .connect {
 	background-color: $barjeel-grey;
 }

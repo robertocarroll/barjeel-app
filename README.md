@@ -11,6 +11,7 @@ barjeel-app
 - 'grunt-gh-pages' task copies the dist to gh-pages branch 
 - This version can be viewed at http://robertocarroll.com/barjeel-app
 - Phonegap Build picks up the gh-pages branch version
+- Here's a [config.xml example](https://raw.githubusercontent.com/wildabeast/PhoneGapBuildTester/master/config.xml)
 
 ## Content
 - Content is in the 'data' folder: https://github.com/robertocarroll/barjeel-app/tree/master/app/data

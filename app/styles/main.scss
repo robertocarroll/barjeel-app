@@ -130,6 +130,11 @@ p {
 	height: 100%;
 }
 
+// Fix for ios8 issue see https://github.com/twbs/ratchet/issues/724
+.content > * {
+  @include transform(translateZ(1));
+}
+
 @import "compass";
 * {
   box-sizing: border-box;

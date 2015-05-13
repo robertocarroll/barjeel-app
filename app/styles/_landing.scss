@@ -1,5 +1,3 @@
-
-
 .block-centre-landing {
 	position:relative;
   display: block;
@@ -7,6 +5,19 @@
   left:50%;
   -webkit-transform: translate(-50%, -50%);
 	width: 65%;
+}
+
+.icon-landing {
+	display: block;
+  width: 3em;
+  height: 3em;
+  margin: auto;
+  margin-bottom: $base-spacing-unit-small;
+}
+
+.play-icon-landing {
+  background: url(../images/play.svg) no-repeat scroll center transparent;
+  background-size: 3em 3em;
 }
  
 .landing-title {
