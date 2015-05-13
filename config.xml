@@ -9,6 +9,15 @@
 	<description>An app for Barjeel Art Foundation.</description>
 
 	<preference name="phonegap-version" value="3.7.0" />
+	<preference name="orientation" value="default" />        
+	<!-- all: possible values handset, tablet, or universal -->
+  <preference name="target-device" value="universal" />    
+  <!-- all: hides the status bar at the top of the screen -->  
+  <preference name="fullscreen" value="true" />           
+ 	<preference name="load-url-timeout" value="1000" />
+
+	<!-- ios: black-translucent will appear black because the PhoneGap webview doesn't go beneath the status bar -->     
+  <preference name="ios-statusbarstyle" value="black-opaque" />  
 
 	<author href="http://wearethoughtfox.com" email="hello@wearethoughtfox.com">
 		Clint McLean, Una Janicijevic, Rob Carroll 
@@ -18,5 +27,48 @@
    <gap:platform name="android" minVersion="2.3" />
    <gap:platform name="ios" />
 </gap:platforms>
+
+	<!-- icons -->
+    <!-- Define app icon for each platform. -->
+   <icon src="icon.png" />
+    <platform name="ios">
+    <!-- MISSING -->	
+        <!-- iOS 7.0+ -->
+        <!-- iPhone / iPod Touch 60 and 120  -->
+        <icon src="/data/images/icons/ios/icon-60.png" width="60" height="60" />
+        <icon src="/data/images/icons/ios/icon-60@2x.png" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="/data/images/icons/ios/icon-76.png" width="76" height="76" />
+        <icon src="/data/images/icons/ios/icon-76@2x.png" width="152" height="152" />
+        <!-- iOS 6.1 -->
+        <!-- Spotlight Icon 40 and 80-->
+
+        <!-- iPhone / iPod Touch -->
+        <icon src="/data/images/icons/ios/icon.png" width="57" height="57" />
+        <icon src="/data/images/icons/ios/icon@2x.png" width="114" height="114" />
+        <!-- iPad -->
+        <icon src="/data/images/icons/ios/icon-72.png" width="72" height="72" />
+        <icon src="/data/images/icons/ios/icon-72@2x.png" width="144" height="144" />
+        <!-- iPhone Spotlight and Settings Icon -->
+        <icon src="/data/images/icons/ios/icon-small.png" width="29" height="29" />
+        <icon src="/data/images/icons/ios/icon-small@2x.png" width="58" height="58" />
+        <!-- iPad Spotlight and Settings Icon -->
+        <icon src="/data/images/icons/ios/icon-48.png" width="48" height="48" />
+ <!-- MISSING -->
+        <icon src="/data/images/icons/ios/icon-48@2x.png" width="96" height="96" />
+        <!-- Document icon -->
+        <icon src="/data/images/icons/ios/icon-320.png" width="320" height="320" />
+        <!-- iTunes Used in iTunes and in the App Store sized down to 175px  -->
+        <icon src="/data/images/icons/ios/icon-1024.png" width="1024" height="1024" />
+    </platform>
+    <platform name="android">
+      <icon src="/data/images/icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
+    	<icon src="/data/images/icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
+    	<icon src="/data/images/icons/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
+    	<icon src="/data/images/icons/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
+    	<icon src="/data/images/icons/android/icon-144-xxhdpi.png"  gap:platform="android"    gap:density="xxhdpi" />
+    	<icon src="/data/images/icons/android/icon-196-xxxhdpi.png"  gap:platform="android"    gap:density="xxxhdpi" />
+    	<icon src="/data/images/icons/android/icon-512.png"  gap:platform="android"/>
+    </platform> 	
 
 </widget>
