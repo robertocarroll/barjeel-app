@@ -124,3 +124,9 @@
 	text-transform: uppercase;
 	color: $barjeel-red;
 }
+
+.large-image {
+	background: $barjeel-grey;
+	width: 100%;
+	max-width: 520px;
+}
