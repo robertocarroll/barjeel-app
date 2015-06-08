@@ -20,17 +20,16 @@ Barjeel.Views = Barjeel.Views || {};
 					var elem = document.getElementById('mySwipe');
 
 					window.mySwipe = Swipe(elem, {
-					  // startSlide: 4,
-					  // auto: 3000,
 					   continuous: false,
-					  // disableScroll: true,
-					  // stopPropagation: true,
 					   callback: function(index, element) {
-					   	var pos = mySwipe.getPos() + 1;
-					   	var totalSlides = mySwipe.getNumSlides();
-					   	console.log ('current ' + pos + ' / total ' + totalSlides);
+					   //	var pos = mySwipe.getPos() + 1;
+					   //	var totalSlides = mySwipe.getNumSlides();
+					   //	console.log ('current ' + pos + ' / total ' + totalSlides);
 					   },
-					  // transitionEnd: function(index, element) {}
+
+					   transitionEnd: function(index, elem) {
+			      	$('.content').animate({ scrollTop: 0 }, 100);
+			      }
 					});
 				},
 
@@ -41,11 +40,7 @@ Barjeel.Views = Barjeel.Views || {};
 				        	childView: Barjeel.Views.ConnectListSingleView
 				        });       
 				BarjeelApp.allRegion.show(newConnectView);
-				},
-
-				onDestroy: function(){
-			    
-			  }
+				}
 
     });
 
