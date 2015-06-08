@@ -12,7 +12,8 @@ Barjeel.Views = Barjeel.Views || {};
         regions: {
 		      questionRegion: '#question',
 		      wrongRegion: '#wrong',
-		      livesRegion: '#lives'
+		      livesRegion: '#lives',
+		      modalRegion: '#modal'
 			  },
 
 			  events: {

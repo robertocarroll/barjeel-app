@@ -38,6 +38,10 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 				model: currentQuestion
 			}));
 
+			BarjeelApp.PlayModule.mainLayout.modalRegion.show(new Barjeel.Views.PlayModalView({
+				model: currentQuestion
+			}));
+
 			BarjeelApp.PlayModule.mainLayout.livesRegion.show(new Barjeel.Views.PlayLivesView({
 				model: livesCount 
 			}));
