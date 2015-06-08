@@ -25,6 +25,16 @@
   background-size: 3em 3em;
 }
 
+.connect-icon {
+  background: url(../images/connect.svg) no-repeat scroll center transparent;
+  background-size: 3em 3em;
+}
+
+.discover-icon {
+  background: url(../images/discover.svg) no-repeat scroll center transparent;
+  background-size: 3em 3em;
+}
+
 .connect {
 	background-color: $barjeel-grey;
 }
@@ -52,6 +62,12 @@
     top:50%;
     left:50%;
     -webkit-transform: translate(-50%, -50%);
+
+@media only screen 
+ and (max-device-width: 480px) {
+ 	font-size: 1rem;
+}
+
 }
 
 .home-icons {
