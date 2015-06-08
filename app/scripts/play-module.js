@@ -14,7 +14,7 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 
 	PlayModule.startPlay = function() {
 
-		var playModel = new Barjeel.Models.LandingModel({title: 'play', description: 'Test your knowledge and explore a network of connections hidden within Barjeel’s vast art collection'});	
+		var playModel = new BarjeelApp.LandingModel({title: 'play', description: 'Test your knowledge and explore a network of connections hidden within Barjeel’s vast art collection'});	
 	  var newLandingPlayView = new Barjeel.Views.LandingView({model: playModel});	
 	  BarjeelApp.allRegion.show(newLandingPlayView);
 
