@@ -1,0 +1,146 @@
+[
+	{
+	"id": "1",
+	"title": "Faces",
+	"description": "I was originally for photos to make a selection, but when I saw this set of portraits, I was quite drawn to them. The portraits reflect reflect sadness, loneliness, religion, race and even pop culture.",
+	"curator": "Hind Mezaina",
+	"secret-talent": "Makes a very good ginger cheesecake",
+	"curator-image": "square.jpg",
+	"about": " Photographer and writer www.theculturist.com",
+	"artworks": [
+	{
+		"title":"The Parting",
+		"image":"1-1_Thuraya-Al-Baqsami-11.jpg",
+		"caption":"Thuraya Al Baqsami, Kuwait, Etching, 1991, 35 x 40 cm"
+	},
+	{
+		"title":" Femme et Mur",
+		"image":"1-2_Algeria_Mohammed-Issiakhem.jpg",
+		"caption":"Mohammed Issiakhem, Algeria, Oil on canvas, 162 x 130 cm "
+	},
+   {
+		"title":"Portrait",
+		"image":"1-3_Mohammed-Al-Mazrouie-2.jpg",
+		"caption":"Mohammed Al Mazrouie, UAE, Mixed media on wood, 2011, 37 x 26 x 1.5 cm"
+	},
+   {
+		"title":"Faten",
+		"image":"1-4_Chant-Avedissian-11.jpg",
+		"caption":"Chant Avedissian, Egypt, Gouache on cardboard, 2008, 49 x 69 cm"
+	},
+   {
+		"title":"Nubian Girl",
+		"image":"1-5_Ervand-Demirdjian-Nubian-Girl.jpg",
+		"caption":" Ervand Demerdjian, Armenia, Oil on canvas, undated, 30 x 40 cm"
+	}
+	]
+},
+{
+	"id": "2",	
+	"title": "The Visible and the Invisible",
+	"description": "The body fragments anxiously. A flâneur in a city of bitter disappointments. In Cairo the walker is assaulted in the street; sermons blare through loud speakers, women feel men’s sharp gazes upon them, tanks appear. Resistance: reversing the gaze, erasing oneself, recognising the masquerade of identity; gender, race, class. Destabilise the performance of power then imagine an alternative future.",
+	"curator": "Dr. Alexandra MacGilp",
+	"secret-talent": "Makes a very good ginger cheesecake",
+	"curator-image": "2-Portrait_Ali-MacGilp_400px_square.jpg",
+	"about": "Curator, Maraya Art Centre",
+	"artworks": [
+	{
+		"title":"All-hearing",
+		"image":"2-1_All_Hearing_Lawrence-Abu-Hamdan_1.jpg",
+		"caption":"Lawrence Abu Hamdan, Video, 2014"
+	},
+	{
+		"title":"Evil Eye",
+		"image":"2-2_Evil_Eye_Sophia-Al-Maria_2.jpg",
+		"caption":"Sophia Al Maria, Video, 2014"
+	},
+	{
+		"title":"The fall from Upekkha",
+		"image":"2-3_Nermine-Hammam_The_Fall_from_the_Upekkha.jpg",
+		"caption":"Nermine Hammam, Epson Ultrachrome print, 50 x 50 cm, 2012"
+	},
+	{
+		"title":"Here and Now #2",
+		"image":"2-4_Bashar_Hroub_Here_and_Now_2.jpg",
+		"caption":"Bashar Hroub, C-print, 66 x 100 cm, 2010"
+	},
+	{
+		"title":"Proposal for a Crystal Building",
+		"image":"2-5_Iman-Issa_Proposal_for_Crystal_Building.jpg",
+		"caption":"Iman Issa, Wood, crystals, lights, treated image of the structure 2003, 50 cm x 200 cm"
+	}
+	]
+},
+{
+	"id": "3",	
+	"title": "Politics of Comfort",
+	"description": "Regardless of cultural context, there is an inherent familiarity in the comfort that everyday objects and scenes of interior domesticity offer. In this grouping of works, the objects and/or scenes have been re-purposed and repositioned, serving as documentary evidence on the socio-cultural and political chronicles of recent and ongoing histories in the Arab world.",
+	"curator": "Isabella Ellaheh Hughes",
+	"secret-talent": "Poi Ball twirling",
+	"curator-image": "3-Portait-Isabella_400px_square.jpg",
+	"about": "Artistic Director and Co-Founder, Honolulu Biennial Foundation",
+	"artworks": [
+	{
+		"title":"Food",
+		"image":"3-1_Larissa_Sansour_Food.jpg",
+		"caption":"Larissa Sansour, C-print, 60 x 120 cm, 2012"
+	},
+	{
+		"title":"Micro Council",
+		"image":"3-2_GCC_micro_council_1.jpg",
+		"caption":"GCC Collective, Wood, brass, acrylic glass, glass, 12.6 x 67 x 67 cm, 2013"
+	},
+	{
+		"title":"Monde Arabe Sous Pression",
+		"image":"3-3_Batoul_Shimi_Monde_Arabe_Sous_Pression.jpg",
+		"caption":"Batoul S’himi, Aluminium pressure cooker, 30 x 30 cm, 2013"
+	},
+	{
+		"title":"Infinity",
+		"image":"3-4_Infinity_Mona-Hatoum-3.jpg",
+		"caption":"Mona Hatoum, Bronze, 61 x 34.5 x 34.5 cm, 2009,"
+	},
+	{
+		"title":"Red Television",
+		"image":"3-5Lamya_Gargash_Red_Television.jpg",
+		"caption":"Lamya Gargash, C-print, 60 x 60 cm, 2009"
+	}
+	]
+},
+{
+	"id": "4",	
+	"title": "Modern Egyptian Painting",
+	"description": "As a modernist, I have a soft spot for these works by the fathers of Modern Egyptian Painting and arguably the founders of Modern Arab Art. These five works show how their European artistic training impregnated these three artists’ art, yet further reveal how they infused their paintings with an intrinsic Egyptian touch, forging their own signature styles.",
+	"curator": "Valerie Hess",
+	"secret-talent": "scuba diving with one of the world's deadliest animals",
+	"curator-image": "4-Portrait_valerie_hess_400px_square.jpg",
+	"about": "Director, Business Development, Christie’s Dubai",
+	"artworks": [
+	{
+		"title":"Canal de Mahmoudieh",
+		"image":"4-1_Mahmoud-Said_le_canal_de_mahmoudieh-1.jpg",
+		"caption":"Mahmoud Said, Oil on panel, 27.5 x 45 cm, 1922"
+	},
+	{
+		"title":"Assouan — Les Rochers",
+		"image":"4-2_Mahmoud-Said_aswan_the_rocks-2.jpg",
+		"caption":"Mahmoud Said, Oil on canvas board, 30 x 40 cm, 1949"
+	},
+	{
+		"title":"Le Café a Chypre",
+		"image":"4-3_Mohammed-Naghi_le_cafe_a_chypre_1.jpg",
+		"caption":"Mohammed Naghi, Oil on canvas laid down on masonite, 40 x 59.5 cm, 1950"
+	},
+	{
+		"title":"Paysage d’Italie",
+		"image":"4-4_Mohammed-Naghi_PAYSAGE-D-ITALIE-2.jpg",
+		"caption":"Mohammed Naghi,Oil on panel, 24.5 x 17.5 cm, 1914,"
+	},
+	{
+		"title":"Tempietto in Rome",
+		"image":"4-5_Youssef-Kamel-TEMPIETTO-IN-ROME-4.jpg",
+		"caption":"Youssef Kamel, Oil on canvas, 1925, 38 x 28 cm"
+	}
+	]
+}
+]
