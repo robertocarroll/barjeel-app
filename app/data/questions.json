@@ -1,21 +1,33 @@
 [
  {
     "id": 1,
-    "question": "‘Demoncracy’ by Kader Attia And ‘Plotting Table’ by Mona Hatoum",
+    "question": "‘Demoncracy’ by Kader Attia <span class=\"red\">and<\/span> ‘Plotting Table’ by Mona Hatoum",
     "choices": ["Both artworks use light as a central element", "Both are by artists born in Iraq", "Both are guache and ink artworks"],
     "correctAnswer": 0,
     "explanation": "Both artworks use light as a central element.",
     "firstArtwork": "1_Demoncracy",
-    "secondArtwork": "1_Plotting-Table"
+    "firstArtworkTitle": "Demoncracy",
+   	"firstArtworkArtist": "Kader Attia",
+   	"firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/kader-attia-demoncracy.jpg",
+    "secondArtwork": "1_Plotting-Table",
+    "secondArtworkTitle": "Plotting Table",
+    "secondArtworkArtist": "Mona Hatoum",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/01/Mona-Hatoum-Plotting-Table-1998-xvga-8.jpg"
   },
    {
     "id": 2,
-    "question": "‘Open Gate’ and ‘Tempietto in Rome’",
+    "question": "‘Open Gate’ <span class=\"red\">and<\/span> ‘Tempietto in Rome’",
     "choices": ["Both are works painted by Youssef Kamel", "Both are works created by Farid Belkahia", "Both are works made in 1925"],
     "correctAnswer": 0,
     "explanation": "They were both painted by Egyptian artist Youssef Kamel.",
     "firstArtwork": "2_Open_Gate",
-    "secondArtwork": "2_Tempietto"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "2_Tempietto",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
    {
     "id": 3,
@@ -24,7 +36,13 @@
     "correctAnswer": 2,
     "explanation": "Both artworks are photography-based.",
     "firstArtwork": "3_Big_Baba",
-    "secondArtwork": "3_Samry"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "3_Samry",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
    {
     "id": 4,
@@ -33,7 +51,13 @@
     "correctAnswer": 1,
     "explanation": "Al Kazi and Khalaf are both Kuwaiti nationals.",
     "firstArtwork": "4_Adel_Al_Khalaf",
-    "secondArtwork": "4_Munira_Al_Kazi"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "4_Munira_Al_Kazi",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
    {
     "id": 5,
@@ -42,7 +66,13 @@
     "correctAnswer": 0,
     "explanation": "Both artists make use of Arabic calligraphy in these works.",
     "firstArtwork": "5_ASCENSION_XIII",
-    "secondArtwork": "5_If_Ever_Forgetful_Mention_Allah"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "5_If_Ever_Forgetful_Mention_Allah",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
     {
     "id": 6,
@@ -51,7 +81,13 @@
     "correctAnswer": 3,
     "explanation": "Answer 6 Both of these Emirati artists has used performance in their art practice.",
     "firstArtwork": "1_Demoncracy.jpg",
-    "secondArtwork": "1_Plotting-Table.jpg"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "1_Plotting-Table.jpg",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
     {
     "id": 7,
@@ -59,7 +95,13 @@
     "choices": ["Both helped define a new style called Primacolor", "Both were in the exhibition RE: Orient", "Both are large murals"],
     "explanation": "Answer 7 Both artworks were part of Barjeel's 2014 exhibit RE: Orient.",
     "firstArtwork": "1_Demoncracy.jpg",
-    "secondArtwork": "1_Plotting-Table.jpg"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "1_Plotting-Table.jpg",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
     {
     "id": 8,
@@ -68,7 +110,13 @@
     "correctAnswer": 1,
     "explanation": "Answer 8 Both artworks feature a cactus in a window.",
     "firstArtwork": "1_Demoncracy.jpg",
-    "secondArtwork": "1_Plotting-Table.jpg"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "1_Plotting-Table.jpg",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
     {
     "id": 9,
@@ -77,7 +125,13 @@
     "correctAnswer": 2,
     "explanation": "Answer 9 Al Baqsami and Al Yousif are well known for using a lino-cut print technique.",
     "firstArtwork": "1_Demoncracy.jpg",
-    "secondArtwork": "1_Plotting-Table.jpg"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "1_Plotting-Table.jpg",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
     {
     "id": 10,
@@ -86,14 +140,28 @@
     "correctAnswer": 2,
     "explanation": "Answer 10 Each employs bold colours and geometric shapes.",
     "firstArtwork": "1_Demoncracy.jpg",
-    "secondArtwork": "1_Plotting-Table.jpg"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "1_Plotting-Table.jpg",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
     {
     "id": 11,
     "question": "11. What's the connection - 11? MOHAMAD-SAID BAALBAKI’S WORK ‘ONE HAND CANNOT CLAP ALONE’ AND MONA HATOUM’S WORK ‘WITNESS’",
     "choices": ["Both were inspired by the ‘Place des Martyres’ monument in Beirut", "Both were produced in the 1990s   ", "Both were made by Syrian artists"],
     "correctAnswer": 1,
-    "explanation": "Answer 11 Both were inspired by the ‘Place des Martyres’ monument in Beirut."
+    "explanation": "Answer 11 Both were inspired by the ‘Place des Martyres’ monument in Beirut.",
+    "firstArtwork": "1_Demoncracy.jpg",
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "1_Plotting-Table.jpg",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
     {
     "id": 12,
@@ -102,7 +170,13 @@
     "correctAnswer": 3,
     "explanation": "Answer 12 These artworks address the events of Sabra and Shatila.",
     "firstArtwork": "1_Demoncracy.jpg",
-    "secondArtwork": "1_Plotting-Table.jpg"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "1_Plotting-Table.jpg",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
     {
     "id": 13,
@@ -111,7 +185,13 @@
     "correctAnswer": 0,
     "explanation": "Answer 13 The arabic text in this work is abstracted through geometry.",
     "firstArtwork": "1_Demoncracy.jpg",
-    "secondArtwork": "1_Plotting-Table.jpg"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "1_Plotting-Table.jpg",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
     {
     "id": 14,
@@ -120,7 +200,13 @@
     "correctAnswer": 3,
     "explanation": "Answer 14 Both artists use the olive tree as an icon to represent Palestinian identity.",
     "firstArtwork": "1_Demoncracy.jpg",
-    "secondArtwork": "1_Plotting-Table.jpg"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "1_Plotting-Table.jpg",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   },
     {
     "id": 15,
@@ -129,6 +215,12 @@
     "correctAnswer": 0,
     "explanation": "Answer 15 These works were produced during the artists’ teenage years.",
     "firstArtwork": "1_Demoncracy.jpg",
-    "secondArtwork": "1_Plotting-Table.jpg"
+    "firstArtworkTitle": "todo",
+   	"firstArtworkArtist": "todo",
+   	"firstArtworkUrl": "todo",
+    "secondArtwork": "1_Plotting-Table.jpg",
+    "secondArtworkTitle ": "todo",
+    "secondArtworkArtist": "todo",
+    "secondArtworkUrl": "todo"
   }
 ]  

@@ -24,7 +24,7 @@
 }
 
 .question {
-	color: $barjeel-blue;
+	color: $barjeel-grey;
 	font-size: $barjeel-heading-size-4;
 	line-height: $barjeel-line-height-4; 
 	padding-bottom: $base-spacing-unit;
@@ -131,4 +131,9 @@
 	background: $barjeel-grey;
 	width: 100%;
 	max-width: 520px;
+}
+
+.score {
+	text-transform: uppercase;
+	margin-bottom: -10px;
 }
