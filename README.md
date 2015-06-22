@@ -37,7 +37,6 @@ http://wiki.nsbasic.com/Submitting_to_the_iOS_App_Store
 #### Install ipa file for testing
 Upload to Diawi.com and email the link
 
-
 ## Connect images 
 *In data/images/connect-images with the names specified in data/connect.json*
 
