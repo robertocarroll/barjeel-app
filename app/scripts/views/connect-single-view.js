@@ -39,7 +39,7 @@ Barjeel.Views = Barjeel.Views || {};
 				        	collection: connectCollection,
 				        	childView: Barjeel.Views.ConnectListSingleView
 				        });       
-				BarjeelApp.allRegion.show(newConnectView);
+				BarjeelApp.allRegion.showAnimated(newConnectView, { animationType: 'slideRight' });
 				}
 
     });
