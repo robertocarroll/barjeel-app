@@ -3,7 +3,7 @@ BarjeelApp.module("ConnectModule", function(ConnectModule, BarjeelApp, Backbone,
 	ConnectModule.startConnect = function() {
 		var connectModel = new BarjeelApp.LandingModel({title: 'connect', description: 'Meet art lovers and leading experts as they present some of Barjeel’s greatest hits in curated mini-exhibits'});	
 		var newLandingConnectView = new Barjeel.Views.LandingView({model: connectModel});	
-		BarjeelApp.allRegion.show(newLandingConnectView);
+		BarjeelApp.allRegion.showAnimated(newLandingConnectView, { animationType: 'slideLeft' });
 	}		
 
 });	

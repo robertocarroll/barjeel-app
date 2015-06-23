@@ -13,11 +13,9 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 
 
 	PlayModule.startPlay = function() {
-
 		var playModel = new BarjeelApp.LandingModel({title: 'play', description: 'Test your knowledge and explore a network of connections hidden within Barjeel’s vast art collection'});	
 	  var newLandingPlayView = new Barjeel.Views.LandingView({model: playModel});	
-	  BarjeelApp.allRegion.show(newLandingPlayView);
-
+	  BarjeelApp.allRegion.showAnimated(newLandingPlayView, { animationType: 'slideLeft' });
 	}	
 
 	PlayModule.startQuiz = function() {
@@ -32,7 +30,7 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 			var livesCount =  PlayModule.gameState;
 			var currentQuestion = BarjeelApp.PlayModule.newCollection.models[questionCount];
 
-			BarjeelApp.allRegion.show(BarjeelApp.PlayModule.mainLayout);
+			BarjeelApp.allRegion.showAnimated(BarjeelApp.PlayModule.mainLayout, { animationType: 'slideLeft' });
 
 			BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayQuestionView({
 				model: currentQuestion
