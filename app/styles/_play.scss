@@ -41,7 +41,7 @@
 	padding-bottom: $base-spacing-unit-small;
 }
 
-.questionOption:before {
+.questionOption span:before {
   content: '';
   display: inline-block;
   width: 0.5em;
@@ -49,7 +49,7 @@
   vertical-align: 0.12em;
   border-radius: 1em;
   box-shadow: 0 0 0 0.08em grey;
-  margin-right: 0.25em;
+  margin-right: 0.5em;
   transition: 0.5s ease all;
   margin-left: -1em;
 }
@@ -110,7 +110,7 @@
 }
 
 
-.active:before {
+.active span:before {
 	background: $barjeel-grey;
 }
 
