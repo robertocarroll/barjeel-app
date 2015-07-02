@@ -5,21 +5,29 @@ Barjeel.Views = Barjeel.Views || {};
 (function () {
     'use strict';
 
-    Barjeel.Views.DiscoverView = Backbone.View.extend({
+    Barjeel.Views.DiscoverView = Backbone.Marionette.CompositeView.extend({
 
-    		events: {
+    		initialize : function () {
+    				console.log ('initialise - fetching collection from DiscoverView');
+            this.listenTo(this.collection, "reset", this.render);
+            this.collection.fetch();
+        },
 
-   			 },
+    		template: JST['app/scripts/templates/discover-view.hbs'], 	
+    		childView: Barjeel.Views.DiscoverListSingleView,
+    		childViewContainer: "#list",
+    		tagName : 'div',
+        className: 'wrapper',
 
-        template: JST['app/scripts/templates/discover-view.hbs'],
+        events: {
+				  'touchend #discoverBack': 'backHome'
+				},
 
-        className: 'discover',
-
-        render: function() {
-
-					this.$el.html(this.template());
-					return this;
-        }
+        backHome: function(){
+        	console.log ("Back Home tap fired");
+					var homeView = new Barjeel.Views.HomeView(); 
+					BarjeelApp.allRegion.showAnimated(homeView, { animationType: 'slideRight' });
+				}
 
     });
 

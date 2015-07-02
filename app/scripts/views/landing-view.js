@@ -45,7 +45,12 @@ Barjeel.Views = Barjeel.Views || {};
   					this.$(".discover").swipe({
                 //Generic swipe handler for all directions
                 swipeLeft:function(event, direction, distance, duration, fingerCount) {
-                	BarjeelApp.PlayModule.startQuiz	();	          
+                	var discoverCollection = new Barjeel.Collections.DiscoverCollection();
+                	var newDiscoverView = new Barjeel.Views.DiscoverView({				        	
+									        	collection: discoverCollection,
+									        	childView: Barjeel.Views.DiscoverListSingleView
+									        });  
+									BarjeelApp.allRegion.showAnimated(newDiscoverView, { animationType: 'slideLeft' });      
 				        },
 
 				        swipeRight:function(event, direction, distance, duration, fingerCount) {

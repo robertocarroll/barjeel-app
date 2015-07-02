@@ -11,7 +11,7 @@ Barjeel.Views = Barjeel.Views || {};
             console.log('connect - itemviewrender');
         },
 
-        template: JST['app/scripts/templates/connect—list-single-view.hbs'],
+        template: JST['app/scripts/templates/connect-list-single-view.hbs'],
         tagName : 'div',
         className: 'connect-list',
 
