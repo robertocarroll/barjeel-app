@@ -32,7 +32,6 @@
     <!-- Define app icon for each platform. -->
    <icon src="icon.png" />
     <platform name="ios">
-    <!-- MISSING -->	
         <!-- iOS 7.0+ -->
         <!-- iPhone / iPod Touch 60 and 120  -->
         <icon src="data/images/icons/ios/icon-60.png" width="60" height="60" />
