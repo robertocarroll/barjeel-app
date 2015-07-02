@@ -37,6 +37,13 @@ Barjeel.Views = Barjeel.Views || {};
 
 				else {
 					console.log ("no more questions");
+					var livesCount =  BarjeelApp.PlayModule.gameState;
+								
+					BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayWinGameOverView({
+						model: livesCount
+					}));
+
+					BarjeelApp.PlayModule.mainLayout.livesRegion.$el.hide();
 				}
 
 				

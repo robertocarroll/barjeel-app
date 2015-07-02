@@ -15,15 +15,7 @@ Barjeel.Views = Barjeel.Views || {};
 
 				playAgain: function(e) {
 					BarjeelApp.PlayModule.startQuiz();
-				},
-
-			   modelEvents: {
-			        'change': 'lifeLost'
-			    },
-
-			    lifeLost: function() {
-			        this.render();
-			    }
+				}
 
     });
 
