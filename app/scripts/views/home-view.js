@@ -25,9 +25,7 @@ Barjeel.Views = Barjeel.Views || {};
   			},
 
   			loadDiscover:function(e) {
-	  			var discoverModel = new Barjeel.Models.LandingModel({title: 'discover', description: 'Watch and listen as Barjeel’s founder Sultan Sooud Al Qassemi and special guests give a behind the scenes look at works from the Barjeel collection'});	
-	  			var newLandingDiscoverView = new Barjeel.Views.LandingView({model: discoverModel});	
-	  			
+	  			BarjeelApp.DiscoverModule.startDiscover();
   			}
 
 			});

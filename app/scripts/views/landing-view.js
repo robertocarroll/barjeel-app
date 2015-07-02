@@ -12,6 +12,19 @@ Barjeel.Views = Barjeel.Views || {};
   			onRender: function() {
 
   				console.log ("rendering");
+
+  				this.$(".play").swipe({
+                //Generic swipe handler for all directions
+                swipeLeft:function(event, direction, distance, duration, fingerCount) {
+                	BarjeelApp.PlayModule.startQuiz	();	          
+				        },
+
+				        swipeRight:function(event, direction, distance, duration, fingerCount) {
+				       	 var homeView = new Barjeel.Views.HomeView(); 
+									BarjeelApp.allRegion.showAnimated(homeView, { animationType: 'slideRight' });
+				        }
+            });
+  				
   				this.$(".connect").swipe({
                 //Generic swipe handler for all directions
                 swipeLeft:function(event, direction, distance, duration, fingerCount) {
@@ -29,7 +42,7 @@ Barjeel.Views = Barjeel.Views || {};
 				        }
             });	
 
-  				this.$(".play").swipe({
+  					this.$(".discover").swipe({
                 //Generic swipe handler for all directions
                 swipeLeft:function(event, direction, distance, duration, fingerCount) {
                 	BarjeelApp.PlayModule.startQuiz	();	          
@@ -40,6 +53,8 @@ Barjeel.Views = Barjeel.Views || {};
 									BarjeelApp.allRegion.showAnimated(homeView, { animationType: 'slideRight' });
 				        }
             });
+
+  				
 				}
 
     });
