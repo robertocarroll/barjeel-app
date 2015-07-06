@@ -17,3 +17,18 @@
 .discover-list:nth-child(odd) {
     background-color: $barjeel-light-grey;
 }
+
+.curator-heading-list-discover {
+	@extend .delta;
+	text-transform: uppercase;
+	color: $barjeel-red;
+	text-align: center;
+	margin-bottom: 0;
+	padding-top: $base-spacing-unit-smallest;
+}
+
+.discover-heading-list {
+	@extend .delta;
+	color: $barjeel-grey;
+	text-align: center;
+}
