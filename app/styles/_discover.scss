@@ -3,3 +3,17 @@
 	color: white;
 	text-transform: uppercase;
 }
+
+.circle-container-list-discover {
+	max-width: $base-spacing-unit*12;
+	padding: 0;
+	margin: auto;
+}
+
+.discover-list {
+	padding: $base-spacing-unit*2 0;
+}
+
+.discover-list:nth-child(odd) {
+    background-color: $barjeel-light-grey;
+}

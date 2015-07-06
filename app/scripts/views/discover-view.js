@@ -15,7 +15,7 @@ Barjeel.Views = Barjeel.Views || {};
 
     		template: JST['app/scripts/templates/discover-view.hbs'], 	
     		childView: Barjeel.Views.DiscoverListSingleView,
-    		childViewContainer: "#list",
+    		childViewContainer: "#list-discover",
     		tagName : 'div',
         className: 'wrapper',
 
