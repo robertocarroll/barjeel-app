@@ -5,25 +5,18 @@ Barjeel.Views = Barjeel.Views || {};
 (function () {
     'use strict';
 
-    Barjeel.Views.PlayWinGameOverView = Backbone.View.extend({
+    Barjeel.Views.PlayWinGameOverView = Backbone.Marionette.ItemView.extend({
 
-        template: JST['app/scripts/templates/play-win—game-over-view.hbs'],
+        template: JST['app/scripts/templates/play-win-game-over-view.hbs'],
 
-        tagName: 'div',
+        events: {
+					"touchend .play-again": "playAgain",
+				},
 
-        id: '',
+				playAgain: function(e) {
+					BarjeelApp.PlayModule.startQuiz();
+				}
 
-        className: '',
-
-        events: {},
-
-        initialize: function () {
-            this.listenTo(this.model, 'change', this.render);
-        },
-
-        render: function () {
-            this.$el.html(this.template(this.model.toJSON()));
-        }
 
     });
 
