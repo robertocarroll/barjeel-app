@@ -13,6 +13,11 @@ Barjeel.Views = Barjeel.Views || {};
 
         template: JST['app/scripts/templates/play-question-view.hbs'],
 
+        onDomRefresh: function(){ 
+			  	$('.content').animate({ scrollTop: 0 }, 100);
+			  	console.log ('scrolled content');
+			  },	
+
         events: {
         	"touchend .questionOption": "checkAnswer"
 				},

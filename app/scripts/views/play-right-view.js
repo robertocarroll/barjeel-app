@@ -7,16 +7,21 @@ Barjeel.Views = Barjeel.Views || {};
 
     Barjeel.Views.PlayRightView = Backbone.Marionette.ItemView.extend({
 
-    		initialize: function(){
-    			console.log ("Right view initialised" + JSON.stringify(BarjeelApp.PlayModule.gameState));
-    		},
+  		initialize: function(){
+  			console.log ("Right view initialised" + JSON.stringify(BarjeelApp.PlayModule.gameState));
+  		},
 
-        template: JST['app/scripts/templates/play-right-view.hbs'],
+      template: JST['app/scripts/templates/play-right-view.hbs'],
 
-        events: {
-					"touchend .next": "nextQuestion",
-				},
+      events: {
+				"touchend .next": "nextQuestion",
+			},
 
+			onDomRefresh: function(){ 
+			  	$('.content').animate({ scrollTop: 0 }, 100);
+			  	console.log ('scrolled content');
+			  },	
+			  
 			nextQuestion: function(e) {
 				console.log ("Next QUESTION FIRED: " + JSON.stringify(BarjeelApp.PlayModule.gameState));
 				var questionCount =  BarjeelApp.PlayModule.gameState.get ("questionCount");
