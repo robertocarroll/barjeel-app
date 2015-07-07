@@ -12,7 +12,8 @@
     "secondArtwork": "1_Plotting-Table",
     "secondArtworkTitle": "Plotting Table",
     "secondArtworkArtist": "Mona Hatoum",
-    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/01/Mona-Hatoum-Plotting-Table-1998-xvga-8.jpg"
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/01/Mona-Hatoum-Plotting-Table-1998-xvga-8.jpg",
+    "use": true
   },
    {
     "id": 2,
@@ -27,7 +28,8 @@
     "secondArtwork": "2_Tempietto",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
    {
     "id": 3,
@@ -42,7 +44,8 @@
     "secondArtwork": "3_Samry",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
    {
     "id": 4,
@@ -57,7 +60,8 @@
     "secondArtwork": "4_Munira_Al_Kazi",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
    {
     "id": 5,
@@ -72,7 +76,8 @@
     "secondArtwork": "5_If_Ever_Forgetful_Mention_Allah",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
     {
     "id": 6,
@@ -87,7 +92,8 @@
     "secondArtwork": "1_Plotting-Table.jpg",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
     {
     "id": 7,
@@ -101,7 +107,8 @@
     "secondArtwork": "1_Plotting-Table.jpg",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
     {
     "id": 8,
@@ -116,7 +123,8 @@
     "secondArtwork": "1_Plotting-Table.jpg",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
     {
     "id": 9,
@@ -131,7 +139,8 @@
     "secondArtwork": "1_Plotting-Table.jpg",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
     {
     "id": 10,
@@ -146,7 +155,8 @@
     "secondArtwork": "1_Plotting-Table.jpg",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
     {
     "id": 11,
@@ -161,7 +171,8 @@
     "secondArtwork": "1_Plotting-Table.jpg",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
     {
     "id": 12,
@@ -176,7 +187,8 @@
     "secondArtwork": "1_Plotting-Table.jpg",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
     {
     "id": 13,
@@ -191,7 +203,8 @@
     "secondArtwork": "1_Plotting-Table.jpg",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
     {
     "id": 14,
@@ -206,10 +219,11 @@
     "secondArtwork": "1_Plotting-Table.jpg",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   },
     {
-    "id": 15,
+    "id": 16,
     "question": "15. What's the connection - 15? ALI AL ABDAN’S WORK ‘ON AL KHAN BEACH’ AND BAYA’S ‘FEMME A LA ROBE ROSE’",
     "choices": ["Both were produced during the artists’ teenage years", "Both were made by Algerian artists", "Both use watercolour as a medium"],
     "correctAnswer": 0,
@@ -221,6 +235,7 @@
     "secondArtwork": "1_Plotting-Table.jpg",
     "secondArtworkTitle ": "todo",
     "secondArtworkArtist": "todo",
-    "secondArtworkUrl": "todo"
+    "secondArtworkUrl": "todo",
+    "use": true
   }
 ]  
