@@ -13,6 +13,14 @@ Barjeel.Views = Barjeel.Views || {};
 
       template: JST['app/scripts/templates/play-right-view.hbs'],
 
+      onRender: function () {
+        	this.$el.find('img').on('load', function() { 
+        		$('.wrap').hide().fadeIn(500);
+        		console.log("Finding image"); 
+        	});
+        	return this;   	
+        },
+
       events: {
 				"touchend .next": "nextQuestion",
 			},

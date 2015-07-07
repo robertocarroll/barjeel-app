@@ -7,8 +7,12 @@ Barjeel.Views = Barjeel.Views || {};
 
     Barjeel.Views.ConnectListSingleView = Marionette.ItemView.extend({
 
-    		initialize : function () {
-            console.log('connect - itemviewrender');
+        onRender: function () {
+        	this.$el.find('img').on('load', function() { 
+        		$('.circle-container-list').hide().fadeIn(500);
+        		console.log("Finding image"); 
+        	});
+        	return this;   	
         },
 
         template: JST['app/scripts/templates/connect-list-single-view.hbs'],

@@ -7,8 +7,12 @@ Barjeel.Views = Barjeel.Views || {};
 
     Barjeel.Views.DiscoverListSingleView = Marionette.ItemView.extend({
 
-    		initialize : function () {
-            console.log('discover - itemviewrender');
+        onRender: function () {
+        	this.$el.find('img').on('load', function() { 
+        		$('.circle-container-list-discover').hide().fadeIn(500);
+        		console.log("Finding image"); 
+        	});
+        	return this;   	
         },
 
         template: JST['app/scripts/templates/discover-list-single-view.hbs'],
