@@ -15,10 +15,10 @@ Barjeel.Views = Barjeel.Views || {};
 
 				playAgain: function(e) {
 					//set game in progress to false and add it to localstorage
-					PlayModule.gameState.set({
+					BarjeelApp.PlayModule.gameState.set({
 						gameInProgress: false
 					});
-					localStorage.setItem('game-state', JSON.stringify(PlayModule.gameState.toJSON()));
+					localStorage.setItem('game-state', JSON.stringify(BarjeelApp.PlayModule.gameState.toJSON()));
 
 					//restart the quiz
 					BarjeelApp.PlayModule.startQuiz();

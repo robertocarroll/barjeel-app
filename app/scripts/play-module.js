@@ -22,6 +22,7 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 				//add data to local storage
 				localStorage.setItem('questions', JSON.stringify(PlayModule.newCollection.toJSON()));
 				PlayModule.mainLayout = new Barjeel.Views.PlayMainView();
+				PlayModule.gameState = new Barjeel.Models.PlayGameStateModel();
 				//set game in progress to true and add it to localstorage
 				PlayModule.gameState.set({
 					gameInProgress: true
