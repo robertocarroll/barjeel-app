@@ -16,7 +16,16 @@ Barjeel.Views = Barjeel.Views || {};
   				this.$(".play").swipe({
                 //Generic swipe handler for all directions
                 swipeLeft:function(event, direction, distance, duration, fingerCount) {
-                	BarjeelApp.PlayModule.startQuiz	();	          
+
+                  var gameState = JSON.parse(localStorage.getItem('game-state'));      
+                  if (gameState.gameInProgress) {
+                  	BarjeelApp.PlayModule.resumeQuiz();
+                  }
+                	
+                	else {
+                		BarjeelApp.PlayModule.startQuiz();	
+                	}
+                	
 				        },
 
 				        swipeRight:function(event, direction, distance, duration, fingerCount) {

@@ -42,10 +42,6 @@ Barjeel.Views = Barjeel.Views || {};
 					BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayQuestionView({
 						model: currentQuestion
 					}));	
-
-					BarjeelApp.PlayModule.mainLayout.modalRegion.show(new Barjeel.Views.PlayModalView({
-						model: currentQuestion
-					}));
 				}
 
 				else {
