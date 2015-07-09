@@ -16,8 +16,14 @@
   <preference name="fullscreen" value="true" />           
  	<preference name="load-url-timeout" value="1000" />
 
-	<!-- ios: black-translucent will appear black because the PhoneGap webview doesn't go beneath the status bar -->     
-  <preference name="ios-statusbarstyle" value="black-opaque" />  
+	<!-- ios: status bar stuff -->     
+ 	<gap:plugin name="org.apache.cordova.statusbar" />
+	 <feature name="StatusBar">
+      <param name="ios-package" onload="true" value="CDVStatusBar" />
+  </feature>
+  <preference name="StatusBarOverlaysWebView" value="false" />
+  <preference name="StatusBarStyle" value="darkcontent" />
+
 
 	<author href="http://wearethoughtfox.com" email="hello@wearethoughtfox.com">
 		Clint McLean, Una Janicijevic, Rob Carroll 
