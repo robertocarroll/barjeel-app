@@ -34,25 +34,17 @@ Barjeel.Views = Barjeel.Views || {};
 					$('.questionOption').not(active).removeClass('active');
 					var active = $(e.currentTarget);
 					active.addClass('active');
-
 					var answer = active.data('answer');
-
 					this.select(parseInt(answer, 10));
-
 					var currentSelection = this.model.get("selected"),
 					correctAnswer = this.model.get("correctAnswer");
 
 					if (currentSelection === correctAnswer) {
-
 						var counterTemp = BarjeelApp.PlayModule.gameState.get ("correctCounter");
 						counterTemp +=1;
-						BarjeelApp.PlayModule.gameState.set(("correctCounter"), counterTemp); 
-						
+						BarjeelApp.PlayModule.gameState.set(("correctCounter"), counterTemp); 						
 						this.model.set("correct", true);
-					
-						var questionCount =  BarjeelApp.PlayModule.gameState.get ("questionCount");
-						var currentQuestion = BarjeelApp.PlayModule.newCollection.models[questionCount];
-
+						var currentQuestion = this.model;
 						BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayRightView({
 								model: currentQuestion
 							}));
@@ -62,15 +54,12 @@ Barjeel.Views = Barjeel.Views || {};
 						var livesTemp = BarjeelApp.PlayModule.gameState.get ("gamelives");
 						livesTemp -=1;
 						BarjeelApp.PlayModule.gameState.set(("gamelives"), livesTemp); 
-
 						this.model.set("correct", false);
-						this.checkLives();
-						
+						this.checkLives();			
 					}
 				},
 
 					checkLives: function() {
-
 						var livesTemp = BarjeelApp.PlayModule.gameState.get ("gamelives");
 
 							if (livesTemp > 0) {
@@ -80,8 +69,7 @@ Barjeel.Views = Barjeel.Views || {};
 							}
 
 							else {
-								var livesCount =  BarjeelApp.PlayModule.gameState;
-								
+								var livesCount =  BarjeelApp.PlayModule.gameState;					
 								BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayGameOverView({
 									model: livesCount
 								}));

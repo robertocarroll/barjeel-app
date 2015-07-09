@@ -40,7 +40,7 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 	}
 
 	PlayModule.getQuestion = function() {
-		
+
 		//get questions from localstorage
 		var newLocalCollection = new Barjeel.Collections.PlayCollection(JSON.parse(localStorage.getItem('questions')));
 
@@ -51,6 +51,8 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 			})
 			.pluck('id')
 			.value();
+
+			console.log(questions);
 
 		if (questions.length > 0) {
 			// get random ID from question ID array     
@@ -81,6 +83,17 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 			}));
 			BarjeelApp.PlayModule.mainLayout.livesRegion.$el.show();
 		}
+
+		//if there's not more questions
+    else {
+        console.log("No more questions");
+        var livesCount =  BarjeelApp.PlayModule.gameState;								
+				BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayWinGameOverView({
+					model: livesCount
+				}));
+				BarjeelApp.PlayModule.mainLayout.livesRegion.$el.hide();
+    }
+
 	}
 
 });
