@@ -3,7 +3,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "org.barjeelartfoundation.barjeel"
-        version   = "1.1.0">
+        version   = "1.1.1">
 
 	<name>Barjeel Art Foundation</name>
 	<description>An app for Barjeel Art Foundation.</description>
@@ -12,9 +12,9 @@
 	<preference name="orientation" value="default" />        
 	<!-- all: possible values handset, tablet, or universal -->
   <preference name="target-device" value="universal" />    
-  <!-- all: hides the status bar at the top of the screen -->  
-  <preference name="fullscreen" value="true" />           
+<!--   <preference name="fullscreen" value="true" />   -->         
  	<preference name="load-url-timeout" value="1000" />
+ 	<preference name="DisallowOverscroll" value="true" />
 
 	<!-- ios: status bar stuff -->     
  	<gap:plugin name="org.apache.cordova.statusbar" />
