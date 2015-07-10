@@ -1,5 +1,8 @@
 @import '../bower_components/ratchet/sass/ratchet.scss';
 
+@import '../bower_components/backbone-modal/backbone.modal.css';
+@import '../bower_components/backbone-modal/backbone.modal.theme.css';
+
 @font-face {
   font-family: gotham-bold;
   font-weight: bold;
@@ -175,3 +178,17 @@ p {
   background-size: 24px 24px;
   top: 8px;
 }
+
+//modal window overrides
+.bbm-wrapper {
+  background: #FFF;
+  padding: 0px;
+}
+
+.bbm-modal {
+  border-radius: 0px;
+}  
+
+.bbm-modal--open {
+   -webkit-animation-name: none; 
+}  

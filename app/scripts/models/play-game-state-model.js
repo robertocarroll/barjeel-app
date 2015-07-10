@@ -8,7 +8,6 @@ Barjeel.Models = Barjeel.Models || {};
     Barjeel.Models.PlayGameStateModel = Backbone.Model.extend({
 
        defaults: {
-				"questionCount": 0,
 				"correctCounter": 0,
 				"gamelives": 3
 			}

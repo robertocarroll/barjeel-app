@@ -18,6 +18,12 @@
     background-color: $barjeel-light-grey;
 }
 
+.discover-list-link {
+	display: block;
+	width: 66%;
+	margin: auto;
+}
+
 .curator-heading-list-discover {
 	@extend .delta;
 	text-transform: uppercase;

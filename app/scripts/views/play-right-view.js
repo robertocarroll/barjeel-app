@@ -2,66 +2,53 @@
 
 Barjeel.Views = Barjeel.Views || {};
 
-(function () {
-    'use strict';
+(function() {
+	'use strict';
 
-    Barjeel.Views.PlayRightView = Backbone.Marionette.ItemView.extend({
+	Barjeel.Views.PlayRightView = Backbone.Marionette.ItemView.extend({
 
-  		initialize: function(){
-  			console.log ("Right view initialised" + JSON.stringify(BarjeelApp.PlayModule.gameState));
-  		},
+		initialize: function() {
+			console.log("Right view initialised" + JSON.stringify(BarjeelApp.PlayModule.gameState));
+		},
 
-      template: JST['app/scripts/templates/play-right-view.hbs'],
+		template: JST['app/scripts/templates/play-right-view.hbs'],
 
-      onRender: function () {
-        	this.$el.find('img').on('load', function() { 
-        		$('.wrap').hide().fadeIn(500);
-        		console.log("Finding image"); 
-        	});
-        	return this;   	
-        },
+		onRender: function() {
+			this.$el.find('img').on('load', function() {
+				$('.wrap').hide().fadeIn(500);
+				console.log("Finding image");
+			});
+			return this;
+		},
 
-      events: {
-				"touchend .next": "nextQuestion",
-			},
+		events: {
+			"touchend .next": "nextQuestion",
+			"touchend .open-modal-one": "openModalOne",
+			"touchend .open-modal-two": "openModalTwo"
+		},
 
-			onDomRefresh: function(){ 
-			  	$('.content').animate({ scrollTop: 0 }, 100);
-			  	console.log ('scrolled content');
-			  },	
-			  
-			nextQuestion: function(e) {
-				console.log ("Next QUESTION FIRED: " + JSON.stringify(BarjeelApp.PlayModule.gameState));
-				var questionCount =  BarjeelApp.PlayModule.gameState.get ("questionCount");
-				questionCount += 1;
-				BarjeelApp.PlayModule.gameState.set(("questionCount"), questionCount); 
-				this.remove();
+		onDomRefresh: function() {
+			$('.content').animate({
+				scrollTop: 0
+			}, 100);
+			console.log('scrolled content');
+		},
 
-				if (questionCount < BarjeelApp.PlayModule.newCollection.length) {
-					var currentQuestion = BarjeelApp.PlayModule.newCollection.models[questionCount];
-					BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayQuestionView({
-						model: currentQuestion
-					}));	
+		nextQuestion: function(e) {
+			//get the next question
+			BarjeelApp.PlayModule.getQuestion();
+		},
 
-					BarjeelApp.PlayModule.mainLayout.modalRegion.show(new Barjeel.Views.PlayModalView({
-						model: currentQuestion
-					}));
-				}
+		openModalOne: function(e) {
+			//get the next question
+			BarjeelApp.PlayModule.mainLayout.modals.show(new Barjeel.Views.PlayModalOne({model: this.model}));
+		},
 
-				else {
-					console.log ("no more questions");
-					var livesCount =  BarjeelApp.PlayModule.gameState;
-								
-					BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayWinGameOverView({
-						model: livesCount
-					}));
+		openModalTwo: function(e) {
+			//get the next question
+			BarjeelApp.PlayModule.mainLayout.modals.show(new Barjeel.Views.PlayModalTwo({model: this.model}));
+		}
 
-					BarjeelApp.PlayModule.mainLayout.livesRegion.$el.hide();
-				}
-
-				
-			}
-
-    });
+	});
 
 })();

@@ -4,9 +4,9 @@
 <div class="questionOptions">
 {{#each choices}}
 
-<div class="questionOption" id="question-{{@index}}" data-answer="{{@index}}">
-	<span>{{this}}</span>
-</div>	
+<div class="questionWrapper" id="question-{{@index}}" data-answer="{{@index}}">
+	<div class="questionOption">{{this}}</div>	
+</div>
 
 {{/each}} 
 </div>

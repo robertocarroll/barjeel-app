@@ -31,6 +31,14 @@
 	padding-top: $base-spacing-unit-small;
 }
 
+.questionWrapper {
+	display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding-left: 2em;
+  margin-left: -2em;
+}
+
 .questionOptions {
 	text-align: left;
 	width: 82%;
@@ -41,7 +49,7 @@
 	padding-bottom: $base-spacing-unit-small;
 }
 
-.questionOption span:before {
+.questionOption:before {
   content: '';
   display: inline-block;
   width: 0.5em;
@@ -110,7 +118,7 @@
 }
 
 
-.active span:before {
+.active .questionOption:before {
 	background: $barjeel-grey;
 }
 
@@ -149,4 +157,21 @@
 .score {
 	text-transform: uppercase;
 	margin-bottom: -10px;
+}
+
+.modal-title {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0 -10px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 44px;
+  color: $barjeel-grey;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.modal-icon {
+	  line-height: 44px;
 }
