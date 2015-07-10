@@ -21,7 +21,7 @@ Barjeel.Views = Barjeel.Views || {};
 		},
 
 		events: {
-			"touchend .questionOption": "checkAnswer"
+			"touchend .questionWrapper": "checkAnswer"
 		},
 
 		getSelected: function() {
@@ -33,13 +33,16 @@ Barjeel.Views = Barjeel.Views || {};
 		},
 
 		checkAnswer: function(e) {
-			$('.questionOption').not(active).removeClass('active');
+			$('.questionWrapper').not(active).removeClass('active');
 			var active = $(e.currentTarget);
 			active.addClass('active');
 			var answer = active.data('answer');
 			this.select(parseInt(answer, 10));
 			var currentSelection = this.model.get("selected"),
 				correctAnswer = this.model.get("correctAnswer");
+
+				console.log(currentSelection);
+				console.log(correctAnswer);
 
 			if (currentSelection === correctAnswer) {
 				var counterTemp = BarjeelApp.PlayModule.gameState.get("correctCounter");

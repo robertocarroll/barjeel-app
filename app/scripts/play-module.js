@@ -85,10 +85,15 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 			BarjeelApp.PlayModule.mainLayout.livesRegion.$el.show();
 		}
 
-		//if there's not more questions
+		//if there's no more questions
     else {
-        console.log("No more questions");
-        var livesCount =  BarjeelApp.PlayModule.gameState;								
+        console.log('No more questions');
+        var livesCount =  BarjeelApp.PlayModule.gameState;	
+        //show the main layout
+				BarjeelApp.allRegion.showAnimated(BarjeelApp.PlayModule.mainLayout, {
+					animationType: 'slideLeft'
+				});
+        						
 				BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayWinGameOverView({
 					model: livesCount
 				}));
