@@ -23,6 +23,7 @@ Barjeel.Views = Barjeel.Views || {};
 
 		events: {
 			"touchend .next": "nextQuestion",
+			"touchend .open-modal-one": "openModalOne"
 		},
 
 		onDomRefresh: function() {
@@ -35,6 +36,11 @@ Barjeel.Views = Barjeel.Views || {};
 		nextQuestion: function(e) {
 			//get the next question
 			BarjeelApp.PlayModule.getQuestion();
+		},
+
+		openModalOne: function(e) {
+			//get the next question
+			BarjeelApp.PlayModule.mainLayout.modals.show(new Barjeel.Views.PlayModalOne({model: this.model}));
 		}
 
 	});

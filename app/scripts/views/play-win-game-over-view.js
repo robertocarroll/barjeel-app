@@ -18,7 +18,7 @@ Barjeel.Views = Barjeel.Views || {};
 					BarjeelApp.PlayModule.gameState.set({
 						gameInProgress: false
 					});
-					localStorage.setItem('game-state', JSON.stringify(BarjeelApp.PlayModule.gameState.toJSON()));
+					localStorage.setItem('barjeel-app-game-state', JSON.stringify(BarjeelApp.PlayModule.gameState.toJSON()));
 
 					//restart the quiz
 					BarjeelApp.PlayModule.startQuiz();
