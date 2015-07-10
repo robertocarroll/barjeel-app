@@ -20,14 +20,14 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 			success: function(MyCollectionAllQuestions, response, options) {
 				console.log("fetch questions success");
 				//add data to local storage
-				localStorage.setItem('questions', JSON.stringify(PlayModule.newCollection.toJSON()));
+				localStorage.setItem('barjeel-app-questions', JSON.stringify(PlayModule.newCollection.toJSON()));
 				PlayModule.mainLayout = new Barjeel.Views.PlayMainView();
 				PlayModule.gameState = new Barjeel.Models.PlayGameStateModel();
 				//set game in progress to true and add it to localstorage
 				PlayModule.gameState.set({
 					gameInProgress: true
 				});
-				localStorage.setItem('game-state', JSON.stringify(PlayModule.gameState.toJSON()));
+				localStorage.setItem('barjeel-app-game-state', JSON.stringify(PlayModule.gameState.toJSON()));
 				BarjeelApp.PlayModule.getQuestion();
 			}
 		});
@@ -43,7 +43,7 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 	PlayModule.getQuestion = function() {
 
 		//get questions from localstorage
-		var newLocalCollection = new Barjeel.Collections.PlayCollection(JSON.parse(localStorage.getItem('questions')));
+		var newLocalCollection = new Barjeel.Collections.PlayCollection(JSON.parse(localStorage.getItem('barjeel-app-questions')));
 
 		//get the IDs of all questions which haven't been used    
 		var questions = newLocalCollection.chain()
@@ -66,7 +66,7 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 
 			//set the status of that question to used
 			currentQuestion.set("use", false);
-			localStorage.setItem('questions', JSON.stringify(newLocalCollection.toJSON()));
+			localStorage.setItem('barjeel-app-questions', JSON.stringify(newLocalCollection.toJSON()));
 
 			//show the main layout
 			BarjeelApp.allRegion.showAnimated(BarjeelApp.PlayModule.mainLayout, {

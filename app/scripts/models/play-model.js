@@ -9,7 +9,8 @@ Barjeel.Models = Barjeel.Models || {};
 
         defaults: {
 					"selected": -1,
-					"correct": null
+					"correct": null,
+					"use": true
 				}
 
     });

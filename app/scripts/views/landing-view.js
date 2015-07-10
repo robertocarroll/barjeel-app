@@ -6,26 +6,19 @@ Barjeel.Views = Barjeel.Views || {};
 	'use strict';
 
 	Barjeel.Views.LandingView = Marionette.ItemView.extend({
-
 		template: JST['app/scripts/templates/landing-view.hbs'],
-
 		onRender: function() {
-
-			console.log("rendering");
-
-			this.$(".play").swipe({
+			console.log('rendering');
+			this.$('.play').swipe({
 				//Generic swipe handler for all directions
 				swipeLeft: function(event, direction, distance, duration, fingerCount) {
-
-					var gameState = JSON.parse(localStorage.getItem('game-state'));
-					if (gameState.gameInProgress) {
-						BarjeelApp.PlayModule.resumeQuiz();
-					} else {
+					var gameState = JSON.parse(localStorage.getItem('barjeel-app-game-state'));
+					if (gameState == null || gameState.gameInProgress === false) {
 						BarjeelApp.PlayModule.startQuiz();
+					} else {
+						BarjeelApp.PlayModule.resumeQuiz();
 					}
-
 				},
-
 				swipeRight: function(event, direction, distance, duration, fingerCount) {
 					var homeView = new Barjeel.Views.HomeView();
 					BarjeelApp.allRegion.showAnimated(homeView, {
@@ -67,7 +60,6 @@ Barjeel.Views = Barjeel.Views || {};
 						animationType: 'slideLeft'
 					});
 				},
-
 				swipeRight: function(event, direction, distance, duration, fingerCount) {
 					var homeView = new Barjeel.Views.HomeView();
 					BarjeelApp.allRegion.showAnimated(homeView, {
@@ -75,10 +67,6 @@ Barjeel.Views = Barjeel.Views || {};
 					});
 				}
 			});
-
-
 		}
-
 	});
-
 })();
