@@ -164,14 +164,36 @@
   width: 100%;
   padding: 0;
   margin: 0 -10px;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 44px;
-  color: $barjeel-grey;
-  text-align: center;
   white-space: nowrap;
 }
 
+.modal-text {
+	text-align: center;
+}
+
+.hit-area-one {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: -50%;
+  right: 0;
+  z-index: 100;
+  width: 48%;
+  height: 10rem;
+}  
+
+.hit-area-two {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  z-index: 100;
+  width: 48%;
+  height: 10rem;
+}  
+
 .modal-icon {
-	  line-height: 44px;
+	  padding-bottom: $base-spacing-unit-small;
+	  padding-top: $base-spacing-unit-small;
 }
