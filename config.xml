@@ -3,7 +3,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "org.barjeelartfoundation.barjeel"
-        version   = "1.1.1">
+        version   = "1.1.2">
 
 	<name>Barjeel Art Foundation</name>
 	<description>An app for Barjeel Art Foundation.</description>
