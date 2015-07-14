@@ -17,7 +17,7 @@
  	<preference name="DisallowOverscroll" value="true" />
 
 	<!-- ios: status bar stuff -->     
- 	<gap:plugin name="org.apache.cordova.statusbar" />
+ 	<gap:plugin name="com.phonegap.plugin.statusbar" />
 	 <feature name="StatusBar">
       <param name="ios-package" onload="true" value="CDVStatusBar" />
   </feature>
