@@ -1,15 +1,6 @@
 .block {
 	width:100%; 
-	height:33%
-}
-
-.block-extra {
-	width:100%; 
-	height:34%
-}
-
-.play {
-	background-color: $barjeel-red;
+	height:50%
 }
 
 .custom-icon {
@@ -18,6 +9,10 @@
   height: 3em;
   margin: auto;
   margin-bottom: $base-spacing-unit-small;
+}
+
+.play {
+	background-color: $barjeel-red;
 }
 
 .play-icon {
@@ -30,17 +25,8 @@
   background-size: 3em 3em;
 }
 
-.discover-icon {
-  background: url(../images/discover.svg) no-repeat scroll center transparent;
-  background-size: 3em 3em;
-}
-
 .connect {
 	background-color: $barjeel-grey;
-}
-
-.discover {
-	background-color: $barjeel-blue;
 }
 
 .block-centre {
