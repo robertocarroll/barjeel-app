@@ -32,7 +32,7 @@
 }
 
 .questionWrapper {
-	display: inline-block;
+	display: block;
   position: relative;
   z-index: 1;
   padding-left: 2em;
@@ -152,48 +152,11 @@
 	background: $barjeel-grey;
 	width: 100%;
 	max-width: 520px;
+	display: block;
+  margin: 0 auto;
 }
 
 .score {
 	text-transform: uppercase;
 	margin-bottom: -10px;
-}
-
-.modal-title {
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0 -10px;
-  white-space: nowrap;
-}
-
-.modal-text {
-	text-align: center;
-}
-
-.hit-area-one {
-  position: absolute;
-  margin: auto;
-  top: 50%;
-  left: -50%;
-  right: 0;
-  z-index: 100;
-  width: 48%;
-  height: 10rem;
-}  
-
-.hit-area-two {
-  position: absolute;
-  margin: auto;
-  top: 50%;
-  left: 50%;
-  right: 0;
-  z-index: 100;
-  width: 48%;
-  height: 10rem;
-}  
-
-.modal-icon {
-	  padding-bottom: $base-spacing-unit-small;
-	  padding-top: $base-spacing-unit-small;
 }

@@ -1,0 +1,75 @@
+
+//modal window overrides
+
+.modal-image-wrapper {
+  display: block;
+  width: 100%;
+  padding-top: 48px;
+}
+
+.modal-text {
+	text-align: center;
+}
+
+.hit-area-one {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: -50%;
+  right: 0;
+  z-index: 100;
+  width: 48%;
+  height: 10rem;
+}  
+
+.hit-area-two {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  z-index: 100;
+  width: 48%;
+  height: 10rem;
+}  
+
+.modal-icon {
+	  padding-bottom: $base-spacing-unit-small;
+	  padding-top: $base-spacing-unit-small;
+	  padding-right: $base-spacing-unit-small;
+}
+
+
+.bbm-wrapper {
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  overflow: auto; 
+  background: #FFF;
+  padding: 0px;
+}
+
+.bbm-modal {
+  border-radius: 0px;
+  margin: auto;
+  width: 100%;
+  max-width: none; 
+}
+
+.bbm-views {
+  width: 100%;
+  box-sizing: border-box; 
+} 
+
+.bbm-modal--open {
+   -webkit-animation-name: none; 
+}  
+
+#offline-message {
+	text-align: center;
+	colour: $barjeel-red;
+}
