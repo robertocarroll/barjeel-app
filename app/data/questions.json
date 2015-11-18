@@ -922,5 +922,131 @@
     "secondArtworkArtist": "Samir Sayegh",
     "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/02/Samir-Sayegh_Baraka_LR-501x500.jpg",
     "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/02/Samir-Sayegh_Baraka_LR.jpg.jpg"
-  }
+  },
+  {
+   "id": 45,
+   "question": "Suleiman Mansour’s work 'Quiet Morning' <span class=\"red\">and<\/span> Larissa Sansour’s work 'Nation Estate - Olive Tree'",
+   "choices": [
+       "Both were made using digital technology", 
+       "Both were produced in the 1990s", 
+       "Both depict the olive tree as an icon of Palestinian identity"
+       ],
+   "correctAnswer": 2,
+   "explanation": "Both use the olive tree as icon of Palestinian identity.",
+   "firstArtwork": "45_Quiet_Morning",
+   "firstArtworkTitle": "Quiet Morning",
+      "firstArtworkArtist": "Suleiman Mansour",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+   "secondArtwork": "45_Nation_Estate_Olive_Tree",
+   "secondArtworkTitle": "Nation Estate - Olive Tree",
+   "secondArtworkArtist": "Larissa Sansour",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/08.-NATION-ESTATE-poster-web-328x500.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/08.-NATION-ESTATE-poster-web.jpg"
+ },
+  {
+   "id": 46,
+   "question": "Ali Al Abdan’s work 'On Al Khan Beach' <span class=\"red\">and<\/span> Baya’s work 'Femme a la Robe Rose'",
+   "choices": [
+       "Both were produced during the artists’ teenage years", 
+       "Both were made by Algerian artists", 
+       "Both use watercolour as a medium"
+       ],
+   "correctAnswer": 0,
+   "explanation": "The artists were both teenagers when they produced these works.",
+   "firstArtwork": "46_On_Al_Khan_Beach",
+   "firstArtworkTitle": "On Al Khan Beach",
+      "firstArtworkArtist": "Ali Al Abdan",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/08/Ali-Al-Abdan-2-661x500.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/08/Ali-Al-Abdan-2.jpg",
+   "secondArtwork": "46_Femme_A_La_Robe_Rose",
+   "secondArtworkTitle": "Femme a la Robe Rose",
+   "secondArtworkArtist": "Baya",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/01/Baya-1-406x500.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/01/Baya-1.jpg"
+ },
+  {
+   "id": 47,
+   "question": "Hanaa Malallah’s work 'Abstract, Figurative, Abstract and Figurative' <span class=\"red\">and<\/span> Ghada Amer’s work 'Snow White Without the Dwarves'",
+   "choices": [
+       "Both use human hair as a medium", 
+       "Both feature string as a medium", 
+       "Both are based on Disney cartoons"
+       ],
+   "correctAnswer": 1,
+   "explanation": "Both artworks use string as medium.",
+   "firstArtwork": "47_Abstract_Figurative",
+   "firstArtworkTitle": "Abstract, Figurative, Abstract and Figurative",
+      "firstArtworkArtist": "Hanaa Malallah",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/Hanaa-Malaway-Abstract-2010-200x400cm.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/Hanaa-Malaway-Abstract-2010-200x400cm.jpg",
+   "secondArtwork": "47_Snow_White_Without_The_Dwarves",
+   "secondArtworkTitle": "Snow White Without the Dwarves",
+   "secondArtworkArtist": "Ghada Amer",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/Ghada_Amer_Snow_White_Without_the_Dwarves_2009-637x500.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/Ghada_Amer_Snow_White_Without_the_Dwarves_2009-637x500.jpg"
+ },
+  {
+   "id": 48,
+   "question": "Kader Attia <span class=\"red\">and<\/span> Basim Magdy",
+   "choices": [
+       "Both artists are of Egyptian heritage", 
+       "Both artists have been part of the Abraaj Capital Art Prize", 
+       "Both artists have a degree in physics"
+       ],
+   "correctAnswer": 1,
+   "explanation": "Both artists have participated in the Abraaj Capital Art Prize.",
+   "firstArtwork": "48_Zene_4",
+   "firstArtworkTitle": "Zene 4",
+      "firstArtworkArtist": "Kader Attia",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/08/Kader-Attia-LR-651x500.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/08/Kader-Attia-LR.jpg",
+   "secondArtwork": "48_ My_Father_Looks_For ",
+   "secondArtworkTitle": " My Father Looks for an Honest City ",
+   "secondArtworkArtist": "Basim Magdy",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/01/Basim-Magdy_My-Father-Looks-01-680x381.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/01/Basim-Magdy_My-Father-Looks-01.jpg"
+ },
+  {
+   "id": 49,
+   "question": "Lamya Gargash’s work 'Red Television' <span class=\"red\">and<\/span> Khuloud Al Sharafi’s work 'Oumry Ablak Raah'",
+   "choices": [
+       "Both are life-size works", 
+       "Both include a television", 
+       "Both were made by artists born in Lebanon"
+       ],
+   "correctAnswer": 1,
+   "explanation": "Televisions are included in both artworks.",
+   "firstArtwork": "49_Red_Television",
+   "firstArtworkTitle": "Red Television",
+      "firstArtworkArtist": "Lamya Gargash",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/Lamya-Gargash_Red-Television_2009_C-print_60x60cm_Ed.of5-LR-500x500.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/Lamya-Gargash_Red-Television_2009_C-print_60x60cm_Ed.of5-LR.jpg",
+   "secondArtwork": "49_Oumry_Ablak_Raah",
+   "secondArtworkTitle": "Oumry Ablak Raah",
+   "secondArtworkArtist": "Khuloud Al Sharafi",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/08/Kholoud-Al-Sharafi-340x500.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/08/Kholoud-Al-Sharafi.jpg"
+ },
+  {
+   "id": 50,
+   "question": "'Mirdif City Centre, Dubai' by Ammar Al Attar  <span class=\"red\">and<\/span> 'DIFC The Gate, Dubai' by Ammar Al Attar",
+   "choices": [
+       "Both are from his Prayer Room series", 
+       "Both feature Dubai’s architectural landmarks", 
+       "Both are silkscreen prints"],
+   "correctAnswer": 0,
+   "explanation": "Both photographs are part of the Prayer Room series.",
+   "firstArtwork": "50_Mirdif_City_Centre",
+   "firstArtworkTitle": "Mirdif City Centre, Dubai",
+      "firstArtworkArtist": "Ammar Al Attar",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Ammar-Al-Attar_4.JPG_LR-680x466.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Ammar-Al-Attar_4.JPG_LR.jpg",
+   "secondArtwork": "50_The_Gate",
+   "secondArtworkTitle": "The Gate, Dubai",
+   "secondArtworkArtist": "Ammar Al Attar",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Ammar-Al-Attar_2.JPG_LR-680x466.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Ammar-Al-Attar_2.JPG_LR.jpg"
+ }
+ 
 ]
