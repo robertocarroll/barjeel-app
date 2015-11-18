@@ -34,6 +34,15 @@ http://wiki.nsbasic.com/Submitting_to_the_iOS_App_Store
 11. Upload the .p12 file and the barjeeldevelopment.mobileprovision
 12. Unlock using the password in step 10.
 
+To add a new device:
+1. In the Apple Dev, add device in devices
+2. Edit provisioning profile
+3. Add the devices and generate the provisioning profile
+4. Download the development certificate
+5. In Keychain, re-export the certificate to create the .p12 (not sure this is necessary)
+6. Upload the .p12 and the new provisioning profile to phonegap.build.
+
+
 #### Install ipa file for testing
 Upload to Diawi.com and email the link
 

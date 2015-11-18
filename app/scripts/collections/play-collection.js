@@ -6,10 +6,7 @@ Barjeel.Collections = Barjeel.Collections || {};
     'use strict';
 
     Barjeel.Collections.PlayCollection = Backbone.Collection.extend({
-
         model: Barjeel.Models.PlayModel,
         url: "data/questions.json"
-        
     });
-
 })();
