@@ -1468,6 +1468,215 @@
    "secondArtworkArtist": "Manal Al Dowayan",
    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/.jpg",
    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg"
+ },
+ {
+   "id": 71,
+    "question": "Mohamed Sharkawy’s work 'Zamaan' <span class=\"red\">and<\/span> Omar Al Rashid’s work 'Childhood II'",
+   "choices": [
+       "Both depict children", 
+       "Both are photographic works", 
+       "Both were made by artists from Egypt"
+       ],
+   "correctAnswer": 0,
+   "explanation": "Both artworks show children.",
+   "firstArtwork": "71_Zamaan",
+   "firstArtworkTitle": "Zamaan",
+      "firstArtworkArtist": "Mohamed Sharkawy",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+   "secondArtwork": "71_Childhood_II",
+   "secondArtworkTitle": "Childhood II",
+   "secondArtworkArtist": "Omar Al Rashid",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/03/Omar-Al-Rashid-Childhood-II-420x500.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/03/Omar-Al-Rashid-Childhood-II.jpg"
+ },
+ {
+   "id": 72,
+   "question": "Seif Wanly’s works 'Ballerinas' <span class=\"red\">and<\/span> 'The Russian Ballet'",
+   "choices": [
+       "Both depict ten dancing figures", 
+       "Both depict one dancing figure", 
+       "Both depict three dancing figures"
+       ],
+   "correctAnswer": 2,
+   "explanation": "Both artworks depict three dancing figures",
+   "firstArtwork": "72_Ballerinas",
+   "firstArtworkTitle": "Ballerinas",
+      "firstArtworkArtist": "Seif Wanly",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Seif-Wanly1.jpg_crop1-680x462.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Seif-Wanly1.jpg_crop1.jpg",
+   "secondArtwork": "72_The_Russian_Ballet",
+   "secondArtworkTitle": "The Russian Ballet",
+   "secondArtworkArtist": "Seif Wanly",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/Seif-Wanly_Russian-Ballet-web-680x480.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/Seif-Wanly_Russian-Ballet-web.jpg"
+ },
+ {
+   "id": 73,
+   "question": "Khalid Mezaina’s work 'Tarboush Boy' <span class=\"red\">and<\/span> Michael Rakowitz’ work 'Study for the Breakup'",
+   "choices": [
+       "Both are site-specific installations", 
+       "Both make references to pop culture", 
+       "Both are by Palestinian artists"
+       ],
+   "correctAnswer": 1,
+   "explanation": "Both artworks reference pop culture.",
+   "firstArtwork": "73_Tarboush_Boy",
+   "firstArtworkTitle": "Tarboush Boy",
+      "firstArtworkArtist": "Khalid Mezaina",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Khalid-Mezaina_Tarboush-Boy_2009_serigraph-on-paper_Image-Courtesy-of-Barjeel-Art-Foundation.JPG_LR-350x500.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Khalid-Mezaina_Tarboush-Boy_2009_serigraph-on-paper_Image-Courtesy-of-Barjeel-Art-Foundation.JPG_LR.jpg",
+   "secondArtwork": "73_Study_For_The_Breakup",
+   "secondArtworkTitle": "Study for the Breakup",
+   "secondArtworkArtist": "Michael Rakowitz",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/08/Michael-Rakowitz-LR-680x460.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/08/Michael-Rakowitz-LR.jpg"
+ },
+ {
+   "id": 74,
+   "question": "Jumana Manna’s work 'Wanderers' <span class=\"red\">and<\/span> Etel Adnan’s work 'Champs de Petrol'",
+   "choices": [
+       "Both make use of fabric", 
+       "Both portray women", "Both were made in the 1980s"
+       ],
+   "correctAnswer": 0,
+   "explanation": "Both artists  used fabric in the making of the artworks.",
+   "firstArtwork": "74_Wanderers",
+   "firstArtworkTitle": "Wanderers",
+      "firstArtworkArtist": "Jumana Manna",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/02/Jumana-Manna-Wanderers-476x500.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/02/Jumana-Manna-Wanderers.jpg",
+   "secondArtwork": "74_Champs_De_Petrol",
+   "secondArtworkTitle": "Champs de Petrol",
+   "secondArtworkArtist": "Etel Adnan",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg"
+ },
+ {
+   "id": 75,
+   "question": "Raafat Ishak’s work 'Nomination for the Presidency of the New Egypt' <span class=\"red\">and<\/span> Effat Nagy’s work 'The High Dam'",
+   "choices": [
+       "Both make references to the River Nile", 
+       "Both depict the presidential elections in Egypt", 
+       "Both were made in 1966"
+       ],
+   "correctAnswer": 0,
+   "explanation": "Both artworks reference the River Nile.",
+   "firstArtwork": "75_Nomination_For_The_Presidency",
+   "firstArtworkTitle": "Nomination for the Presidency of the New Egypt",
+      "firstArtworkArtist": "Raafat Ishak",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/02-Raafat-Ishak_web-680x453.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/02-Raafat-Ishak_web.jpg",
+   "secondArtwork": "75_The_High_Dam",
+   "secondArtworkTitle": "The High Dam",
+   "secondArtworkArtist": "Effat Nagy",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/NEW_Effat-Nagi.jpg_crop-505x500.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/NEW_Effat-Nagi.jpg_crop.jpg"
+ },
+ {
+   "id": 76,
+   "question": "Nasser Al Yousif’s work 'Love and Kindness' <span class=\"red\">and<\/span> Manal Al Dowayan’s work 'Suspended Together'",
+   "choices": [
+       "Both depict birds", 
+       "Both depict a procession of people", 
+       "Both are sculptural works"
+       ],
+   "correctAnswer": 0,
+   "explanation": "Both artworks feature birds.",
+   "firstArtwork": "76_Love_And_Kindness",
+   "firstArtworkTitle": "Love and Kindness",
+      "firstArtworkArtist": "Nasser Al Yousif",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/04/Nasser-Al-Yousef-1-359x500.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/04/Nasser-Al-Yousef-1.jpg",
+   "secondArtwork": "76_Suspended_Together",
+   "secondArtworkTitle": "Suspended Together",
+   "secondArtworkArtist": "Manal Al Dowayan",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Manal-Dowayan.jpg_LR-680x397.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Manal-Dowayan.jpg_LR.jpg"
+ },
+ {
+   "id": 77,
+   "question": "Mahmoud Hammad’s work 'Islamic Scientists' <span class=\"red\">and<\/span> Mohammed Omar Khalil’s work 'Cordoba, Andalusia'",
+   "choices": [
+       "Both depict maps", 
+       "Both highlight discoveries made in the field of chemistry", 
+       "Both reference the Golden Age of Islam"
+       ],
+   "correctAnswer": 2,
+   "explanation": "Both artworks reference the Golden Age of Islam.",
+   "firstArtwork": "77_Islamic_Scientists",
+   "firstArtworkTitle": "Islamic Scientists",
+      "firstArtworkArtist": "Mahmoud Hammad",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/04/Mahmoud-Hammad-680x451.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/04/Mahmoud-Hammad.jpg",
+   "secondArtwork": "77_Cordoba_Andalusia",
+   "secondArtworkTitle": "Cordoba, Andalusia",
+   "secondArtworkArtist": "Mohammed Omar Khalil",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/03/Mohammed-Omar-Khalil-Cordoba-Andalusia-680x461.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/03/Mohammed-Omar-Khalil-Cordoba-Andalusia.jpg"
+ },
+ {
+   "id": 78,
+   "question": "Walid Raad’s work 'Already Been in a Lake of Fire' <span class=\"red\">and<\/span> Yto Barrada’s work 'Telephone Books'",
+   "choices": [
+       "Both depict telephones", 
+       "Both depict hand-written notes", 
+       "Both depict cars"
+       ],
+   "correctAnswer": 1,
+   "explanation": "Both artworks depict hand-written notes.",
+   "firstArtwork": "78_Already_Been_In_A_Lake_Of_Fire",
+   "firstArtworkTitle": "Already Been in a Lake of Fire",
+      "firstArtworkArtist": "Walid Raad",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/12/Walid-Raad1-680x400.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/12/Walid-Raad1.jpg",
+   "secondArtwork": "78_Telephone_Books",
+   "secondArtworkTitle": "Telephone Books",
+   "secondArtworkArtist": "Yto Barrada",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Yto-Barrada-1-8.png_LR-390x500.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Yto-Barrada-1-8.png_LR.jpg"
+ },
+ {
+   "id": 79,
+   "question": "Moataz Nasr’s work 'The Manifest and the Hidden' <span class=\"red\">and<\/span> Nasser Al Aswadi’s work 'Untitled #2'",
+   "choices": [
+       "Both make use of a square as the central element", 
+       "Both use a circle as the central element", 
+       "Both make use of a trianle as the central element"
+       ],
+   "correctAnswer": 1,
+   "explanation": "A circle is the central element in both artworks.",
+   "firstArtwork": "79_The_Manifest_And_The_Hidden",
+   "firstArtworkTitle": "The Manifest and the Hidden",
+      "firstArtworkArtist": "Moataz Nasr",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+   "secondArtwork": "79_Untitled_2",
+   "secondArtworkTitle": "Untitled #2",
+   "secondArtworkArtist": "Nasser Al Aswadi",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg"
+ },
+ {
+   "id": 80,
+   "question": "Guirguis Lotfy’s work 'Wisdom of the Mountain' <span class=\"red\">and<\/span> Paul Guiragossian’s work 'Madonna and Child'",
+   "choices": [
+       "Both reference Biblical stories", 
+       "Both feature only two figures", 
+       "Both were made by artists from Palestine"
+       ],
+   "correctAnswer": 0,
+   "explanation": "Both artworks reference Biblical stories.",
+   "firstArtwork": "80_Wisdom_Of_The_Mountain",
+   "firstArtworkTitle": "Wisdom of the Mountain",
+      "firstArtworkArtist": "Guirguis Lotfy",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+   "secondArtwork": "80_Madonna_And_Child",
+   "secondArtworkTitle": "Madonna and Child",
+   "secondArtworkArtist": "Paul Guiragossian",
+   "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/Paul-Guiragossian_Madonna-and-Child-web-408x500.jpg",
+   "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/Paul-Guiragossian_Madonna-and-Child-web.jpg"
  }
  
 ]
