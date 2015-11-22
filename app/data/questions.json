@@ -1034,7 +1034,8 @@
    "choices": [
        "Both are from his Prayer Room series", 
        "Both feature Dubai’s architectural landmarks", 
-       "Both are silkscreen prints"],
+       "Both are silkscreen prints"
+       ],
    "correctAnswer": 0,
    "explanation": "Both photographs are part of the Prayer Room series.",
    "firstArtwork": "50_Mirdif_City_Centre",
@@ -1048,14 +1049,14 @@
    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Ammar-Al-Attar_2.JPG_LR-680x466.jpg",
    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Ammar-Al-Attar_2.JPG_LR.jpg"
  },
- ,
  {
    "id": 51,
    "question": "Camille Zakharia’s work 'Hut #5' <span class=\"red\">and<\/span> Nazar Yahya’s work 'Al Sinara'",
    "choices": [
        "Both works are about the desert", 
        "Both artworks are accompanied by soundtracks", 
-       "Both draw on the activity of fishing as inspiration"],
+       "Both draw on the activity of fishing as inspiration"
+       ],
    "correctAnswer": 2,
    "explanation": "Fishing is the inspiration of both artworks.",
    "firstArtwork": "51_Hut_5",
@@ -1075,7 +1076,8 @@
    "choices": [
        "Both are made out of reconstituted concrete from the Separation Wall in Palestine", 
        "Both were inspired by dreams", 
-       "Both were inspired by the artist’s own children"],
+       "Both were inspired by the artist’s own children"
+       ],
    "correctAnswer": 0,
    "explanation": "Both are made of concrete from the Separation Wall.",
    "firstArtwork": "52_Buddy_Bear",
@@ -1095,7 +1097,8 @@
    "choices": [
        "Both are about Damascus", 
        "Both feature cityscapes", 
-       "Both are controversial video pieces"],
+       "Both are controversial video pieces"
+       ],
    "correctAnswer": 1,
    "explanation": "Both artworks feature cityscapes.",
    "firstArtwork": "53_Contested_Land",
@@ -1115,7 +1118,8 @@
    "choices": [
        "Both are examples of Futurism", 
        "Both feature horses", 
-       "Both are by Moroccan artists"],
+       "Both are by Moroccan artists"
+       ],
    "correctAnswer": 1,
    "explanation": "Both artworks feature horses.",
    "firstArtwork": "54_Fantasia",
@@ -1135,7 +1139,8 @@
    "choices": [
        "Both use the technique of 'scanography'", 
        "Both use real flowers in the artwork", 
-       "Both make use of ceramic mosaics"],
+       "Both make use of ceramic mosaics"
+       ],
    "correctAnswer": 0,
    "explanation": "Both artworks are made through 'scanography'.",
    "firstArtwork": "55_Flower_In_The_Garden",
@@ -1155,7 +1160,8 @@
    "choices": [
        "A fortune teller", 
        "A worker on the Aswan Dam", 
-       "A judge"],
+       "A judge"
+       ],
    "correctAnswer": 0,
    "explanation": "Both artworks feature a fortune teller.",
    "firstArtwork": "56_Fortune_Teller_And_The_Cat",
@@ -1175,7 +1181,8 @@
    "choices": [
        "Marine life", 
        "Olive gardens", 
-       "Space travel"],
+       "Space travel"
+       ],
    "correctAnswer": 2,
    "explanation": "These artworks both reference space travel.",
    "firstArtwork": "57_Astronaut",
@@ -1195,7 +1202,8 @@
    "choices": [
        "Both live in Berlin", 
        "Both were born in Baghdad", 
-       "Both studied fashion"],
+       "Both studied fashion"
+       ],
    "correctAnswer": 1,
    "explanation": "Both artists were born in Baghdad.",
    "firstArtwork": "58_Remains_Of_The_Flag",
@@ -1215,7 +1223,8 @@
    "choices": [
        "Both created artworks about Aswan", 
        "Both are conceptual artists", 
-       "Both paint in hyper realism"],
+       "Both paint in hyper realism"
+       ],
    "correctAnswer": 0,
    "explanation": "Both have created artworks about Aswan.",
    "firstArtwork": "59_Aswan",
@@ -1235,9 +1244,10 @@
    "choices": [
        "Both were inspired by cubism", 
        "Both make use of bright and vibrant colours", 
-       "Both depict architecture"],
+       "Both depict architecture"
+       ],
    "correctAnswer": 0,
-   "explanation": "explanation.",
+   "explanation": "Both of these artworks were inspired by cubism.",
    "firstArtwork": "60_Mother_And_Child",
    "firstArtworkTitle": "Mother and Child",
       "firstArtworkArtist": "Seif Wanly",
@@ -1255,7 +1265,8 @@
    "choices": [
        "Both make references to Christian iconography", 
        "Both portray female figures", 
-       "Both were made by Damascus-born artists"],
+       "Both were made by Damascus-born artists"
+       ],
    "correctAnswer": 0,
    "explanation": "Both artworks reference Christian iconography.",
    "firstArtwork": "61_Madonna_And_Child",
@@ -1263,8 +1274,8 @@
       "firstArtworkArtist": "Paul Guiragossian",
       "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/Paul-Guiragossian_Madonna-and-Child-web-408x500.jpg",
       "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/Paul-Guiragossian_Madonna-and-Child-web.jpg",
-   "secondArtwork": "61_Signs from Memory",
-   "secondArtworkTitle": "Signs_From_Memory",
+   "secondArtwork": "61_Signs_From_Memory",
+   "secondArtworkTitle": "Signs From Memory",
    "secondArtworkArtist": "Salama Safadi",
    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/01/Salama-Safadi_Signs-from-Memory_Kfar-Kanna-Nazareth-1-416x500.jpg",
    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/01/Salama-Safadi_Signs-from-Memory_Kfar-Kanna-Nazareth-1.jpg"
@@ -1275,15 +1286,16 @@
    "choices": [
        "Both depict green-coloured humans", 
        "Both portray female figures", 
-       "Both reference the building of the Aswan Dam"],
+       "Both reference the building of the Aswan Dam"
+       ],
    "correctAnswer": 1,
    "explanation": "Both artworks feature female figures.",
-   "firstArtwork": "1_Ladies_Of_Gaza",
+   "firstArtwork": "62_Ladies_Of_Gaza",
    "firstArtworkTitle": "Ladies of Gaza",
       "firstArtworkArtist": "Layan Shawabke",
       "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/Layan_Shawabkeh_Ladies_of_Gaza_Acrylic_on_canvas_240x245cm_2009-LR-479x500.jpg",
       "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/Layan_Shawabkeh_Ladies_of_Gaza_Acrylic_on_canvas_240x245cm_2009-LR.jpg",
-   "secondArtwork": "1_Flayed_Lamb",
+   "secondArtwork": "62_Flayed_Lamb",
    "secondArtworkTitle": "Flayed Lamb",
    "secondArtworkArtist": "Hayv Kahraman",
    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/Hayv-Kahraman_Flayed-Lamb_2008_Oil-on-linen_173x107cm-smaller-312x500.jpg",
@@ -1295,7 +1307,8 @@
    "choices": [
        "Both were made by Jerusalem-born artists", 
        "Both make use of glass in the construction of the work", 
-       "Both make use of elements found in architecture"],
+       "Both make use of elements found in architecture"
+       ],
    "correctAnswer": 2,
    "explanation": "Both artworks make use of architectural elements.",
    "firstArtwork": "63_Behind_The_Silver_Window",
@@ -1315,7 +1328,8 @@
    "choices": [
        "Both are abstract paintings", 
        "Both are executed in a naturalistic style", 
-       "Both are portraits of women"],
+       "Both are portraits of women"
+       ],
    "correctAnswer": 0,
    "explanation": "Both artworks are in the abstract style.",
    "firstArtwork": "64_Earthquake",
@@ -1335,7 +1349,8 @@
    "choices": [
        "Both feature a bird", 
        "Both were made by artists from Egypt", 
-       "Both are sculptures"],
+       "Both are sculptures"
+       ],
    "correctAnswer": 2,
    "explanation": "Both of these artworks are sculptures.",
    "firstArtwork": "65_Standing_Owl",
@@ -1355,7 +1370,8 @@
    "choices": [
        "Both were made by Saudi-born artists", 
        "Both were executed on paper", 
-       "Both show a scull"],
+       "Both show a scull"
+       ],
    "correctAnswer": 2,
    "explanation": "Both artworks show sculls.",
    "firstArtwork": "66_The_Transparent_Patient",
@@ -1375,14 +1391,15 @@
    "choices": [
        "Both feature a veiled woman", 
        "Both depict a construction site", 
-       "Both are neon light installations"],
+       "Both are neon light installations"
+       ],
    "correctAnswer": 0,
    "explanation": "Both artworks feature a veiled woman.",
    "firstArtwork": "67_Malicious_Look",
    "firstArtworkTitle": "Malicious Look",
       "firstArtworkArtist": "Hassan Hajjaj",
-      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
-      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+      "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/Hassan-Hajjaj_Malicious_Look_2000_84x59.5cm-354x500.jpg",
+      "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/Hassan-Hajjaj_Malicious_Look_2000_84x59.5cm.jpg",
    "secondArtwork": "67_I_Am_A_Petroleum_Engineer",
    "secondArtworkTitle": "I am a Petroleum Engineer",
    "secondArtworkArtist": "Manal Al Dowayan",
@@ -1395,7 +1412,8 @@
    "choices": [
        "Both are self portraits", 
        "Both are portraits of well known politicians", 
-       "Both are depictions of families"],
+       "Both are depictions of families"
+       ],
    "correctAnswer": 0,
    "explanation": "Both of these artworks are self portraits.",
    "firstArtwork": "68_Portrait",
@@ -1415,7 +1433,8 @@
    "choices": [
        "Both are abstract colour compositions", 
        "Both are black and white artworks", 
-       "Both were made by Oman-born artists"],
+       "Both were made by Oman-born artists"
+       ],
    "correctAnswer": 0,
    "explanation": "Both artworks are abstract colour pieces.",
    "firstArtwork": "69_Dreamers",
@@ -1435,7 +1454,8 @@
    "choices": [
        "Both were made by Algerian artists", 
        "Both are neon light works", 
-       "Both are photographic works"],
+       "Both are photographic works"
+       ],
    "correctAnswer": 1,
    "explanation": "Both artworks are made of neon lights.",
    "firstArtwork": "70_DemoNcracy",
