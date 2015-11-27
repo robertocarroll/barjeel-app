@@ -1,17 +1,13 @@
 BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Marionette, $, _) {
 
 	PlayModule.startPlay = function() {
-		var playModel = new BarjeelApp.LandingModel({
-			title: 'play',
-			description: 'Test your knowledge and explore a network of connections hidden within Barjeel’s vast art collection'
-		});
-		var newLandingPlayView = new Barjeel.Views.LandingView({
-			model: playModel
-		});
-		BarjeelApp.allRegion.showAnimated(newLandingPlayView, {
-			animationType: 'slideLeft'
-		});
-	}
+		var gameState = JSON.parse(localStorage.getItem('barjeel-app-game-state'));
+      if (gameState == null || gameState.gameInProgress === false) {
+        BarjeelApp.PlayModule.startQuiz();
+      } else {
+        BarjeelApp.PlayModule.resumeQuiz();
+      }
+}
 
 	PlayModule.startQuiz = function() {
 		console.log("play quiz started");
@@ -45,7 +41,7 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 		//get questions from localstorage
 		var newLocalCollection = new Barjeel.Collections.PlayCollection(JSON.parse(localStorage.getItem('barjeel-app-questions')));
 
-		//get the IDs of all questions which haven't been used    
+		//get the IDs of all questions which haven't been used
 		var questions = newLocalCollection.chain()
 			.filter(function(m) {
 				return m.get('use')
@@ -56,11 +52,11 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 			console.log(questions);
 
 		if (questions.length > 0) {
-			// get random ID from question ID array     
+			// get random ID from question ID array
 			var rand = questions[_.random(questions.length - 1)];
 			console.log('chosen ID value: ' + rand);
 
-			//get a model from a collection, specified by ID     
+			//get a model from a collection, specified by ID
 			var currentQuestion = newLocalCollection.get(rand);
 			console.log(currentQuestion);
 
@@ -70,7 +66,7 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 
 			//show the main layout
 			BarjeelApp.allRegion.showAnimated(BarjeelApp.PlayModule.mainLayout, {
-				animationType: 'slideLeft'
+				animationType: 'slideRight'
 			});
 
 			BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayQuestionView({
@@ -88,12 +84,12 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 		//if there's no more questions
     else {
         console.log('No more questions');
-        var livesCount =  BarjeelApp.PlayModule.gameState;	
+        var livesCount =  BarjeelApp.PlayModule.gameState;
         //show the main layout
 				BarjeelApp.allRegion.showAnimated(BarjeelApp.PlayModule.mainLayout, {
-					animationType: 'slideLeft'
+					animationType: 'slideRight'
 				});
-        						
+
 				BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayWinGameOverView({
 					model: livesCount
 				}));
