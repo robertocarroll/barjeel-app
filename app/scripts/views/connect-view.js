@@ -13,7 +13,7 @@ Barjeel.Views = Barjeel.Views || {};
             this.collection.fetch();
         },
 
-    		template: JST['app/scripts/templates/connect-view.hbs'], 	
+    		template: JST['app/scripts/templates/connect-view.hbs'],
     		childView: Barjeel.Views.ConnectListSingleView,
     		childViewContainer: "#list",
     		tagName : 'div',
@@ -25,10 +25,10 @@ Barjeel.Views = Barjeel.Views || {};
 
         backHome: function(){
         	console.log ("Back Home tap fired");
-					var homeView = new Barjeel.Views.HomeView(); 
-					BarjeelApp.allRegion.showAnimated(homeView, { animationType: 'slideRight' });
+					var homeView = new Barjeel.Views.HomeView();
+					BarjeelApp.allRegion.showAnimated(homeView, { animationType: 'slideLeft' });
 				}
-					 	
+
     });
 
 })();
