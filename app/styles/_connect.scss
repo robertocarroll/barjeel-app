@@ -5,14 +5,11 @@
 }
 
 .connect-list {
-	float: left;
-	width: 49%;
-	padding-top: 1rem;
-	padding-left: 1%;
+	padding: $base-spacing-unit*2 0;
 }
 
-#list {
-	padding-top: $base-spacing-unit;
+.connect-list:nth-child(odd) {
+    background-color: $barjeel-light-grey;
 }
 
 .curator-heading-list {
@@ -32,7 +29,7 @@
 }
 
 .circle-container-list {
-	max-width: $base-spacing-unit*8;
+	max-width: $base-spacing-unit*12;
 	padding: 0;
 	margin: auto;
 }
@@ -47,12 +44,11 @@
 		only screen and (     -o-min-device-pixel-ratio: 2/1),
 		only screen and (        min-device-pixel-ratio: 2),
 		only screen and (                min-resolution: 192dpi),
-		only screen and (                min-resolution: 2dppx) { 
-		  
+		only screen and (                min-resolution: 2dppx) {
+
 		max-width: 800px;
 	}
 }
-
 
 .swipe {
   overflow: hidden;
@@ -86,29 +82,29 @@
 		only screen and (     -o-min-device-pixel-ratio: 2/1),
 		only screen and (        min-device-pixel-ratio: 2),
 		only screen and (                min-resolution: 192dpi),
-		only screen and (                min-resolution: 2dppx) { 
-		  
+		only screen and (                min-resolution: 2dppx) {
+
 		max-width: 1020px;
 	}
 }
 
 .curator-heading {
 	padding-top: $base-spacing-unit-small;
-	margin-bottom: $base-spacing-unit-small;
+	margin-bottom: 0;
 	color: $barjeel-red;
 	@extend .delta;
 	text-transform: uppercase;
-
 }
 
 .connect-heading {
 	color: $barjeel-grey;
 	line-height: 2.9rem;
 	margin-bottom: $base-spacing-unit;
+  padding-top: $base-spacing-unit-small;
 }
 
 .circle-container {
-	max-width: $base-spacing-unit*6;
+	max-width: $base-spacing-unit*8;
 	padding-top: $base-spacing-unit*2;
 	margin: auto;
 }

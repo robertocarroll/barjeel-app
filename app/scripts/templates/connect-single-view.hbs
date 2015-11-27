@@ -6,23 +6,18 @@
 
 <div class="swipe" id="mySwipe">
  <div class="swipe-wrap">
-	
-	<div class="slide">
-		<img class="curator-image" src="data/images/connect-images/{{curator-image}}">
-		<h1 class="curator-heading">{{curator}}</h1>
-		<p class="padded-sides">{{about}}</p>
-	</div>
 
 	<div class="slide">
 	<div class="circle-container">
 		<img class="curator-small-round" src="data/images/connect-images/{{curator-image}}">
-	</div>	
+	</div>
 		<h2 class="curator-heading">{{curator}}</h1>
+    <p class="padded-sides">{{about}}</p>
 		<h1 class="connect-heading padded-sides">{{title}}</h1>
 		<p class="padded-sides">{{description}}</p>
 	</div>
 
- 
+
   {{#each artworks}}
     <div class="slide">
       <img class="slider-image" src="data/images/connect-images/{{image}}">
@@ -31,7 +26,7 @@
         <p class="padded-sides">{{caption}}</p>
       </span>
     </div>
-   {{/each}} 
+   {{/each}}
    </div>
 </div>
 
