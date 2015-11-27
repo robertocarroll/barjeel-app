@@ -30,7 +30,7 @@
 
 //Palette
 $barjeel-blue: #66BBDD;
-$barjeel-red: #FF3300;
+$barjeel-red: #EE4023;
 $barjeel-grey: #999999;
 $barjeel-light-grey: #F3F3F3;
 
@@ -50,7 +50,7 @@ $base-spacing-unit-small: (0.5rem);
 $base-spacing-unit-smallest: (0.25rem);
 
 
-html {	
+html {
 	font-size: 17px;
 	line-height: 1.5;
 	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
@@ -60,7 +60,7 @@ html {
 	@media (min-width: 768px) {
 	  font-size: 24px;
 	}
-}	
+}
 
 body {
 	font-family: gotham-book, georgia, serif;
@@ -73,22 +73,22 @@ h1, h2, h3, h4, button {
 
 h1, .alpha {
 	font-size: $barjeel-heading-size-1;
-	line-height: $barjeel-line-height-1; 
+	line-height: $barjeel-line-height-1;
 }
 
 h2, .beta {
 	font-size: $barjeel-heading-size-2;
-	line-height: $barjeel-line-height-2; 
+	line-height: $barjeel-line-height-2;
 }
 
 h3, .gamma {
 	font-size: $barjeel-heading-size-3;
-	line-height: $barjeel-line-height-3; 
+	line-height: $barjeel-line-height-3;
 }
 
 h4, .delta {
 	font-size: $barjeel-heading-size-4;
-	line-height: $barjeel-line-height-4; 
+	line-height: $barjeel-line-height-4;
 }
 
 p {
@@ -96,7 +96,7 @@ p {
 	font-weight: normal;
 	font-size: $barjeel-heading-size-4;
 	line-height: $barjeel-line-height-4;
-	color: $barjeel-grey; 
+	color: $barjeel-grey;
 }
 
 .clear {
@@ -107,9 +107,9 @@ p {
 	padding-left: $base-spacing-unit*3;
 	padding-right: $base-spacing-unit*3;
 
-	@media only screen 
-		and (max-device-width : 400px) 
-		and (orientation : portrait) { 
+	@media only screen
+		and (max-device-width : 400px)
+		and (orientation : portrait) {
 		padding-left: $base-spacing-unit;
 		padding-right: $base-spacing-unit;
 	}
