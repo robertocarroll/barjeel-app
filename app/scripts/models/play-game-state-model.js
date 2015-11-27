@@ -9,6 +9,7 @@ Barjeel.Models = Barjeel.Models || {};
 
        defaults: {
 				"correctCounter": 0,
+        "questionCounter": 0,
 				"gamelives": 3
 			}
 

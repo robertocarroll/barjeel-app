@@ -51,6 +51,10 @@ BarjeelApp.module("PlayModule", function(PlayModule, BarjeelApp, Backbone, Mario
 
 			console.log(questions);
 
+      var counterTemp = BarjeelApp.PlayModule.gameState.get("questionCounter");
+      counterTemp += 1;
+      BarjeelApp.PlayModule.gameState.set(("questionCounter"), counterTemp);
+
 		if (questions.length > 0) {
 			// get random ID from question ID array
 			var rand = questions[_.random(questions.length - 1)];
