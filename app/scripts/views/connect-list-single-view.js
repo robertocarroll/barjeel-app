@@ -8,11 +8,11 @@ Barjeel.Views = Barjeel.Views || {};
     Barjeel.Views.ConnectListSingleView = Marionette.ItemView.extend({
 
         onRender: function () {
-        	this.$el.find('img').on('load', function() { 
+        	this.$el.find('img').on('load', function() {
         		$('.circle-container-list').hide().fadeIn(500);
-        		console.log("Finding image"); 
+        		console.log("Finding image");
         	});
-        	return this;   	
+        	return this;
         },
 
         template: JST['app/scripts/templates/connect-list-single-view.hbs'],
@@ -20,15 +20,16 @@ Barjeel.Views = Barjeel.Views || {};
         className: 'connect-list',
 
         events: {
-				  'touchend a': 'loadConnectPost'
+				  'tap a': 'loadConnectPost'
 				},
-				 
+
 				loadConnectPost: function(){
 					var connectModel = this.model;
 					var connectSingleView = new Barjeel.Views.ConnectSingleView({model: connectModel});
 				  BarjeelApp.allRegion.show(connectSingleView);
+
 				}
-				
+
     });
 
 })();

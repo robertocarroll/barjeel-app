@@ -12,10 +12,8 @@ Barjeel.Views = Barjeel.Views || {};
         	var $image = $('.large-image');
         	var $offline = $('#offline-message');
 
-        	$offline.show();
-
 			    $image.on('load', function () {
-			      $offline.hide();
+            $offline.hide();
 			      console.log('Hiding offline message');
 			    });
 

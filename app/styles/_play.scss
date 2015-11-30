@@ -94,12 +94,33 @@
 .correct-image-one {
 	float: left;
 	padding-right: 1%;
+  position: relative;
+}
+
+.magnify-left {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url(../images/magnify-l.svg) no-repeat transparent;
 }
 
 .correct-image-two {
 	float: right;
 	padding-left: 1%;
+  position: relative;
 }
+
+.magnify-right {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url(../images/magnify-r.svg) no-repeat transparent;
+}
+
 
 .wrap {
 	position: relative;
@@ -116,7 +137,6 @@
   background: url(../images/double-arrow.svg) no-repeat scroll center transparent;
 	background-size: 3em 3em;
 }
-
 
 .active .questionOption:before {
 	background: $barjeel-grey;

@@ -1,3 +1,4 @@
+
 /*global Barjeel, Backbone, JST*/
 
 Barjeel.Views = Barjeel.Views || {};
@@ -15,7 +16,7 @@ Barjeel.Views = Barjeel.Views || {};
 				  'touchend #connectBack': 'backConnectPost'
 				},
 
-				onDomRefresh: function(){ 
+				onDomRefresh: function(){
 					console.log ("dom refreshed");
 					var elem = document.getElementById('mySwipe');
 
@@ -35,10 +36,10 @@ Barjeel.Views = Barjeel.Views || {};
 
 				backConnectPost: function(){
 				var connectCollection = new Barjeel.Collections.ConnectCollection();
-				var newConnectView = new Barjeel.Views.ConnectView({				        	
+				var newConnectView = new Barjeel.Views.ConnectView({
 				        	collection: connectCollection,
 				        	childView: Barjeel.Views.ConnectListSingleView
-				        });       
+				        });
 				BarjeelApp.allRegion.showAnimated(newConnectView, { animationType: 'slideRight' });
 				}
 

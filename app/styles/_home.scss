@@ -1,13 +1,15 @@
 .block {
-	width:100%; 
-	height:50%
+	width:100%;
+	height:50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .custom-icon {
 	display: block;
-  width: 3em;
-  height: 3em;
-  margin: auto;
+  width: 4rem;
+  height: 4rem;
   margin-bottom: $base-spacing-unit-small;
 }
 
@@ -16,44 +18,42 @@
 }
 
 .play-icon {
-  background: url(../images/play.svg) no-repeat scroll center transparent;
-  background-size: 3em 3em;
+  background: url(../images/play.svg) center center no-repeat transparent;
+  background-size: 4rem 4rem;
+  margin: 0 auto;
+  margin-bottom: $base-spacing-unit-small;
 }
 
 .connect-icon {
-  background: url(../images/connect.svg) no-repeat scroll center transparent;
-  background-size: 3em 3em;
+  background: url(../images/connect.svg) center center no-repeat transparent;
+  background-size: 4rem 4rem;
+  margin: 0 auto;
+  margin-bottom: $base-spacing-unit-small;
 }
 
 .connect {
 	background-color: $barjeel-grey;
 }
 
-.block-centre {
-   // width:50%;
-    height:50%;
-    position:relative;
-    display: block;
-    top:50%;
-    left:50%;
-    -webkit-transform: translate(-50%, -50%);
+.text-wrapper {
+  text-align: center;
+  width: 66%;
 }
 
-.block-centre h2 {
-		display: block;
-    width:50%;
-    text-align:center;  
-    color:#fff;
-    position:relative;
-    top:50%;
-    left:50%;
-    -webkit-transform: translate(-50%, -50%);
-
-@media only screen 
- and (max-device-width: 480px) {
- 	font-size: 1rem;
+.home-heading {
+  display: block;
+  color:#fff;
+  text-transform: uppercase;
+  font-size: $barjeel-heading-size-3;
+  line-height: $barjeel-line-height-3;
+  margin-bottom: 0;
 }
 
+.home-text {
+  display: block;
+  color:#fff;
+  font-size: $barjeel-heading-size-5;
+  line-height: $barjeel-line-height-5;
 }
 
 .home-icons {

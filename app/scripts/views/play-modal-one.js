@@ -12,8 +12,6 @@ Barjeel.Views = Barjeel.Views || {};
         	var $image = $('.large-image');
         	var $offline = $('#offline-message');
 
-        	$offline.show();
-
 			    $image.on('load', function () {
 			      $offline.hide();
 			      console.log('Hiding offline message');
@@ -23,7 +21,11 @@ Barjeel.Views = Barjeel.Views || {};
 			      $image.load();
 			    }
 
-					console.log('modal window 2 showing now');
+          else {
+            $offline.show();
+          }
+
+					console.log('modal window 1 showing now');
 				}
     });
 
