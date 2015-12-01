@@ -11,7 +11,7 @@ _.extend(Marionette.Region.prototype, {
         var self = this,
             oldView = this.currentView,
             newView = view;
-            
+
         if ( !oldView || !oldView.$el ) this.animationType = 'default';
 
         switch(this.animationType) {
@@ -39,7 +39,7 @@ _.extend(Marionette.Region.prototype, {
 
             case 'slideRight':
                 console.log('region.showAnimated(): slideRight');
-                TweenMax.to(oldView.$el.children(), 0.01, {xPercent:-100, ease:Power2.easeIn, clearProps:"all", onComplete:function() {
+                TweenMax.to(oldView.$el.children(), 0.01, {xPercent:100, ease:Power2.easeIn, clearProps:"all", onComplete:function() {
 
                     //empty old view
                     self.el.innerHTML = ''; //from the original attachHtml method
@@ -48,7 +48,7 @@ _.extend(Marionette.Region.prototype, {
                     TweenMax.set(oldView.$el.children(), {xPercent:0});
 
                     //prepare the new view
-                    TweenMax.set(newView.$el.children(), {xPercent:-100});
+                    TweenMax.set(newView.$el.children(), {xPercent:100});
 
                     //show the new view
                     self.el.appendChild(newView.el); //from the original attachHtml method
