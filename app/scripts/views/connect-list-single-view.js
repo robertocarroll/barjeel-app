@@ -27,7 +27,6 @@ Barjeel.Views = Barjeel.Views || {};
 					var connectModel = this.model;
 					var connectSingleView = new Barjeel.Views.ConnectSingleView({model: connectModel});
 				  BarjeelApp.allRegion.show(connectSingleView);
-
 				}
 
     });

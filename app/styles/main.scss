@@ -114,8 +114,10 @@ p {
 	@media only screen
 		and (max-device-width : 400px)
 		and (orientation : portrait) {
-		padding-left: $base-spacing-unit;
-		padding-right: $base-spacing-unit;
+    .padded-sides {
+		  padding-left: $base-spacing-unit;
+		  padding-right: $base-spacing-unit;
+    }
 	}
 }
 

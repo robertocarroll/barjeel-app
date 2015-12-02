@@ -99,8 +99,8 @@
 
 .magnify-left {
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   width: 1.5rem;
   height: 1.5rem;
   background: url(../images/magnify-l.svg) no-repeat transparent;
@@ -114,8 +114,8 @@
 
 .magnify-right {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
   width: 1.5rem;
   height: 1.5rem;
   background: url(../images/magnify-r.svg) no-repeat transparent;
@@ -135,7 +135,7 @@
   right: 0;
   padding-top: 45%;
   background: url(../images/double-arrow.svg) no-repeat scroll center transparent;
-	background-size: 3em 3em;
+	background-size: 3rem 3rem;
 }
 
 .active .questionOption:before {
@@ -149,17 +149,14 @@
 
 .gamelives-3 {
 	background: url(../images/3-hearts-icon.svg) no-repeat scroll center transparent;
-	background-size: 5rem Auto;
 }
 
 .gamelives-2 {
 	background: url(../images/2-hearts-icon.svg) no-repeat scroll center transparent;
-	background-size: 5rem Auto;
 }
 
 .gamelives-1 {
 	background: url(../images/1-heart-icon.svg) no-repeat scroll center transparent;
-	background-size: 5rem Auto;
 }
 
 .try-again, .next, .play-again {
