@@ -26,10 +26,8 @@
   margin: 0 auto;
 
   @media only screen and (max-width: $barjeel-break-1) and (orientation: landscape) {
-     .custom-icon {
        float: left;
        margin-right: $base-spacing-unit;
-      }
   }
 }
 
@@ -58,9 +56,7 @@
   position: relative;
 
   @media only screen and (max-width: $barjeel-break-1) and (orientation: landscape) {
-    .text-wrapper {
       text-align: left;
-     }
   }
 }
 
