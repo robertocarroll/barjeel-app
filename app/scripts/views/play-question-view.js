@@ -7,10 +7,6 @@ Barjeel.Views = Barjeel.Views || {};
 
   Barjeel.Views.PlayQuestionView = Backbone.Marionette.ItemView.extend({
 
-    initialize: function() {
-      console.log("Question view initialised: " + JSON.stringify(BarjeelApp.PlayModule.gameState));
-    },
-
     template: JST['app/scripts/templates/play-question-view.hbs'],
 
     onDomRefresh: function() {

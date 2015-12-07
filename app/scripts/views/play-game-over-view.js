@@ -14,7 +14,7 @@ Barjeel.Views = Barjeel.Views || {};
 				},
 
 				playAgain: function(e) {
-					BarjeelApp.PlayModule.resumeQuiz();
+					BarjeelApp.PlayModule.startPlay();
 				}
 
     });
