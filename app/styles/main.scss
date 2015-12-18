@@ -170,27 +170,27 @@ p {
     bottom:-10px;
 }
 
-.back-arrow {
+.top-icon {
   display: block;
   position: relative;
   float: left;
   z-index: 20;
   width: 24px;
   height: 24px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.back-arrow {
  	background: url(../images/arrow-icon.svg) no-repeat scroll center transparent;
   background-size: 24px 24px;
-  top: 8px;
+  left: -30px;
 }
 
 .home-icon {
-  display: block;
-  position: relative;
-  float: left;
-  z-index: 20;
-  width: 24px;
-  height: 24px;
   background: url(../images/home.svg) no-repeat scroll center transparent;
   background-size: 24px 24px;
-  top: 8px;
+  left: -25px;
 }
 
