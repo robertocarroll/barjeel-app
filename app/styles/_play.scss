@@ -177,3 +177,24 @@
 	text-transform: uppercase;
 	margin-bottom: $base-spacing-unit-small;
 }
+
+#connectLeft {
+  font-size: 50px;
+  position: fixed;
+  left: 0%;
+  top: 50%;
+  z-index: 1000;
+}
+
+#connectRight {
+  font-size: 50px;
+  position: fixed;
+  right: 0%;
+  top: 50%;
+  z-index: 1000;
+}
+
+.hidden {
+  display: none;
+}
+

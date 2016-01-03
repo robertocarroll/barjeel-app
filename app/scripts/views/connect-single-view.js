@@ -13,7 +13,9 @@ Barjeel.Views = Barjeel.Views || {};
         template: JST['app/scripts/templates/connect-single-view.hbs'],
 
         events: {
-				  'tap #connectBack': 'backConnectPost'
+				  'tap #connectBack': 'backConnectPost',
+          'tap #connectLeft': 'backConnectSlider',
+          'tap #connectRight': 'forwardConnectSlider'
 				},
 
 				onDomRefresh: function(){
@@ -23,9 +25,26 @@ Barjeel.Views = Barjeel.Views || {};
 					window.mySwipe = Swipe(elem, {
 					   continuous: false,
 					   callback: function(index, element) {
-					   //	var pos = mySwipe.getPos() + 1;
-					   //	var totalSlides = mySwipe.getNumSlides();
-					   //	console.log ('current ' + pos + ' / total ' + totalSlides);
+  					   var pos = mySwipe.getPos() + 1;
+  					   var totalSlides = mySwipe.getNumSlides();
+
+               if (pos == 1) {
+                console.log ("beginning of slideshow");
+                $('#connectLeft').addClass('hidden');
+               }
+
+               else if (pos > 1) {
+                $('#connectLeft').removeClass('hidden');
+               }
+
+               if (pos == totalSlides) {
+                $('#connectRight').addClass('hidden');
+                console.log ("end of slideshow");
+               }
+
+               else if (pos < totalSlides) {
+                $('#connectRight').removeClass('hidden');
+               }
 					   },
 
 					   transitionEnd: function(index, elem) {
@@ -33,6 +52,14 @@ Barjeel.Views = Barjeel.Views || {};
 			      }
 					});
 				},
+
+        backConnectSlider: function(){
+          window.mySwipe.prev();
+        },
+
+        forwardConnectSlider: function(){
+          window.mySwipe.next();
+        },
 
 				backConnectPost: function(){
 				var connectCollection = new Barjeel.Collections.ConnectCollection();
