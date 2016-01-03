@@ -20,7 +20,7 @@ Barjeel.Views = Barjeel.Views || {};
         className: 'connect-list',
 
         events: {
-				  'tap a': 'loadConnectPost'
+          'tap .list-item-wrapper': 'loadConnectPost'
 				},
 
 				loadConnectPost: function(){
