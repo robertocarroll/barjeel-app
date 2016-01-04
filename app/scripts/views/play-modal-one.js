@@ -9,24 +9,19 @@ Barjeel.Views = Barjeel.Views || {};
         template: JST['app/scripts/templates/play-modal-one.hbs'],
         submitEl: '.modal-icon',
         onShow: function() {
-        	var $image = $('.large-image');
-        	var $offline = $('#offline-message');
+          $('.modal-image-wrapper').imagesLoaded()
+          .fail( function( instance ) {
+            $('#offline-message').removeClass('hidden');
+            $("img").hide();
+            console.log('wack wack');
+          })
+        },
 
-			    $image.on('load', function () {
-			      $offline.hide();
-			      console.log('Hiding offline message');
-			    });
+        onDestroy: function() {
+          $("img").show();
+          $('#offline-message').addClass('hidden');
+        }
 
-			    if ($image[0].complete) {
-			      $image.load();
-			    }
-
-          else {
-            $offline.show();
-          }
-
-					console.log('modal window 1 showing now');
-				}
     });
 
 })();
