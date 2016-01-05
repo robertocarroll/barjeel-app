@@ -14,6 +14,7 @@ PlayModule.startPlay = function() {
 }
 
 PlayModule.getQuestion = function() {
+
   var tempQuestions = PlayModule.newCollection;
   var questions = tempQuestions.chain()
   .pluck('id')
@@ -33,9 +34,7 @@ PlayModule.getQuestion = function() {
   PlayModule.gameState.set(("questionCounter"), counterTemp);
 
   //show the main layout
-  BarjeelApp.allRegion.showAnimated(BarjeelApp.PlayModule.mainLayout, {
-    animationType: 'slideRight'
-  });
+  BarjeelApp.allRegion.show(PlayModule.mainLayout);
 
   //show the current question in the question region
   BarjeelApp.PlayModule.mainLayout.questionRegion.show(new Barjeel.Views.PlayQuestionView({

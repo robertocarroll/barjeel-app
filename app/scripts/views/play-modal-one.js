@@ -8,6 +8,11 @@ Barjeel.Views = Barjeel.Views || {};
     Barjeel.Views.PlayModalOne = Backbone.Modal.extend({
         template: JST['app/scripts/templates/play-modal-one.hbs'],
         submitEl: '.modal-icon',
+
+        onRender: function() {
+          console.log ("rendering modal 1");
+        },
+
         onShow: function() {
           $('.modal-image-wrapper').imagesLoaded()
           .fail( function( instance ) {

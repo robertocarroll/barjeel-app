@@ -17,7 +17,7 @@ Barjeel.Views = Barjeel.Views || {};
     },
 
     events: {
-      "touchclick .questionWrapper": "checkAnswer"
+      "touchend .questionWrapper": "checkAnswer"
     },
 
     getSelected: function() {

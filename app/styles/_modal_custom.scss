@@ -33,13 +33,6 @@
   height: 10rem;
 }
 
-.modal-icon {
-	  padding-bottom: $base-spacing-unit-small;
-	  padding-top: $base-spacing-unit-small;
-	  padding-right: $base-spacing-unit-small;
-}
-
-
 .bbm-wrapper {
   box-sizing: border-box;
   position: fixed;
@@ -58,6 +51,9 @@
   margin: auto;
   width: 100%;
   max-width: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 .bbm-views {
