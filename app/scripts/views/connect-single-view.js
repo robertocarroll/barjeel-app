@@ -13,9 +13,9 @@ Barjeel.Views = Barjeel.Views || {};
         template: JST['app/scripts/templates/connect-single-view.hbs'],
 
         events: {
-				  'tap #connectBack': 'backConnectPost',
-          'tap #connectLeft': 'backConnectSlider',
-          'tap #connectRight': 'forwardConnectSlider'
+				  'touchend #connectBack': 'backConnectPost',
+          'touchend #connectLeft': 'backConnectSlider',
+          'touchend #connectRight': 'forwardConnectSlider'
 				},
 
 				onDomRefresh: function(){
