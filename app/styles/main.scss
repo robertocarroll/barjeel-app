@@ -1,5 +1,6 @@
 @import '../bower_components/ratchet/sass/ratchet.scss';
-@import '../bower_components/backbone-modal/backbone.modal.theme.css';
+//@import '../bower_components/backbone-modal/backbone.modal.css';
+//@import '../bower_components/backbone-modal/backbone.modal.theme.css';
 
 @font-face {
   font-family: gotham-bold;
@@ -209,7 +210,7 @@ p {
 }
 
 .close-cross {
-  background: url(../images/home.svg) no-repeat scroll center transparent;
+  background: url(../images/forward-arrow.svg) no-repeat scroll center transparent;
   background-size: 24px 24px;
   right: -25px;
 }
