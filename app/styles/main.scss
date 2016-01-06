@@ -189,8 +189,11 @@ p {
   position: relative;
   float: right;
   z-index: 120;
-  width: 20px;
-  padding: 20px;
+  width: 24px;
+  height: 24px;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .back-arrow {
@@ -206,6 +209,7 @@ p {
 }
 
 .close-cross {
-  background: url(../images/close-grey.svg) no-repeat scroll center transparent;
-  background-size: 20px 20px;
+  background: url(../images/forward-arrow.svg) no-repeat scroll center transparent;
+  background-size: 24px 24px;
+  right: -25px;
 }
