@@ -11,9 +11,32 @@ Barjeel.Views = Barjeel.Views || {};
         tagName : 'div',
         className: 'connect-list',
 
+        initialize: function () {
+            _.bindAll(this, 'loadConnectPost');
+        },
+
         events: {
-          'touchend .list-item-wrapper': 'loadConnectPost'
-				},
+          'touchstart .list-item-wrapper': 'getStart',
+          'touchmove .list-item-wrapper': 'getEnd'
+        },
+
+        getStart: function(e){
+          var target = e.target,
+          touchStart = e.originalEvent.touches[0];
+
+          this.startY = touchStart.pageY;
+          console.log ("start" + this.startY);
+          this.$el.on('touchend', '.list-item-wrapper', this.loadConnectPost);
+        },
+
+        getEnd: function(e){
+            var touchEnd = e.originalEvent.touches[0];
+            this.endY = touchEnd.pageY;
+            if (Math.abs(this.endY - this.startY) > 10) {
+              this.$el.off('touchend', this.loadConnectPost);
+              console.log ("SCROLLED!");
+            }
+        },
 
 				loadConnectPost: function(){
 					var connectModel = this.model;

@@ -9,6 +9,10 @@ Barjeel.Views = Barjeel.Views || {};
 
     template: JST['app/scripts/templates/play-question-view.hbs'],
 
+    initialize: function () {
+        _.bindAll(this, 'checkAnswer');
+    },
+
     onDomRefresh: function() {
       $('.content').animate({
         scrollTop: 0
@@ -17,7 +21,26 @@ Barjeel.Views = Barjeel.Views || {};
     },
 
     events: {
-      "touchend .questionWrapper": "checkAnswer"
+      'touchstart .questionWrapper': 'getStart',
+      'touchmove .questionWrapper': 'getEnd'
+    },
+
+    getStart: function(e){
+        var target = e.target,
+        touchStart = e.originalEvent.touches[0];
+
+        this.startY = touchStart.pageY;
+        console.log ("start" + this.startY);
+        this.$el.on('touchend', '.questionWrapper', this.checkAnswer);
+    },
+
+    getEnd: function(e){
+        var touchEnd = e.originalEvent.touches[0];
+        this.endY = touchEnd.pageY;
+        if (Math.abs(this.endY - this.startY) > 10) {
+          this.$el.off('touchend', this.checkAnswer);
+          console.log ("SCROLLED!");
+        }
     },
 
     getSelected: function() {
