@@ -11,6 +11,7 @@ Barjeel.Views = Barjeel.Views || {};
 
     initialize: function () {
         _.bindAll(this, 'checkAnswer');
+        console.log ("initialising");
     },
 
     onDomRefresh: function() {
@@ -52,6 +53,9 @@ Barjeel.Views = Barjeel.Views || {};
     },
 
     checkAnswer: function(e) {
+      //remove listener for checkAnswer
+      this.$el.off('touchend', this.checkAnswer);
+      console.log("CHECKING ANSWER");
       $('.questionWrapper').not(active).removeClass('active');
       var active = $(e.currentTarget);
       active.addClass('active');
