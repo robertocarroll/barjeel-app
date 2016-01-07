@@ -1827,45 +1827,66 @@
     "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg"
   },
   {
-    "id": 00,
-    "question": "Moataz Nasr’s work 'The Manifest and the Hidden' <span class=\"red\">and</span> Nasser Al Aswadi’s work 'Untitled #2'",
+    "id": 88,
+    "question": "Obaid Suroor’s work 'Traditional Symbols' <span class=\"red\">and</span> Huda Lutfi’s work 'Behind the Silver Window'",
     "choices": [
-      "Both make use of a square as the central element",
-      "Both use a circle as the central element",
-      "Both make use of a trianle as the central element"
+      "Both were executed on windows",
+      "Both were executed on doors",
+      "Both were made using metal and plaster"
     ],
     "correctAnswer": 1,
-    "explanation": "A circle is the central element in both artworks.",
-    "firstArtwork": "79_The_Manifest_And_The_Hidden",
-    "firstArtworkTitle": "The Manifest and the Hidden",
-    "firstArtworkArtist": "Moataz Nasr",
+    "explanation": "Both artworks were created on doors.",
+    "firstArtwork": "88_Traditional_Symbols",
+    "firstArtworkTitle": "Traditional Symbols",
+    "firstArtworkArtist": "Obaid Suroor",
     "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
     "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
-    "secondArtwork": "79_Untitled_2",
-    "secondArtworkTitle": "Untitled #2",
-    "secondArtworkArtist": "Nasser Al Aswadi",
-    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/.jpg",
-    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg"
+    "secondArtwork": "88_Behind_The_Silver_Window",
+    "secondArtworkTitle": "Behind the Silver Window",
+    "secondArtworkArtist": "Huda Lutfi",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/HL_BehindtheSilverWindow_2008_155x41cm_paintedcollageonpaper-135x500.jpg",
+    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2012/12/HL_BehindtheSilverWindow_2008_155x41cm_paintedcollageonpaper-405x1500.jpg"
   },
   {
-    "id": 00,
-    "question": "Moataz Nasr’s work 'The Manifest and the Hidden' <span class=\"red\">and</span> Nasser Al Aswadi’s work 'Untitled #2'",
+    "id": 89,
+    "question": "Hassan Sharif’s work 'Garden 4' <span class=\"red\">and</span> Mona Hatoum’s work 'Infinity'",
     "choices": [
-      "Both make use of a square as the central element",
-      "Both use a circle as the central element",
-      "Both make use of a trianle as the central element"
+      "Both depict a table",
+      "Both are sculptures",
+      "Both are oil on canvas paintings"
     ],
-    "correctAnswer": 1,
-    "explanation": "A circle is the central element in both artworks.",
-    "firstArtwork": "79_The_Manifest_And_The_Hidden",
-    "firstArtworkTitle": "The Manifest and the Hidden",
-    "firstArtworkArtist": "Moataz Nasr",
-    "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
-    "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
-    "secondArtwork": "79_Untitled_2",
-    "secondArtworkTitle": "Untitled #2",
-    "secondArtworkArtist": "Nasser Al Aswadi",
-    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/.jpg",
-    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg"
+    "correctAnswer": 0,
+    "explanation": "Both artworks depict a table.",
+    "firstArtwork": "89_Garden_4",
+    "firstArtworkTitle": "Garden 4",
+    "firstArtworkArtist": "Hassan Sharif",
+    "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/08/Hassan-Sharif-352x500.jpg",
+    "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/08/Hassan-Sharif.jpg",
+    "secondArtwork": "89_Infinity",
+    "secondArtworkTitle": "Infinity",
+    "secondArtworkArtist": "Mona Hatoum",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/02/Mona-Hatoum-3-391x500.jpg",
+    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/02/Mona-Hatoum-3.jpg"
   },
+  {
+    "id": 90,
+    "question": "Lateefa Bint Maktoum’s work 'Ever-changing Landscape' <span class=\"red\">and</span> Manal Dowayan’s work 'I am a Petroleum Engineer'",
+    "choices": [
+      "Both portray a female figure",
+      "Both portray a landscape",
+      "Both show a cityscape"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Both artworks portray a female figure.",
+    "firstArtwork": "90_Ever_Changing_Landscape",
+    "firstArtworkTitle": "Ever-changing Landscape",
+    "firstArtworkArtist": "Lateefa Bint Maktoum",
+    "firstArtworkUrl": "http://www.barjeelartfoundation.org/wp-content/uploads/2014/08/Lateefa-bint-Maktoum-1-680x453.jpg",
+    "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/08/Lateefa-bint-Maktoum-1.jpg",
+    "secondArtwork": "90_I_Am_A_Petroleum_Engineer",
+    "secondArtworkTitle": "I am a Petroleum Engineer",
+    "secondArtworkArtist": "Manal Dowayan",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/04/Manal-Al-Dowayan-1-353x500.jpg",
+    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/04/Manal-Al-Dowayan-1.jpg"
+  }
 ]
