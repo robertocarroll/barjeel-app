@@ -1643,7 +1643,7 @@
     "choices": [
       "Both make use of a square as the central element",
       "Both use a circle as the central element",
-      "Both make use of a trianle as the central element"
+      "Both make use of a triangle as the central element"
     ],
     "correctAnswer": 1,
     "explanation": "A circle is the central element in both artworks.",
@@ -1678,5 +1678,194 @@
     "secondArtworkArtist": "Paul Guiragossian",
     "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/Paul-Guiragossian_Madonna-and-Child-web-408x500.jpg",
     "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/Paul-Guiragossian_Madonna-and-Child-web.jpg"
-  }
+  },
+  {
+    "id": 81,
+    "question": "Iman Issa’s work 'Proposal for a Crystal Building' <span class=\"red\">and</span> Walead Beshty’s work 'FedEx Tube'",
+    "choices": [
+      "Both make use of glass",
+      "Both are works on cardboard",
+      "Both were made by Cairo-born artists"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Both artworks involve the use of glass.",
+    "firstArtwork": "80_Proposal_For_A_Crystal_Building",
+    "firstArtworkTitle": "Proposal for a Crystal Building",
+    "firstArtworkArtist": "Iman Issa",
+    "firstArtworkUrl": "http://www.barjeelartfoundation.org/wp-content/uploads/2015/01/Iman-Issa_IMG_1747-360x500.jpg",
+    "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/01/Iman-Issa_IMG_1747.jpg",
+    "secondArtwork": "80_Fedex_Tube",
+    "secondArtworkTitle": "FedEx Tube",
+    "secondArtworkArtist": "Walead Beshty",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/10/Walead-Beshty-2-680x469.jpg",
+    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/10/Walead-Beshty-2.jpg"
+  },
+  {
+    "id": 82,
+    "question": "Etel Adnan’s work 'Landscape' <span class=\"red\">and</span> Ibrahim Ismail’s work 'Earthquake'",
+    "choices": [
+      "Both are surrealist in style",
+      "Both are naturalistic landscape paintings",
+      "Both are  abstractions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Both artworks are abstractions of their subjects.",
+    "firstArtwork": "82_Landscape",
+    "firstArtworkTitle": "Landscape",
+    "firstArtworkArtist": "Etel Adnan",
+    "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+    "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+    "secondArtwork": "82_Earthquake",
+    "secondArtworkTitle": "Earthquake",
+    "secondArtworkArtist": "Ibrahim Ismail",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/01/Ibrahim-Ismail-4-680x500.jpg",
+    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/01/Ibrahim-Ismail-4.jpg"
+  },
+  {
+    "id": 83,
+    "question": "Fadi Al Hamwi’s work 'Eight Pieces of Bread' <span class=\"red\">and</span> Hamed Ewais’ work 'The Protector of Life'",
+    "choices": [
+      "Both how a portrait of a man",
+      "Both show a gun",
+      "Both show a cityscape"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Both artworks show a gun.",
+    "firstArtwork": "83_Eight_Pieces_Of_Bread",
+    "firstArtworkTitle": "Eight Pieces of Bread",
+    "firstArtworkArtist": "Fadi Al Hamwi",
+    "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/08/Fadi-Al-Hamwi-3-502x500.jpg",
+    "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2015/08/Fadi-Al-Hamwi-3.jpg",
+    "secondArtwork": "83_The_Protector_Of_Life",
+    "secondArtworkTitle": "The Protector of Life",
+    "secondArtworkArtist": "Nasser Al Aswadi",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/.jpg",
+    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg"
+  },
+  {
+    "id": 84,
+    "question": "Khaled Zaki’s work 'The Sufi' <span class=\"red\">and</span> Adam Henein’s work 'Standing Owl'",
+    "choices": [
+      "Both are sculptures",
+      "Both are paintings",
+      "Both are photographs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Both of these artworks are sculptures.",
+    "firstArtwork": "84_The_Sufi",
+    "firstArtworkTitle": "The Sufi",
+    "firstArtworkArtist": "Khaled Zaki",
+    "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Khaled-Zaki.jpg_LR-333x500.jpg",
+    "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Khaled-Zaki.jpg_LR.jp",
+    "secondArtwork": "84_Standing_Owl",
+    "secondArtworkTitle": "Standing Owl",
+    "secondArtworkArtist": "Adam Henein",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/08/Adam-Henein-680x455.jpg",
+    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/08/Adam-Henein.jpg"
+  },
+  {
+    "id": 85,
+    "question": "Hafiz Droubi’s work 'Watermelon Sellers' <span class=\"red\">and</span> Jewad Selim’s 1951 'Untitled' work",
+    "choices": [
+      "Both depict a horse",
+      "Both depict three figures each",
+      "Both are made by artists from Iraq"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Both artists are from Iraq.",
+    "firstArtwork": "85_Watermelon_Sellers",
+    "firstArtworkTitle": "Watermelon Sellers",
+    "firstArtworkArtist": "Hafiz Droubi",
+    "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/01/Hafiz-Droubi_Watermelon-Sellers-web2-332x500.jpg",
+    "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/01/Hafiz-Droubi_Watermelon-Sellers-web2-997x1500.jpg",
+    "secondArtwork": "85_Untitled",
+    "secondArtworkTitle": "Untitled",
+    "secondArtworkArtist": "Jewad Selim",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Jewad-Selim.jpg_LR-621x500.jpg",
+    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/05/Jewad-Selim.jpg_LR.jpg"
+  },
+  {
+    "id": 86,
+    "question": "Seif Wanly’s work 'Nocturne' <span class=\"red\">and</span> Sami Mohammed’s work 'Arabian Horseman'",
+    "choices": [
+      "Both are sculptures",
+      "Both feature a horse",
+      "Both were made by Kuwaiti artists"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Both artworks feature a horse.",
+    "firstArtwork": "86_Nocturne",
+    "firstArtworkTitle": "Nocturne",
+    "firstArtworkArtist": "Seif Wanly",
+    "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/Seif-Wanl_Nocturne-web-601x500.jpg",
+    "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2013/03/Seif-Wanl_Nocturne-web.jp",
+    "secondArtwork": "86_Arabian_Horseman",
+    "secondArtworkTitle": "Arabian Horseman",
+    "secondArtworkArtist": "Sami Mohammed",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/08/Sami-Mohammed-1-441x500.jpg",
+    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/2014/08/Sami-Mohammed-1.jpg"
+  },
+  {
+    "id": 87,
+    "question": "Mahmoud Moussa’s work 'Fallaha' <span class=\"red\">and</span> Mohamed El Fayoumi’s work 'Mother of Joy'",
+    "choices": [
+      "Both are paintings",
+      "Both are sculptures of children",
+      "Both are sculptures of women"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Both sculptures are of women.",
+    "firstArtwork": "87_Fallaha",
+    "firstArtworkTitle": "Fallaha",
+    "firstArtworkArtist": "Mahmoud Moussa",
+    "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+    "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+    "secondArtwork": "87_Mother_Of_Joy",
+    "secondArtworkTitle": "Mother of Joy",
+    "secondArtworkArtist": "Mohamed El Fayoumi",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/.jpg",
+    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg"
+  },
+  {
+    "id": 00,
+    "question": "Moataz Nasr’s work 'The Manifest and the Hidden' <span class=\"red\">and</span> Nasser Al Aswadi’s work 'Untitled #2'",
+    "choices": [
+      "Both make use of a square as the central element",
+      "Both use a circle as the central element",
+      "Both make use of a trianle as the central element"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A circle is the central element in both artworks.",
+    "firstArtwork": "79_The_Manifest_And_The_Hidden",
+    "firstArtworkTitle": "The Manifest and the Hidden",
+    "firstArtworkArtist": "Moataz Nasr",
+    "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+    "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+    "secondArtwork": "79_Untitled_2",
+    "secondArtworkTitle": "Untitled #2",
+    "secondArtworkArtist": "Nasser Al Aswadi",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/.jpg",
+    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg"
+  },
+  {
+    "id": 00,
+    "question": "Moataz Nasr’s work 'The Manifest and the Hidden' <span class=\"red\">and</span> Nasser Al Aswadi’s work 'Untitled #2'",
+    "choices": [
+      "Both make use of a square as the central element",
+      "Both use a circle as the central element",
+      "Both make use of a trianle as the central element"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A circle is the central element in both artworks.",
+    "firstArtwork": "79_The_Manifest_And_The_Hidden",
+    "firstArtworkTitle": "The Manifest and the Hidden",
+    "firstArtworkArtist": "Moataz Nasr",
+    "firstArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+    "firstArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg",
+    "secondArtwork": "79_Untitled_2",
+    "secondArtworkTitle": "Untitled #2",
+    "secondArtworkArtist": "Nasser Al Aswadi",
+    "secondArtworkUrl": "http://www.barjeelartfoundation.org/wordpress/wp-content/uploads/.jpg",
+    "secondArtworkUrl-retina": "http://www.barjeelartfoundation.org/wordpress/wp-content/.jpg"
+  },
 ]
