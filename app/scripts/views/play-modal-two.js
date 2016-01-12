@@ -5,9 +5,12 @@ Barjeel.Views = Barjeel.Views || {};
 (function () {
     'use strict';
 
-    Barjeel.Views.PlayModalTwo = Backbone.Modal.extend({
+    Barjeel.Views.PlayModalTwo = Backbone.Marionette.ItemView.extend({
         template: JST['app/scripts/templates/play-modal-two.hbs'],
-        submitEl: '.modal-icon',
+
+        events: {
+          "touchend .close-cross": "closeModal"
+        },
 
         onRender: function() {
           console.log ("rendering modal 2");
@@ -25,8 +28,12 @@ Barjeel.Views = Barjeel.Views || {};
         onDestroy: function() {
           $("img").show();
           $('#offline-message').addClass('hidden');
+        },
+
+        closeModal: function(e) {
+          console.log('closing modal');
+          //get the next question
+          BarjeelApp.PlayModule.mainLayout.modalsRegion.$el.hide();
         }
     });
-
-
 })();

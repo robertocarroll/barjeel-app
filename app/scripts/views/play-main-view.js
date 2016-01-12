@@ -13,10 +13,7 @@ Barjeel.Views = Barjeel.Views || {};
 		      questionRegion: '#question',
 		      wrongRegion: '#wrong',
 		      livesRegion: '#lives',
-		      modals: {
-            selector:   '.modals-container',
-            regionClass: Backbone.Marionette.Modals
-          }
+		      modalsRegion: '#modal'
 			  },
 
 			  events: {
