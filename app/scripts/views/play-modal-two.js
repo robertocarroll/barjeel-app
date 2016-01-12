@@ -20,13 +20,13 @@ Barjeel.Views = Barjeel.Views || {};
           $('.modal-image-wrapper').imagesLoaded()
           .fail( function( instance ) {
             $('#offline-message').removeClass('hidden');
-            $("img").hide();
+            $(".large-image").hide();
             console.log('wack wack');
           })
         },
 
         onDestroy: function() {
-          $("img").show();
+          $(".large-image").show();
           $('#offline-message').addClass('hidden');
         },
 
