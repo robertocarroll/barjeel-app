@@ -33,16 +33,17 @@ Barjeel.Views = Barjeel.Views || {};
 
 		openModalOne: function(e) {
 			console.log('firing open modal 1');
-			//get the next question
-      BarjeelApp.PlayModule.mainLayout.modalsRegion.show(new Barjeel.Views.PlayModalOne({model: this.model}));
+			//show modal region
       BarjeelApp.PlayModule.mainLayout.modalsRegion.$el.show();
+      BarjeelApp.PlayModule.mainLayout.modalsRegion.show(new Barjeel.Views.PlayModalOne({model: this.model}));
+
 		},
 
 		openModalTwo: function(e) {
 			console.log('firing open modal 2');
-			//get the next question
-			BarjeelApp.PlayModule.mainLayout.modalsRegion.show(new Barjeel.Views.PlayModalTwo({model: this.model}));
+			//show modal region
       BarjeelApp.PlayModule.mainLayout.modalsRegion.$el.show();
+      BarjeelApp.PlayModule.mainLayout.modalsRegion.show(new Barjeel.Views.PlayModalTwo({model: this.model}));
 		}
 
 	});
