@@ -25,7 +25,7 @@ Barjeel.Views = Barjeel.Views || {};
 					window.mySwipe = Swipe(elem, {
 					   continuous: false,
 					   callback: function(index, element) {
-  					   var pos = mySwipe.getPos() + 1;
+  					   /*var pos = mySwipe.getPos() + 1;
   					   var totalSlides = mySwipe.getNumSlides();
 
                if (pos == 1) {
@@ -44,7 +44,7 @@ Barjeel.Views = Barjeel.Views || {};
 
                else if (pos < totalSlides) {
                 $('#connectRight').removeClass('hidden');
-               }
+               }*/
 					   },
 
 					   transitionEnd: function(index, elem) {
