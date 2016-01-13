@@ -5,7 +5,7 @@
 	"description": "I was originally for photos to make a selection, but when I saw this set of portraits, I was quite drawn to them. The portraits reflect reflect sadness, loneliness, religion, race and even pop culture.",
 	"curator": "Hind Mezaina",
 	"secret-talent": "Makes a very good ginger cheesecake",
-	"curator-image": "square.jpg",
+	"curator-image": "1-Portrait_Hind_Mezaina_8612_square.jpg",
 	"about": " Photographer and writer www.theculturist.com",
 	"artworks": [
 	{
@@ -36,7 +36,7 @@
 	]
 },
 {
-	"id": "2",	
+	"id": "2",
 	"title": "The Visible and the Invisible",
 	"description": "The body fragments anxiously. A flâneur in a city of bitter disappointments. In Cairo the walker is assaulted in the street; sermons blare through loud speakers, women feel men’s sharp gazes upon them, tanks appear. Resistance: reversing the gaze, erasing oneself, recognising the masquerade of identity; gender, race, class. Destabilise the performance of power then imagine an alternative future.",
 	"curator": "Dr. Alexandra MacGilp",
@@ -47,12 +47,12 @@
 	{
 		"title":"All-hearing",
 		"image":"2-1_All_Hearing_Lawrence-Abu-Hamdan_1.jpg",
-		"caption":"Lawrence Abu Hamdan, Video, 2014"
+		"caption":"Lawrence Abu Hamdan, Jordan, Video, 2014"
 	},
 	{
 		"title":"Evil Eye",
 		"image":"2-2_Evil_Eye_Sophia-Al-Maria_2.jpg",
-		"caption":"Sophia Al Maria, Video, 2014"
+		"caption":"Sophia Al Maria, Qatar, Video, 2014"
 	},
 	{
 		"title":"The fall from Upekkha",
@@ -62,17 +62,17 @@
 	{
 		"title":"Here and Now #2",
 		"image":"2-4_Bashar_Hroub_Here_and_Now_2.jpg",
-		"caption":"Bashar Hroub, C-print, 2010, 66x100cm"
+		"caption":"Bashar Hroub, Egypt, C-print, 2010, 66x100cm"
 	},
 	{
 		"title":"Proposal for a Crystal Building",
 		"image":"2-5_Iman-Issa_Proposal_for_Crystal_Building.jpg",
-		"caption":"Iman Issa, Wood, crystals, lights, treated image of the structure, 2003, 50x200cm"
+		"caption":"Iman Issa, Egypt, Wood, crystals, lights, treated image of the structure, 2003, 50x200cm"
 	}
 	]
 },
 {
-	"id": "3",	
+	"id": "3",
 	"title": "Politics of Comfort",
 	"description": "Regardless of cultural context, there is an inherent familiarity in the comfort that everyday objects and scenes of interior domesticity offer. In this grouping of works, the objects and/or scenes have been re-purposed and repositioned, serving as documentary evidence on the socio-cultural and political chronicles of recent and ongoing histories in the Arab world.",
 	"curator": "Isabella Ellaheh Hughes",
@@ -83,32 +83,32 @@
 	{
 		"title":"Food",
 		"image":"3-1_Larissa_Sansour_Food.jpg",
-		"caption":"Larissa Sansour, C-print, 2012, 60x120cm"
+		"caption":"Larissa Sansour, Palestine, C-print, 2012, 60x120cm"
 	},
 	{
 		"title":"Micro Council",
 		"image":"3-2_GCC_micro_council_1.jpg",
-		"caption":"GCC Collective, Wood, brass, acrylic glass, glass, 2013, 12.6x67x67cm"
+		"caption":"GCC Collective, Various, Wood, brass, acrylic glass, glass, 2013, 12.6x67x67cm"
 	},
 	{
 		"title":"Monde Arabe Sous Pression",
 		"image":"3-3_Batoul_Shimi_Monde_Arabe_Sous_Pression.jpg",
-		"caption":"Batoul S’himi, Aluminium pressure cooker, 2013, 30x30cm"
+		"caption":"Batoul S’himi, Morocco, Aluminium pressure cooker, 2013, 30x30cm"
 	},
 	{
 		"title":"Infinity",
 		"image":"3-4_Infinity_Mona-Hatoum-3.jpg",
-		"caption":"Mona Hatoum, Bronze, 2009, 61x34.5x34.5cm"
+		"caption":"Mona Hatoum, Palestine, Bronze, 2009, 61x34.5x34.5cm"
 	},
 	{
 		"title":"Red Television",
 		"image":"3-5Lamya_Gargash_Red_Television.jpg",
-		"caption":"Lamya Gargash, C-print, 2009, 60x60cm"
+		"caption":"Lamya Gargash, UAE, C-print, 2009, 60x60cm"
 	}
 	]
 },
 {
-	"id": "4",	
+	"id": "4",
 	"title": "Modern Egyptian Painting",
 	"description": "As a modernist, I have a soft spot for these works by the fathers of Modern Egyptian Painting and arguably the founders of Modern Arab Art. These five works show how their European artistic training impregnated these three artists’ art, yet further reveal how they infused their paintings with an intrinsic Egyptian touch, forging their own signature styles.",
 	"curator": "Valerie Hess",
@@ -119,27 +119,27 @@
 	{
 		"title":"Canal de Mahmoudieh",
 		"image":"4-1_Mahmoud-Said_le_canal_de_mahmoudieh-1.jpg",
-		"caption":"Mahmoud Said, Oil on panel, 1922, 27.5x45cm"
+		"caption":"Mahmoud Said, Egypt, Oil on panel, 1922, 27.5x45cm"
 	},
 	{
 		"title":"Assouan — Les Rochers",
 		"image":"4-2_Mahmoud-Said_aswan_the_rocks-2.jpg",
-		"caption":"Mahmoud Said, Oil on canvas board, 1949, 30x40cm"
+		"caption":"Mahmoud Said, Egypt, Oil on canvas board, 1949, 30x40cm"
 	},
 	{
 		"title":"Le Café a Chypre",
 		"image":"4-3_Mohammed-Naghi_le_cafe_a_chypre_1.jpg",
-		"caption":"Mohammed Naghi, Oil on canvas laid down on masonite, 1950, 40x59.5cm"
+		"caption":"Mohammed Naghi, Egypt, Oil on canvas laid down on masonite, 1950, 40x59.5cm"
 	},
 	{
 		"title":"Paysage d’Italie",
 		"image":"4-4_Mohammed-Naghi_PAYSAGE-D-ITALIE-2.jpg",
-		"caption":"Mohammed Naghi,Oil on panel, 1914, 24.5x17.5cm"
+		"caption":"Mohammed Naghi,Egypt, Oil on panel, 1914, 24.5x17.5cm"
 	},
 	{
 		"title":"Tempietto in Rome",
 		"image":"4-5_Youssef-Kamel-TEMPIETTO-IN-ROME-4.jpg",
-		"caption":"Youssef Kamel, Oil on canvas, 1925, 38x28cm"
+		"caption":"Youssef Kamel, Egypt, Oil on canvas, 1925, 38x28cm"
 	}
 	]
 }
